@@ -1,0 +1,3 @@
+print('vojta')
+
+x = list()
