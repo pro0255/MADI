@@ -1,3 +1,0 @@
-print('vojta')
-
-x = list()
