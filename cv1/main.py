@@ -32,6 +32,7 @@ class Node:
 data_WITHOUT_PLAY = data.drop(["Play"], axis=1)
 
 
+
 def generate_combs_tree(data):
     tree = Tree([])
     uniques = {}
