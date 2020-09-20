@@ -66,7 +66,10 @@ def generate_combs(data):
 def generate_combs_result(combs, data):
     result = {}
     for combination in combs:
-        combination_value = []
+        combination_value = {
+            'yes': [],
+            'no': []
+        }
         for rowIndexInDataset in range(len(data)):
             add = 0
             for i in range(len(combination)):
@@ -77,26 +80,95 @@ def generate_combs_result(combs, data):
                 valueRowColumn = data.iloc[rowIndexInDataset, i] 
                 if valueRowColumn == valueCombinationColumn:
                     add += 1 
-
-            if add == len(combination):
-                combination_value.append(rowIndexInDataset)
+            play_attribute = data.loc[rowIndexInDataset, 'Play']
+            if add == len(combination): ## all values are same as combination
+                combination_value[play_attribute].append(rowIndexInDataset)
         result[combination] = combination_value
     return result
+
+
+def get_all_rules(combs_results):
+    all_rules = {}
+    for combination in combs_results:
+        combination_value = combs_results[combination]
+        combination_value_yes = combination_value['yes'] #list
+        combination_value_no = combination_value['no'] #list
+
+        if len(combination_value_yes) == 0 and len(combination_value_no) == 0:
+            #this combination not occured in dataset ;]
+            continue
+        if len(combination_value_yes) == 0:
+            #no rule
+            all_rules[combination] = {"value": combination_value, 'play': 'no'}
+        elif len(combination_value_no) == 0:
+            #yes rule
+            all_rules[combination] = {"value": combination_value, 'play': 'yes'}
+    return all_rules
+
+
+def get_abstract_rules(all_rules, data):
+    first_column = data.iloc[:, 0]
+    uniques_in_column = first_column.unique().tolist()
+    abstract_rules_dict = {} #dict where are specified for number of empty comb
+    for unique_value_in_first_column in uniques_in_column:
+        dict_empty = {
+            0: [],
+            1: [],
+            2: [],
+            3: []
+        }
+        for combination in all_rules:
+            if unique_value_in_first_column == combination[0]:
+                empty_counter = 0
+                for value_in_tuple in combination:
+                    if value_in_tuple == emptyString:
+                        empty_counter += 1
+                
+                dict_empty[empty_counter].append(combination)
+                
+        abstract_rules_dict[unique_value_in_first_column] = dict_empty
+
+    list_of_abstract_rules = []
+    for unique_value_in_first_column in uniques_in_column:
+        abstract_rules_value = abstract_rules_dict[unique_value_in_first_column] 
+        value_len =len(abstract_rules_value)
+        for key in reversed(range(value_len)):
+            if(len(abstract_rules_value[key]) != 0):
+                for rule in abstract_rules_value[key]:
+                    list_of_abstract_rules.append(rule)
+                break
+
+    return list_of_abstract_rules
+
+
+   
+
+
+
+
+
                 
 
 
 
 
 tree_combs = generate_combs_tree(data_WITHOUT_PLAY)
+combs_results = generate_combs_result(list(generate_combs(data_WITHOUT_PLAY)),data)
+all_rules = get_all_rules(combs_results)
+generated_abstract_rules = get_abstract_rules(all_rules, data)
 
 
-results = generate_combs_result(list(generate_combs(data_WITHOUT_PLAY)),data)
+list_columns = data.columns
+for rule in generated_abstract_rules:
+    play_value = all_rules[rule]['play']
+    description_string = 'If '
+    for index,value in enumerate(rule):
+        if value != emptyString:
+            description_string += f'{list_columns[index]} == {value} '
+
+    print(f'{description_string}then play == {play_value}')
 
 
-for key in results:
-    print(len(results[key]), len(data), key, results[key])
-    if len(results[key]) == len(data):
-        print(results[key])
 
 
 
