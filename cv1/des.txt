@@ -1,0 +1,3 @@
+Najít všechny kombinace hodnot atributů, pro které se shoduje třída (yes/no).
+
+Vzít pouze ty kombinace, které jsou nejméně specifické (čím méně atributů, tím lépe).
