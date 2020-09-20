@@ -109,6 +109,7 @@ def get_all_rules(combs_results):
 def get_abstract_rules(all_rules, data):
     first_column = data.iloc[:, 0]
     uniques_in_column = first_column.unique().tolist()
+    uniques_in_column.append(emptyString)
     abstract_rules_dict = {} #dict where are specified for number of empty comb
     for unique_value_in_first_column in uniques_in_column:
         dict_empty = {
@@ -158,29 +159,16 @@ all_rules = get_all_rules(combs_results)
 generated_abstract_rules = get_abstract_rules(all_rules, data)
 
 
-list_columns = data.columns
-for rule in generated_abstract_rules:
-    play_value = all_rules[rule]['play']
-    description_string = 'If '
-    for index,value in enumerate(rule):
-        if value != emptyString:
-            description_string += f'{list_columns[index]} == {value} '
-
-    print(f'{description_string}then play == {play_value}')
 
 
-
-
-
-# dic = generate_combs_result(combs)
-
-
-
-
-
-
-
-
-
-
-
+with open('output_rules.txt', 'w') as f:
+    list_columns = data.columns
+    number_of_rules = 0
+    for rule in generated_abstract_rules:
+        play_value = all_rules[rule]['play']
+        description_string = 'If '
+        for index,value in enumerate(rule):
+            if value != emptyString:
+                description_string += f'{list_columns[index]} == {value} '
+        number_of_rules += 1
+        f.write(f'RULE {number_of_rules} --> {description_string}then play == {play_value}\n')

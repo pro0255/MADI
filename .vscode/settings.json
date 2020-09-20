@@ -1,4 +1,5 @@
 {
     "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "python.pythonPath": "c:\\Users\\Vojta\\Desktop\\dev\\python\\ml_first\\venv\\Scripts\\python.exe"
 }
