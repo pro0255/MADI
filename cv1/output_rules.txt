@@ -1,13 +1,4 @@
-RULE 0---> If outlook == overcast then play == yes
-RULE 1---> If outlook == rainy temperature == mild humidity == normal then play == yes
-RULE 2---> If outlook == sunny temperature == cool then play == yes
-RULE 3---> If outlook == sunny temperature == mild humidity == normal then play == yes
-RULE 4---> If outlook == sunny humidity == normal then play == yes
-RULE 5---> If temperature == hot humidity == normal then play == yes
-RULE 6---> If temperature == mild humidity == normal then play == yes
+RULE 0 [4] ---> If humidity == normal windy == False then play == yes
 =================== 
 =================== 
 =================== 
-RULE 0---> If outlook == sunny temperature == hot then play == no
-RULE 1---> If outlook == sunny temperature == mild humidity == high then play == no
-RULE 2---> If outlook == sunny humidity == high then play == no

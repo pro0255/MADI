@@ -142,12 +142,12 @@ unique_windy = data['Windy'].unique()
 rules_yes = []
 rules_no = []
 
-def write_rule(attributes_dict, play_value):
+def write_rule(attributes_dict, play_value, number_of_times):
     description_string = "If "
     for k,v in attributes_dict.items():
         if v != emptyString: 
             description_string += f"{k} == {v} "
-    output = f"---> {description_string}then play == {play_value}\n"
+    output = f" [{number_of_times}] ---> {description_string}then play == {play_value}\n"
     if play_value == 'yes':
         rules_yes.append(output)
     else:
@@ -169,17 +169,17 @@ def check_rule(outlook = emptyString, temperature = emptyString, humidity = empt
     if windy != emptyString:
         filtered_data = filtered_data[filtered_data['Windy'] == windy]
     # print(outlook, temperature, humidity, windy)
-
     number_of_no = filtered_data[filtered_data['Play'] == 'no']['Play'].count()
     number_of_yes =  filtered_data[filtered_data['Play'] == 'yes']['Play'].count()
+    print(filtered_data, number_of_no, number_of_yes)
 
     if number_of_no == 0 and number_of_yes == 0:
         return False
     elif number_of_no == 0:
-        write_rule({'outlook': outlook, 'temperature': temperature, 'humidity': humidity, 'windy': windy}, 'yes')
+        write_rule({'outlook': outlook, 'temperature': temperature, 'humidity': humidity, 'windy': windy}, 'yes', number_of_yes)
         return True
     elif number_of_yes == 0:
-        write_rule({'outlook': outlook, 'temperature': temperature, 'humidity': humidity, 'windy': windy}, 'no')
+        write_rule({'outlook': outlook, 'temperature': temperature, 'humidity': humidity, 'windy': windy}, 'no', number_of_no)
         return True
     return False
 
@@ -187,18 +187,14 @@ def check_rule(outlook = emptyString, temperature = emptyString, humidity = empt
 #TODO!: this iteration does no work
 
 for outlook_value in add_ignore_to_unique(unique_outlook):
-    if(check_rule(outlook_value)):
-        continue
     for temperature_value in add_ignore_to_unique(unique_temperature):
-        if(check_rule(outlook_value, temperature_value)):
-            continue
         for humidity_value in add_ignore_to_unique(unique_humidity):
-            if(check_rule(outlook_value, temperature_value, humidity_value)):
-                continue
             for windy_value in add_ignore_to_unique(unique_windy):
-                if(check_rule(outlook_value, temperature_value, humidity_value, windy_value)):
-                    continue
+                print(windy_value)
+                # check_rule(outlook_value, temperature_value, humidity_value, windy_value)
 
+print(data)
+print(check_rule(emptyString, emptyString, 'normal', False))
 
 with open("output_rules.txt", "w") as f:
     list_columns = data.columns
@@ -216,4 +212,12 @@ with open("output_rules.txt", "w") as f:
         f.write(
             f"RULE {index}{rule}"
         )
+
+
+
+
+# print(data[(data['Humidity'] == 'normal') & (data['Windy'] == False)])
+# tmp1 = data[(data['Humidity'] == 'normal')]
+# print(tmp1[tmp1["Windy"] == False])
+# print(data[(data['Windy'] == False)])
     
