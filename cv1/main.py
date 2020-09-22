@@ -286,8 +286,9 @@ def check_black_list(input_value):
 
     
 def iterate_rules_in_node(node):
+    # print(node.level)
     for rule in node.rules:
-        if(check_rule(rule[0], rule[1], rule[2], rule[3]) and check_black_list(rule)):
+        if(check_black_list(rule) and check_rule(rule[0], rule[1], rule[2], rule[3]) ):
             black_list.append(rule)
 
 
@@ -299,7 +300,8 @@ def BFS(root):
         node = queue.pop(0)
         for child in node.children:
             queue.append(child)
-        iterate_rules_in_node(node)
+        if node != root:
+            iterate_rules_in_node(node)
         
 
 
@@ -380,5 +382,10 @@ for yes in rules_yes:
 print('=================')
 for no in rules_no:
     print(no)
+
+
+print('=================')
+for i, item in enumerate(black_list):
+    print(i, item)
 
 
