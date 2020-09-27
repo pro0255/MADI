@@ -368,7 +368,7 @@ BFS(root)
 #                 for combination in combinations:
 #                     values2 = construct_vector(combination)
 #                     check_rule(values2[0], values2[1], values2[2], values2[3])
-#                 # print(value_in_vector, vector_for_combination)
+#                Kk # print(value_in_vector, vector_for_combination)
 #             #  print(index_unique, column_unique)
 
 
