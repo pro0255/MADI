@@ -355,7 +355,7 @@ with open("output_rules.txt", "w") as f:
 
 
 
-# def fuck_find(vector):
+# def find_idk(vector):
 #     for enum_index,column_unique in enumerate(vector):
 #         for value_in_vector in column_unique:
 #             values = construct_vector([value_in_vector])
@@ -373,7 +373,7 @@ with open("output_rules.txt", "w") as f:
 
 
 
-# fuck_find([unique_outlook, unique_temperature, unique_humidity, unique_windy])
+# find_idk([unique_outlook, unique_temperature, unique_humidity, unique_windy])
 
 # print(len(rules_yes))
 # for yes in rules_yes: 
