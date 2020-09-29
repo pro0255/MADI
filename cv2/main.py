@@ -28,6 +28,7 @@ def calculate_support(X, Y, input_data):
 
     total_number_of_transactions = input_data.shape[0]
     transactions_containing_both_x_and_y = filtered_data[filtered_data['Play'] == Y]['Play'].count()
+    # print(total_number_of_transactions, transactions_containing_both_x_and_y)
     return transactions_containing_both_x_and_y / total_number_of_transactions
 
 
@@ -67,6 +68,7 @@ class Instance():
         }
         
         self.calc_confidence()
+        self.calc_support()
 
     def calc_support(self, input_data = data):
         self.support['no'] = calculate_support(self, 'no', input_data) 
@@ -162,4 +164,3 @@ BFS(root)
 
 
 ##INFO: 143 case root is missing where should be empty empty or something like this :]
-print(len(list(itertools.product(*[np.append(unique_humidity, empty_string), np.append(unique_temperature, empty_string), np.append(unique_outlook, empty_string), np.append(unique_windy, empty_string)]))))
