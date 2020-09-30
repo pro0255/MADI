@@ -1,0 +1,6 @@
+Udělat konzolový výstup:
+    MIN
+    MAX
+    AVERAGE
+    ID -> DEGREE
+    HISTOGRAM
