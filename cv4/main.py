@@ -75,6 +75,14 @@ def calculate_global_variance(data):
 
 
 
+def run(data, method, info):
+    print(info)
+    for index in range(len(data.columns)):
+        method(data, index)
+
+
+
+
 
 
 
@@ -86,11 +94,31 @@ def eucladian_distance(v_x, v_y):
     return math.sqrt(suma)
 
 
+def delimiter():
+    print('==========================')
+
+
+def lab_info():
+    delimiter()
+    print('\nALGEBRAICKÝ A GEOMETRICKÝ POHLED NA DATA\n\tlab n. 4\n')
+    delimiter()
+
+
+
 
 
 data_without_class = data.drop(['variety'], axis=1)
 
-calculate_mean_attribute(data_without_class,0)
-calculate_variance_attribute(data_without_class,0)
+
+lab_info()
+run(data_without_class, calculate_mean_attribute, 'ATTRIBUTE MEAN\n')
+delimiter()
+run(data_without_class, calculate_variance_attribute, 'ATTRIBUTE VARIANCE\n')
+delimiter()
 calculate_global_mean(data_without_class)
+delimiter()
 calculate_global_variance(data_without_class)
+delimiter()
+
+
+
