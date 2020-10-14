@@ -1,0 +1,602 @@
+
+Node on level 1
+	Instance of overcast empty empty empty 
+ Support: [{'yes': 0.2857142857142857, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of rainy empty empty empty 
+ Support: [{'yes': 0.21428571428571427, 'no': 0.14285714285714285}] 
+ Confidence [{'yes': 0.6, 'no': 0.4}] 
+
+	Instance of sunny empty empty empty 
+ Support: [{'yes': 0.14285714285714285, 'no': 0.21428571428571427}] 
+ Confidence [{'yes': 0.4, 'no': 0.6}] 
+ 
+
+Node on level 1
+	Instance of empty hot empty empty 
+ Support: [{'yes': 0.14285714285714285, 'no': 0.14285714285714285}] 
+ Confidence [{'yes': 0.5, 'no': 0.5}] 
+
+	Instance of empty cool empty empty 
+ Support: [{'yes': 0.21428571428571427, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.75, 'no': 0.25}] 
+
+	Instance of empty mild empty empty 
+ Support: [{'yes': 0.2857142857142857, 'no': 0.14285714285714285}] 
+ Confidence [{'yes': 0.6666666666666666, 'no': 0.3333333333333333}] 
+ 
+
+Node on level 1
+	Instance of empty empty high empty 
+ Support: [{'yes': 0.21428571428571427, 'no': 0.2857142857142857}] 
+ Confidence [{'yes': 0.42857142857142855, 'no': 0.5714285714285714}] 
+
+	Instance of empty empty normal empty 
+ Support: [{'yes': 0.42857142857142855, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.8571428571428571, 'no': 0.14285714285714285}] 
+ 
+
+Node on level 1
+	Instance of empty empty empty False 
+ Support: [{'yes': 0.42857142857142855, 'no': 0.14285714285714285}] 
+ Confidence [{'yes': 0.75, 'no': 0.25}] 
+
+	Instance of empty empty empty True 
+ Support: [{'yes': 0.21428571428571427, 'no': 0.21428571428571427}] 
+ Confidence [{'yes': 0.5, 'no': 0.5}] 
+ 
+
+Node on level 2
+	Instance of overcast hot empty empty 
+ Support: [{'yes': 0.14285714285714285, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of overcast cool empty empty 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of overcast mild empty empty 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of rainy hot empty empty 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of rainy cool empty empty 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.5, 'no': 0.5}] 
+
+	Instance of rainy mild empty empty 
+ Support: [{'yes': 0.14285714285714285, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.6666666666666666, 'no': 0.3333333333333333}] 
+
+	Instance of sunny hot empty empty 
+ Support: [{'yes': 0.0, 'no': 0.14285714285714285}] 
+ Confidence [{'yes': 0.0, 'no': 1.0}] 
+
+	Instance of sunny cool empty empty 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of sunny mild empty empty 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.5, 'no': 0.5}] 
+ 
+
+Node on level 2
+	Instance of overcast empty high empty 
+ Support: [{'yes': 0.14285714285714285, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of overcast empty normal empty 
+ Support: [{'yes': 0.14285714285714285, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of rainy empty high empty 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.5, 'no': 0.5}] 
+
+	Instance of rainy empty normal empty 
+ Support: [{'yes': 0.14285714285714285, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.6666666666666666, 'no': 0.3333333333333333}] 
+
+	Instance of sunny empty high empty 
+ Support: [{'yes': 0.0, 'no': 0.21428571428571427}] 
+ Confidence [{'yes': 0.0, 'no': 1.0}] 
+
+	Instance of sunny empty normal empty 
+ Support: [{'yes': 0.14285714285714285, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+ 
+
+Node on level 2
+	Instance of overcast empty empty False 
+ Support: [{'yes': 0.14285714285714285, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of overcast empty empty True 
+ Support: [{'yes': 0.14285714285714285, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of rainy empty empty False 
+ Support: [{'yes': 0.21428571428571427, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of rainy empty empty True 
+ Support: [{'yes': 0.0, 'no': 0.14285714285714285}] 
+ Confidence [{'yes': 0.0, 'no': 1.0}] 
+
+	Instance of sunny empty empty False 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.14285714285714285}] 
+ Confidence [{'yes': 0.3333333333333333, 'no': 0.6666666666666666}] 
+
+	Instance of sunny empty empty True 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.5, 'no': 0.5}] 
+ 
+
+Node on level 2
+	Instance of empty hot high empty 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.14285714285714285}] 
+ Confidence [{'yes': 0.3333333333333333, 'no': 0.6666666666666666}] 
+
+	Instance of empty hot normal empty 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of empty cool high empty 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of empty cool normal empty 
+ Support: [{'yes': 0.21428571428571427, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.75, 'no': 0.25}] 
+
+	Instance of empty mild high empty 
+ Support: [{'yes': 0.14285714285714285, 'no': 0.14285714285714285}] 
+ Confidence [{'yes': 0.5, 'no': 0.5}] 
+
+	Instance of empty mild normal empty 
+ Support: [{'yes': 0.14285714285714285, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+ 
+
+Node on level 2
+	Instance of empty hot empty False 
+ Support: [{'yes': 0.14285714285714285, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.6666666666666666, 'no': 0.3333333333333333}] 
+
+	Instance of empty hot empty True 
+ Support: [{'yes': 0.0, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.0, 'no': 1.0}] 
+
+	Instance of empty cool empty False 
+ Support: [{'yes': 0.14285714285714285, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of empty cool empty True 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.5, 'no': 0.5}] 
+
+	Instance of empty mild empty False 
+ Support: [{'yes': 0.14285714285714285, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.6666666666666666, 'no': 0.3333333333333333}] 
+
+	Instance of empty mild empty True 
+ Support: [{'yes': 0.14285714285714285, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.6666666666666666, 'no': 0.3333333333333333}] 
+ 
+
+Node on level 2
+	Instance of empty empty high False 
+ Support: [{'yes': 0.14285714285714285, 'no': 0.14285714285714285}] 
+ Confidence [{'yes': 0.5, 'no': 0.5}] 
+
+	Instance of empty empty high True 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.14285714285714285}] 
+ Confidence [{'yes': 0.3333333333333333, 'no': 0.6666666666666666}] 
+
+	Instance of empty empty normal False 
+ Support: [{'yes': 0.2857142857142857, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of empty empty normal True 
+ Support: [{'yes': 0.14285714285714285, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.6666666666666666, 'no': 0.3333333333333333}] 
+ 
+
+Node on level 3
+	Instance of overcast hot high empty 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of overcast hot normal empty 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of overcast cool high empty 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of overcast cool normal empty 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of overcast mild high empty 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of overcast mild normal empty 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of rainy hot high empty 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of rainy hot normal empty 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of rainy cool high empty 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of rainy cool normal empty 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.5, 'no': 0.5}] 
+
+	Instance of rainy mild high empty 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.5, 'no': 0.5}] 
+
+	Instance of rainy mild normal empty 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of sunny hot high empty 
+ Support: [{'yes': 0.0, 'no': 0.14285714285714285}] 
+ Confidence [{'yes': 0.0, 'no': 1.0}] 
+
+	Instance of sunny hot normal empty 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of sunny cool high empty 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of sunny cool normal empty 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of sunny mild high empty 
+ Support: [{'yes': 0.0, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.0, 'no': 1.0}] 
+
+	Instance of sunny mild normal empty 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+ 
+
+Node on level 3
+	Instance of overcast hot empty False 
+ Support: [{'yes': 0.14285714285714285, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of overcast hot empty True 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of overcast cool empty False 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of overcast cool empty True 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of overcast mild empty False 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of overcast mild empty True 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of rainy hot empty False 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of rainy hot empty True 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of rainy cool empty False 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of rainy cool empty True 
+ Support: [{'yes': 0.0, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.0, 'no': 1.0}] 
+
+	Instance of rainy mild empty False 
+ Support: [{'yes': 0.14285714285714285, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of rainy mild empty True 
+ Support: [{'yes': 0.0, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.0, 'no': 1.0}] 
+
+	Instance of sunny hot empty False 
+ Support: [{'yes': 0.0, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.0, 'no': 1.0}] 
+
+	Instance of sunny hot empty True 
+ Support: [{'yes': 0.0, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.0, 'no': 1.0}] 
+
+	Instance of sunny cool empty False 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of sunny cool empty True 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of sunny mild empty False 
+ Support: [{'yes': 0.0, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.0, 'no': 1.0}] 
+
+	Instance of sunny mild empty True 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+ 
+
+Node on level 3
+	Instance of overcast empty high False 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of overcast empty high True 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of overcast empty normal False 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of overcast empty normal True 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of rainy empty high False 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of rainy empty high True 
+ Support: [{'yes': 0.0, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.0, 'no': 1.0}] 
+
+	Instance of rainy empty normal False 
+ Support: [{'yes': 0.14285714285714285, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of rainy empty normal True 
+ Support: [{'yes': 0.0, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.0, 'no': 1.0}] 
+
+	Instance of sunny empty high False 
+ Support: [{'yes': 0.0, 'no': 0.14285714285714285}] 
+ Confidence [{'yes': 0.0, 'no': 1.0}] 
+
+	Instance of sunny empty high True 
+ Support: [{'yes': 0.0, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.0, 'no': 1.0}] 
+
+	Instance of sunny empty normal False 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of sunny empty normal True 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+ 
+
+Node on level 3
+	Instance of empty hot high False 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.5, 'no': 0.5}] 
+
+	Instance of empty hot high True 
+ Support: [{'yes': 0.0, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.0, 'no': 1.0}] 
+
+	Instance of empty hot normal False 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of empty hot normal True 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of empty cool high False 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of empty cool high True 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of empty cool normal False 
+ Support: [{'yes': 0.14285714285714285, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of empty cool normal True 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.5, 'no': 0.5}] 
+
+	Instance of empty mild high False 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.5, 'no': 0.5}] 
+
+	Instance of empty mild high True 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.5, 'no': 0.5}] 
+
+	Instance of empty mild normal False 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of empty mild normal True 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+ 
+
+Node on level 4
+	Instance of overcast hot high False 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of overcast hot high True 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of overcast hot normal False 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of overcast hot normal True 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of overcast cool high False 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of overcast cool high True 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of overcast cool normal False 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of overcast cool normal True 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of overcast mild high False 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of overcast mild high True 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of overcast mild normal False 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of overcast mild normal True 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of rainy hot high False 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of rainy hot high True 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of rainy hot normal False 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of rainy hot normal True 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of rainy cool high False 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of rainy cool high True 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of rainy cool normal False 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of rainy cool normal True 
+ Support: [{'yes': 0.0, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.0, 'no': 1.0}] 
+
+	Instance of rainy mild high False 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of rainy mild high True 
+ Support: [{'yes': 0.0, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.0, 'no': 1.0}] 
+
+	Instance of rainy mild normal False 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of rainy mild normal True 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of sunny hot high False 
+ Support: [{'yes': 0.0, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.0, 'no': 1.0}] 
+
+	Instance of sunny hot high True 
+ Support: [{'yes': 0.0, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.0, 'no': 1.0}] 
+
+	Instance of sunny hot normal False 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of sunny hot normal True 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of sunny cool high False 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of sunny cool high True 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of sunny cool normal False 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+
+	Instance of sunny cool normal True 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of sunny mild high False 
+ Support: [{'yes': 0.0, 'no': 0.07142857142857142}] 
+ Confidence [{'yes': 0.0, 'no': 1.0}] 
+
+	Instance of sunny mild high True 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of sunny mild normal False 
+ Support: [{'yes': 0.0, 'no': 0.0}] 
+ Confidence [{'yes': 0, 'no': 0}] 
+
+	Instance of sunny mild normal True 
+ Support: [{'yes': 0.07142857142857142, 'no': 0.0}] 
+ Confidence [{'yes': 1.0, 'no': 0.0}] 
+ 

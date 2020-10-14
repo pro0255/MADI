@@ -79,7 +79,7 @@ class Instance():
         self.confidence['yes'] = calculate_confidence(self, 'yes', input_data)
 
     def __str__(self):
-        return f'Instance of {self.Outlook} {self.Temperature} {self.Humidity} {self.Windy} \n Support: [{self.support}] \n Confidence [{self.confidence}]'
+        return f'Instance of {self.Outlook} {self.Temperature} {self.Humidity} {self.Windy} \n Support: [{self.support}] \n Confidence [{self.confidence}] \n'
 
 
 class Node:
@@ -148,7 +148,9 @@ generate_tree(data, [unique_outlook, unique_temperature, unique_humidity, unique
 
 
 
+
 def BFS(root):
+    output_string = ''
     queue = []
     queue.append(root)
     number_of_rules = 0
@@ -158,9 +160,16 @@ def BFS(root):
             queue.append(child)
         if node != root:
             number_of_rules += len(node.instances_of_rule)
+            output_string += f'{node} \n'
             print(node)
+
+    return output_string
     
-BFS(root)
+out = BFS(root)
 
 
-##INFO: 143 case root is missing where should be empty empty or something like this :]
+
+
+
+with open('output.txt', 'w+') as f:
+    f.write(out)

@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import math
+import sys
 
 
 data = pd.read_csv("KarateClub.csv", ';', header=None)
@@ -15,6 +16,38 @@ class Vertex():
 
     def __str__(self):
         return f'Vertex id [{self.id}], degree [{self.degree}], edges [{self.edges}]'
+
+
+class FloydAlgorithm():
+    def __init__(self):
+        pass
+
+    def start(self, adjacency_matrix):
+        print('Starting FloydAlgorithm')
+        number_of_vertecies = len(adjacency_matrix)
+
+        floyd_matrix = np.full(adjacency_matrix.shape, np.inf)
+        for i in range(len(floyd_matrix)):
+            floyd_matrix[i][i] = 0
+
+        for i in range(len(floyd_matrix)):
+            for j in range(len(floyd_matrix)):
+                if adjacency_matrix[i][j] != 0:
+                    floyd_matrix[i][j] = adjacency_matrix[i][j]
+
+
+        for k in range(number_of_vertecies):
+            for i in range(number_of_vertecies):
+                for j in range(number_of_vertecies):
+                    first = floyd_matrix[i][j]
+                    second = floyd_matrix[i][k]
+                    third = floyd_matrix[k][j]
+
+                    if first > second + third:
+                        floyd_matrix[i][j] = second + third
+
+        return floyd_matrix
+
 
 class AdjacencyMatrix():
     def __init__(self, size, data):
@@ -100,6 +133,37 @@ class AdjacencyList():
 
     
 
+def calculate_closness_centrality(floyd_matrix,i):
+    result = len(floyd_matrix[i])/np.sum(floyd_matrix[i])
+    print(f'ID {i+1} - clossnes centraility {result}')
+    return result
+
+def average_distance(floyd_matrix):
+    n = len(floyd_matrix)
+    sum = 0
+    for i in range(n):
+        for j in range(i, n):
+            sum += floyd_matrix[i][j]
+    result = (2/(n*(n-1)))*sum
+    print(f'Prumerna vzdalenost - {result}')
+    return result
+
+
+def graph_average(floyd_matrix):
+    max_excentricity = None
+
+    for row in floyd_matrix:
+        vertex_excentricity = np.max(row)
+
+        if max_excentricity is None:
+            max_excentricity = vertex_excentricity
+        else:
+            if vertex_excentricity > max_excentricity:
+                max_excentricity = vertex_excentricity 
+
+    print(f'Prumer grafu - {max_excentricity}')
+    return max_excentricity
+
 
 
 
@@ -114,30 +178,62 @@ max_value = max_index_first if max_index_first > max_index_second else max_index
 matrix = AdjacencyMatrix(max_value, data)
 matrix_list = AdjacencyList(data)
 
-# print(matrix)
+print('\n=============CV2===========')
 print(matrix_list)
+print('==========================')
 matrix_list.print_values()
 
 
 occurences = matrix_list.all_degres
-print(occurences)
+# print(occurences)
+
+rc = True
+show_hist = True
+if show_hist:
+    # print(np.max(matrix_list.all_degres))
+    bins = list(range(1, np.max(matrix_list.all_degres)+2))
+    # print(bins)
+
+
+    weights = np.zeros_like(occurences) + 1 / len(occurences)
+
+    bins = math.ceil(((np.max(occurences) - np.min(occurences)) + 1)/1)
+
+    plt.hist(occurences, bins=bins, alpha=0.5, histtype='bar', ec='black', color="green",density=rc)
+    plt.grid(axis='y', alpha=0.75)
+    plt.xlabel(f"degrees (# of connections)")
+    plt.ylabel(f"# of nodes")
+    plt.title("Karate Club Degree Distribution")
+    plt.show()
+
+
+print('\n=============CV3===========')
+floyd = FloydAlgorithm()
+floyd_matrix = floyd.start(matrix.matrix)
+
+print(floyd_matrix)
+average_distance(floyd_matrix)
+print('==========================')
+graph_average(floyd_matrix)
+print('==========================')
+for i in range(len(floyd_matrix)):
+    calculate_closness_centrality(floyd_matrix, i)
+print('==========================')
+
+
+#
+# print("closeness centrality")
+# for i in range(len(floyd_matrix)):
+#     print(i+1)
+#     print(closenes_centratility(floyd_matrix, i))
 
 
 
-#TODO!: fix floating number -> discrete
-
-print(np.max(matrix_list.all_degres))
-bins = list(range(1, np.max(matrix_list.all_degres)+2))
-print(bins)
 
 
-bins = math.ceil((np.max(occurences) - np.min(occurences)) + 1/1)
-plt.hist(occurences, bins=bins, alpha=0.5, histtype='bar', ec='black', color="green",density=False)
-plt.grid(axis='y', alpha=0.75)
-plt.xlabel(f"degrees (# of connections)")
-plt.ylabel(f"# of nodes")
-plt.title("Karate Club Degree Distribution")
-plt.show()
+
+
+
 
 
 
