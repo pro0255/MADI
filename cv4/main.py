@@ -1,10 +1,13 @@
 import pandas as pd
 import numpy as np
 import math
+import matplotlib.pyplot as plt
+import scipy.stats as stats
+import math
+
+
 
 data = pd.read_csv('iris.csv', ';')
-
-
 def calculate_mean_attribute(data, i, p=True):
     attribute_name = data.columns[i]
     casted_column = data.iloc[:, i]
@@ -21,8 +24,7 @@ def calculate_mean_attribute(data, i, p=True):
     mean = suma/n
     if p:
         print(f'atrribute[{attribute_name}]-mean is[{mean}]')
-    return mean
-
+    return (mean, attribute_name)
 
 def calculate_variance_attribute(data, i):
     attribute_name = data.columns[i]
@@ -34,27 +36,23 @@ def calculate_variance_attribute(data, i):
 
     for row_i in range(n):
         number = float(casted_column[row_i].replace(',', '.'))
-        distance = math.sqrt(pow(number - mean, 2))
+        distance = math.sqrt(pow(number - mean[0], 2))
         suma += pow(distance, 2)
 
 
     var = suma/n
     print(f'atrribute[{attribute_name}]-variance is[{var}]')
-    return var
+    return (var, attribute_name)
     
-
 def calculate_global_mean(data, p=True):
     average_instance = []
 
     for col_i in range(len(data.columns)):
-        average_instance.append(calculate_mean_attribute(data, col_i, False))
+        average_instance.append(calculate_mean_attribute(data, col_i, False)[0])
 
     if p:
         print(f'average instance-[{average_instance}]')
     return average_instance
-
-
-
 
 def calculate_global_variance(data):
     total_var = 0
@@ -77,9 +75,11 @@ def calculate_global_variance(data):
 
 def run(data, method, info):
     print(info)
+    result=[]
     for index in range(len(data.columns)):
-        method(data, index)
-
+        var = method(data, index)
+        result.append(var)
+    return result
 
 
 
@@ -104,21 +104,65 @@ def lab_info():
     delimiter()
 
 
+def draw_distribution(data, data_set):
+    f, axes = plt.subplots(1, len(data), figsize=(18,6))
 
+
+    for index, ax in enumerate(axes):
+        item_data = data[index]
+        mean = item_data[0][0]
+        variance = item_data[1][0]
+        name = item_data[0][1]
+        column = data_set[name]
+        sigma = math.sqrt(variance)
+
+        series_casted = [float(value.replace(',', '.')) for value in column.values]
+
+        minimum = min(series_casted)
+        maximum = max(series_casted)
+
+
+        ax.set_xlabel('value')
+        ax.set_ylabel('probability')
+        title = name.upper().replace('_', ' ')
+        ax.title.set_text('%s  m = %.2f,  s = %.2f' % (title, mean, sigma))
+        ax.grid()
+
+        # Plot the histogram.
+        ax.hist(series_casted, bins=25, density=True, alpha=0.6, color='g', histtype='bar', ec='black')
+
+        x_values = np.linspace(minimum-2, maximum+2, 300)
+        y_values = stats.norm.pdf(x_values, mean, sigma)
+
+
+        ax.plot(x_values, y_values, linewidth=2, c="b")
+
+    plt.show()
 
 
 data_without_class = data.drop(['variety'], axis=1)
 
 
 lab_info()
-run(data_without_class, calculate_mean_attribute, 'ATTRIBUTE MEAN\n')
+means = run(data_without_class, calculate_mean_attribute, 'ATTRIBUTE MEAN\n')
 delimiter()
-run(data_without_class, calculate_variance_attribute, 'ATTRIBUTE VARIANCE\n')
+variances = run(data_without_class, calculate_variance_attribute, 'ATTRIBUTE VARIANCE\n')
 delimiter()
 calculate_global_mean(data_without_class)
 delimiter()
 calculate_global_variance(data_without_class)
 delimiter()
 
+
+
+means_and_variances  = list(zip(means, variances))
+
+
+#draw normal gaussian distribution for every column
+#calc real distrubution
+#draw real distribution to histograms
+
+
+draw_distribution(means_and_variances, data_without_class)
 
 

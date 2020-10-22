@@ -199,7 +199,7 @@ if show_hist:
 
     bins = math.ceil(((np.max(occurences) - np.min(occurences)) + 1)/1)
 
-    plt.hist(occurences, bins=bins, alpha=0.5, histtype='bar', ec='black', color="green",density=rc)
+    plt.hist(occurences, bins=bins, alpha=0.5, histtype='bar', ec='black', color="green", density=rc)
     plt.grid(axis='y', alpha=0.75)
     plt.xlabel(f"degrees (# of connections)")
     plt.ylabel(f"# of nodes")
