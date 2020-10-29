@@ -104,16 +104,25 @@ def lab_info():
     delimiter()
 
 
+
+def describe_graph(ax, sigma, mean, name):
+    ax.set_ylabel('probability')
+    title = name.upper().replace('_', ' ')
+    ax.title.set_text('%s  m = %.2f,  s = %.2f' % (title, mean, sigma))
+    ax.grid()
+
+
+
 def draw_distribution(data, data_set):
     f, axes = plt.subplots(1, len(data), figsize=(18,6))
 
 
     for index, ax in enumerate(axes):
         item_data = data[index]
-        mean = item_data[0][0]
         variance = item_data[1][0]
         name = item_data[0][1]
         column = data_set[name]
+        mean = item_data[0][0]
         sigma = math.sqrt(variance)
 
         series_casted = [float(value.replace(',', '.')) for value in column.values]
@@ -122,11 +131,7 @@ def draw_distribution(data, data_set):
         maximum = max(series_casted)
 
 
-        ax.set_xlabel('value')
-        ax.set_ylabel('probability')
-        title = name.upper().replace('_', ' ')
-        ax.title.set_text('%s  m = %.2f,  s = %.2f' % (title, mean, sigma))
-        ax.grid()
+        describe_graph(ax, sigma, mean, name)
 
         # Plot the histogram.
         ax.hist(series_casted, bins=25, density=True, alpha=0.6, color='g', histtype='bar', ec='black')
@@ -137,10 +142,38 @@ def draw_distribution(data, data_set):
 
         ax.plot(x_values, y_values, linewidth=2, c="b")
 
-    plt.show()
+
 
 
 data_without_class = data.drop(['variety'], axis=1)
+
+def draw_cdf(data, data_set):
+    f, axes = plt.subplots(1, 4, figsize=(18,6))
+    samples = 10
+
+    for index, column_name in enumerate(data_set):
+        item_data = data[index]
+        variance = item_data[1][0]
+        name = item_data[0][1]
+        mean = item_data[0][0]
+        sigma = math.sqrt(variance)
+
+
+
+        ax = axes[index]
+        column = data_set[column_name]
+        series_casted = np.array([float(value.replace(',', '.')) for value in column.values])
+
+        minimum = min(series_casted)
+        maximum = max(series_casted)
+
+        describe_graph(ax, sigma, mean, name)
+
+
+        populated_array = np.linspace(minimum-1, maximum+1, samples)
+        probability_array = [len(series_casted[series_casted <= value])/len(series_casted) for value in populated_array]
+        ax.plot(populated_array, probability_array)
+
 
 
 lab_info()
@@ -155,6 +188,10 @@ delimiter()
 
 
 
+
+
+
+
 means_and_variances  = list(zip(means, variances))
 
 
@@ -164,5 +201,6 @@ means_and_variances  = list(zip(means, variances))
 
 
 draw_distribution(means_and_variances, data_without_class)
-
+draw_cdf(means_and_variances, data_without_class)
+plt.show()
 
