@@ -97,19 +97,19 @@ def eucladian_distance(v_x, v_y):
 def delimiter():
     print('==========================')
 
-
 def lab_info():
     delimiter()
     print('\nALGEBRAICKÝ A GEOMETRICKÝ POHLED NA DATA\n\tlab n. 4\n')
     delimiter()
-
-
 
 def describe_graph(ax, sigma, mean, name):
     ax.set_ylabel('probability')
     title = name.upper().replace('_', ' ')
     ax.title.set_text('%s  m = %.2f,  s = %.2f' % (title, mean, sigma))
     ax.grid()
+
+
+
 
 
 
@@ -127,9 +127,13 @@ def draw_distribution(data, data_set):
 
         series_casted = [float(value.replace(',', '.')) for value in column.values]
 
+        samples = 1000
+
         minimum = min(series_casted)
         maximum = max(series_casted)
 
+        populated_array_x = np.linspace(minimum-2, maximum+2, samples)
+        populated_array_y = [(1/math.sqrt(2*math.pi*variance))*math.exp(-(math.pow(value-mean,2)/(2*variance))) for value in populated_array_x]
 
         describe_graph(ax, sigma, mean, name)
 
@@ -139,8 +143,9 @@ def draw_distribution(data, data_set):
         x_values = np.linspace(minimum-2, maximum+2, 300)
         y_values = stats.norm.pdf(x_values, mean, sigma)
 
+        # ax.plot(x_values, y_values, linewidth=2, c="b")
 
-        ax.plot(x_values, y_values, linewidth=2, c="b")
+        ax.plot(populated_array_x, populated_array_y, linewidth=2, c="b")
 
 
 
@@ -158,8 +163,6 @@ def draw_cdf(data, data_set):
         mean = item_data[0][0]
         sigma = math.sqrt(variance)
 
-
-
         ax = axes[index]
         column = data_set[column_name]
         series_casted = np.array([float(value.replace(',', '.')) for value in column.values])
@@ -169,9 +172,19 @@ def draw_cdf(data, data_set):
 
         describe_graph(ax, sigma, mean, name)
 
-
+        #! generated array from minimum in data to maximum data, number of items = samples
         populated_array = np.linspace(minimum-1, maximum+1, samples)
+
+        #! calculating probability in real data(column), number of items less then this value..
         probability_array = [len(series_casted[series_casted <= value])/len(series_casted) for value in populated_array]
+
+        populated_array_y = [(1/math.sqrt(2*math.pi*variance))*math.exp(-(math.pow(value-mean,2)/(2*variance))) for value in populated_array]
+        cumsum_populated_array_y = list()
+        cumsum = 0
+        for y in populated_array_y:
+            cumsum += y
+            cumsum_populated_array_y.append(cumsum/sum(populated_array_y))
+        ax.plot(populated_array, cumsum_populated_array_y, c="b")
         ax.plot(populated_array, probability_array)
 
 
@@ -185,12 +198,6 @@ calculate_global_mean(data_without_class)
 delimiter()
 calculate_global_variance(data_without_class)
 delimiter()
-
-
-
-
-
-
 
 means_and_variances  = list(zip(means, variances))
 
