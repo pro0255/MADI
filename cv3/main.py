@@ -237,8 +237,6 @@ def calculate_cluster_coefficient(a_matrix, vi):
     number_of_neighbours = len(indeces)
     maximum_number_of_edges = number_of_neighbours * (number_of_neighbours - 1) 
 
-
-
     if number_of_neighbours < 2:
         return 0
     
@@ -256,14 +254,75 @@ def calculate_cluster_coefficient(a_matrix, vi):
 def run_calculate_cluster_coefficient(matrix):
     current_matrix = matrix.matrix
     csv=""
+    suma = 0
     for vertex_index, _ in enumerate(current_matrix):
         tranformed_vertex_index = vertex_index + 1
         result = calculate_cluster_coefficient(current_matrix, vertex_index)
+        suma += result 
         csv += f'{tranformed_vertex_index};{result}\n'
-    return csv
+    return (csv, suma)
+
+def calculcate_graph_transitivity(suma, matrix):
+    return suma/len(matrix)
+
+def print_lab6_result(csv, transitivity):
+    print('=========Cluster Coeficient===========')
+    print(csv)
+    print('=========Graph Transitivity===========')
+    print(transitivity)
+    print('======================================')
+
+
+def draw_cluster_effect(matrix):
+    """
+        Určete shlukovací efekt. Ten se určí jako průměrný CC pro vrcholy daného stupně. 
+        Distribuci tohoto průměrného CC (osa Y) vůči stupni (osa X).
+    """    
+
+    dic = {}
+
+    for index,row in enumerate(matrix):
+        degree = len(row[row == 1])
+        if degree in dic:
+            value = dic[degree]
+            value.append((index, calculate_cluster_coefficient(matrix, index)))
+        else:
+            dic[degree] = [(index, calculate_cluster_coefficient(matrix, index))]
+
+
+
+    dictionary_items = dic.items()
+    sorted_items = sorted(dictionary_items)
+    X = [t[0] for t in sorted_items]
+
+    Y = []
+    for t in sorted_items:
+        index, c = zip(*t[1])
+        Y.append(sum(c)/len(t[1]))
+
+    plt.figure(figsize=(10,8))
+    plt.plot(X, Y, 'ro')
+
+
+    # move =0
+    # for t in sorted_items:
+    #     degree = t[0]
+    #     index, c = zip(*t[1])
+    #     CC = sum(c)
+    #     plt.annotate(f'x', xy=(degree,CC-0.01))
+    plt.grid()
+    plt.show()
+
+
+
+
 
 print('==========================')
-csv =run_calculate_cluster_coefficient(matrix) #it is ok
+csv, suma  = run_calculate_cluster_coefficient(matrix) #it is ok
+transitivity = calculcate_graph_transitivity(suma,matrix.matrix)
+draw_cluster_effect(matrix.matrix)
+print_lab6_result(csv, transitivity)
+
 
 with open('cluster_coefficient.csv', 'w') as f:
     f.write(csv)
