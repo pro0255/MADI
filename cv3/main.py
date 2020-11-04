@@ -188,7 +188,7 @@ occurences = matrix_list.all_degres
 # print(occurences)
 
 rc = True
-show_hist = True
+show_hist = False
 if show_hist:
     # print(np.max(matrix_list.all_degres))
     bins = list(range(1, np.max(matrix_list.all_degres)+2))
@@ -214,21 +214,60 @@ floyd_matrix = floyd.start(matrix.matrix)
 print(floyd_matrix)
 average_distance(floyd_matrix)
 print('==========================')
-graph_average(floyd_matrix)
+# graph_average(floyd_matrix)
 print('==========================')
 for i in range(len(floyd_matrix)):
     calculate_closness_centrality(floyd_matrix, i)
 print('==========================')
 
 
-#
-# print("closeness centrality")
-# for i in range(len(floyd_matrix)):
-#     print(i+1)
-#     print(closenes_centratility(floyd_matrix, i))
 
 
 
+print('\n=============CV6==========')
+
+
+
+def calculate_cluster_coefficient(a_matrix, vi):
+    cluster_coefficient = 0
+    current_matrix = a_matrix
+    current_row = current_matrix[vi]
+
+    indeces = np.concatenate(np.argwhere(current_row == 1)) 
+    number_of_neighbours = len(indeces)
+    maximum_number_of_edges = number_of_neighbours * (number_of_neighbours - 1) 
+
+
+
+    if number_of_neighbours < 2:
+        return 0
+    
+    number_of_edges = 0
+
+    for index, j in enumerate(indeces):
+        vj =  current_matrix[j]
+        for k in indeces[index:]:
+            if vj[k]:
+                number_of_edges += 1
+
+    cluster_coefficient = (2*number_of_edges) / maximum_number_of_edges
+    return cluster_coefficient
+
+def run_calculate_cluster_coefficient(matrix):
+    current_matrix = matrix.matrix
+    csv=""
+    for vertex_index, _ in enumerate(current_matrix):
+        tranformed_vertex_index = vertex_index + 1
+        result = calculate_cluster_coefficient(current_matrix, vertex_index)
+        csv += f'{tranformed_vertex_index};{result}\n'
+    return csv
+
+print('==========================')
+csv =run_calculate_cluster_coefficient(matrix) #it is ok
+
+with open('cluster_coefficient.csv', 'w') as f:
+    f.write(csv)
+print('==========================')
 
 
 

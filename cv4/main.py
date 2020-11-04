@@ -71,8 +71,6 @@ def calculate_global_variance(data):
     print(f'total variance-[{total_var}]')
     return total_var
 
-
-
 def run(data, method, info):
     print(info)
     result=[]
@@ -80,11 +78,6 @@ def run(data, method, info):
         var = method(data, index)
         result.append(var)
     return result
-
-
-
-
-
 
 def eucladian_distance(v_x, v_y):
     suma = 0
@@ -109,10 +102,6 @@ def describe_graph(ax, sigma, mean, name):
     ax.grid()
 
 
-
-
-
-
 def draw_distribution(data, data_set):
     f, axes = plt.subplots(1, len(data), figsize=(18,6))
 
@@ -126,7 +115,6 @@ def draw_distribution(data, data_set):
         sigma = math.sqrt(variance)
 
         series_casted = [float(value.replace(',', '.')) for value in column.values]
-
         samples = 1000
 
         minimum = min(series_casted)
@@ -136,15 +124,9 @@ def draw_distribution(data, data_set):
         populated_array_y = [(1/math.sqrt(2*math.pi*variance))*math.exp(-(math.pow(value-mean,2)/(2*variance))) for value in populated_array_x]
 
         describe_graph(ax, sigma, mean, name)
-
         # Plot the histogram.
-        ax.hist(series_casted, bins=25, density=True, alpha=0.6, color='g', histtype='bar', ec='black')
 
-        x_values = np.linspace(minimum-2, maximum+2, 300)
-        y_values = stats.norm.pdf(x_values, mean, sigma)
-
-        # ax.plot(x_values, y_values, linewidth=2, c="b")
-
+        ax.hist(series_casted, bins=20,  density=True, alpha=0.6, color='g', histtype='bar', ec='black')
         ax.plot(populated_array_x, populated_array_y, linewidth=2, c="b")
 
 
@@ -172,10 +154,9 @@ def draw_cdf(data, data_set):
 
         describe_graph(ax, sigma, mean, name)
 
-        #! generated array from minimum in data to maximum data, number of items = samples
+
         populated_array = np.linspace(minimum-1, maximum+1, samples)
 
-        #! calculating probability in real data(column), number of items less then this value..
         probability_array = [len(series_casted[series_casted <= value])/len(series_casted) for value in populated_array]
 
         populated_array_y = [(1/math.sqrt(2*math.pi*variance))*math.exp(-(math.pow(value-mean,2)/(2*variance))) for value in populated_array]
@@ -184,8 +165,8 @@ def draw_cdf(data, data_set):
         for y in populated_array_y:
             cumsum += y
             cumsum_populated_array_y.append(cumsum/sum(populated_array_y))
-        ax.plot(populated_array, cumsum_populated_array_y, c="b")
-        ax.plot(populated_array, probability_array)
+        ax.plot(populated_array, cumsum_populated_array_y, c="r")
+        ax.plot(populated_array, probability_array, c='g')
 
 
 
