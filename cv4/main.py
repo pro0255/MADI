@@ -4,6 +4,7 @@ import math
 import matplotlib.pyplot as plt
 import scipy.stats as stats
 import math
+from collections import Counter
 
 
 
@@ -105,7 +106,6 @@ def describe_graph(ax, sigma, mean, name):
 def draw_distribution(data, data_set):
     f, axes = plt.subplots(1, len(data), figsize=(18,6))
 
-
     for index, ax in enumerate(axes):
         item_data = data[index]
         variance = item_data[1][0]
@@ -113,12 +113,13 @@ def draw_distribution(data, data_set):
         column = data_set[name]
         mean = item_data[0][0]
         sigma = math.sqrt(variance)
-
         series_casted = [float(value.replace(',', '.')) for value in column.values]
+
+        minimum = min(series_casted) - 2 
+        maximum = max(series_casted) + 2
+
         samples = 1000
 
-        minimum = min(series_casted)
-        maximum = max(series_casted)
 
         populated_array_x = np.linspace(minimum-2, maximum+2, samples)
         populated_array_y = [(1/math.sqrt(2*math.pi*variance))*math.exp(-(math.pow(value-mean,2)/(2*variance))) for value in populated_array_x]
@@ -126,7 +127,9 @@ def draw_distribution(data, data_set):
         describe_graph(ax, sigma, mean, name)
         # Plot the histogram.
 
-        ax.hist(series_casted, bins=20,  density=True, alpha=0.6, color='g', histtype='bar', ec='black')
+
+
+        ax.hist(series_casted, bins=10,  density=True, alpha=0.6, color='g', histtype='bar', ec='black')
         ax.plot(populated_array_x, populated_array_y, linewidth=2, c="b")
 
 
@@ -156,9 +159,7 @@ def draw_cdf(data, data_set):
 
 
         populated_array = np.linspace(minimum-1, maximum+1, samples)
-
         probability_array = [len(series_casted[series_casted <= value])/len(series_casted) for value in populated_array]
-
         populated_array_y = [(1/math.sqrt(2*math.pi*variance))*math.exp(-(math.pow(value-mean,2)/(2*variance))) for value in populated_array]
         cumsum_populated_array_y = list()
         cumsum = 0

@@ -3,10 +3,14 @@ import numpy as np
 import matplotlib.pyplot as plt
 import math
 import sys
-
+from utils.graph.Floyd import FloydAlgorithm 
+from utils.graph.ClosnessCentrality import calculate_closness_centrality
+from utils.graph.AverageDistance import average_distance
+from utils.graph.GraphAverage import graph_average
+from utils.graph.ClusterCoefficient import calculate_cluster_coefficient, run_calculate_cluster_coefficient
+from utils.graph.ClusterEffect import draw_cluster_effect
 
 data = pd.read_csv("KarateClub.csv", ';', header=None)
-
 
 class Vertex():
     def __init__(self, id):
@@ -16,38 +20,6 @@ class Vertex():
 
     def __str__(self):
         return f'Vertex id [{self.id}], degree [{self.degree}], edges [{self.edges}]'
-
-
-class FloydAlgorithm():
-    def __init__(self):
-        pass
-
-    def start(self, adjacency_matrix):
-        print('Starting FloydAlgorithm')
-        number_of_vertecies = len(adjacency_matrix)
-
-        floyd_matrix = np.full(adjacency_matrix.shape, np.inf)
-        for i in range(len(floyd_matrix)):
-            floyd_matrix[i][i] = 0
-
-        for i in range(len(floyd_matrix)):
-            for j in range(len(floyd_matrix)):
-                if adjacency_matrix[i][j] != 0:
-                    floyd_matrix[i][j] = adjacency_matrix[i][j]
-
-
-        for k in range(number_of_vertecies):
-            for i in range(number_of_vertecies):
-                for j in range(number_of_vertecies):
-                    first = floyd_matrix[i][j]
-                    second = floyd_matrix[i][k]
-                    third = floyd_matrix[k][j]
-
-                    if first > second + third:
-                        floyd_matrix[i][j] = second + third
-
-        return floyd_matrix
-
 
 class AdjacencyMatrix():
     def __init__(self, size, data):
@@ -131,42 +103,6 @@ class AdjacencyList():
             output += f'{vertex}\n'
         return output
 
-    
-
-def calculate_closness_centrality(floyd_matrix,i):
-    result = len(floyd_matrix[i])/np.sum(floyd_matrix[i])
-    print(f'ID {i+1} - clossnes centraility {result}')
-    return result
-
-def average_distance(floyd_matrix):
-    n = len(floyd_matrix)
-    sum = 0
-    for i in range(n):
-        for j in range(i, n):
-            sum += floyd_matrix[i][j]
-    result = (2/(n*(n-1)))*sum
-    print(f'Prumerna vzdalenost - {result}')
-    return result
-
-
-def graph_average(floyd_matrix):
-    max_excentricity = None
-
-    for row in floyd_matrix:
-        vertex_excentricity = np.max(row)
-
-        if max_excentricity is None:
-            max_excentricity = vertex_excentricity
-        else:
-            if vertex_excentricity > max_excentricity:
-                max_excentricity = vertex_excentricity 
-
-    print(f'Prumer grafu - {max_excentricity}')
-    return max_excentricity
-
-
-
-
 
 first_column = data.iloc[:, 0]
 second_column = data.iloc[:, 1]
@@ -182,7 +118,6 @@ print('\n=============CV2===========')
 print(matrix_list)
 print('==========================')
 matrix_list.print_values()
-
 
 occurences = matrix_list.all_degres
 # print(occurences)
@@ -220,48 +155,6 @@ for i in range(len(floyd_matrix)):
     calculate_closness_centrality(floyd_matrix, i)
 print('==========================')
 
-
-
-
-
-print('\n=============CV6==========')
-
-
-
-def calculate_cluster_coefficient(a_matrix, vi):
-    cluster_coefficient = 0
-    current_matrix = a_matrix
-    current_row = current_matrix[vi]
-
-    indeces = np.concatenate(np.argwhere(current_row == 1)) 
-    number_of_neighbours = len(indeces)
-    maximum_number_of_edges = number_of_neighbours * (number_of_neighbours - 1) 
-
-    if number_of_neighbours < 2:
-        return 0
-    
-    number_of_edges = 0
-
-    for index, j in enumerate(indeces):
-        vj =  current_matrix[j]
-        for k in indeces[index:]:
-            if vj[k]:
-                number_of_edges += 1
-
-    cluster_coefficient = (2*number_of_edges) / maximum_number_of_edges
-    return cluster_coefficient
-
-def run_calculate_cluster_coefficient(matrix):
-    current_matrix = matrix.matrix
-    csv=""
-    suma = 0
-    for vertex_index, _ in enumerate(current_matrix):
-        tranformed_vertex_index = vertex_index + 1
-        result = calculate_cluster_coefficient(current_matrix, vertex_index)
-        suma += result 
-        csv += f'{tranformed_vertex_index};{result}\n'
-    return (csv, suma)
-
 def calculcate_graph_transitivity(suma, matrix):
     return suma/len(matrix)
 
@@ -271,50 +164,6 @@ def print_lab6_result(csv, transitivity):
     print('=========Graph Transitivity===========')
     print(transitivity)
     print('======================================')
-
-
-def draw_cluster_effect(matrix):
-    """
-        Určete shlukovací efekt. Ten se určí jako průměrný CC pro vrcholy daného stupně. 
-        Distribuci tohoto průměrného CC (osa Y) vůči stupni (osa X).
-    """    
-
-    dic = {}
-
-    for index,row in enumerate(matrix):
-        degree = len(row[row == 1])
-        if degree in dic:
-            value = dic[degree]
-            value.append((index, calculate_cluster_coefficient(matrix, index)))
-        else:
-            dic[degree] = [(index, calculate_cluster_coefficient(matrix, index))]
-
-
-
-    dictionary_items = dic.items()
-    sorted_items = sorted(dictionary_items)
-    X = [t[0] for t in sorted_items]
-
-    Y = []
-    for t in sorted_items:
-        index, c = zip(*t[1])
-        Y.append(sum(c)/len(t[1]))
-
-    plt.figure(figsize=(10,8))
-    plt.plot(X, Y, 'ro')
-
-
-    # move =0
-    # for t in sorted_items:
-    #     degree = t[0]
-    #     index, c = zip(*t[1])
-    #     CC = sum(c)
-    #     plt.annotate(f'x', xy=(degree,CC-0.01))
-    plt.grid()
-    plt.show()
-
-
-
 
 
 print('==========================')
@@ -327,6 +176,8 @@ print_lab6_result(csv, transitivity)
 with open('cluster_coefficient.csv', 'w') as f:
     f.write(csv)
 print('==========================')
+
+
 
 
 
