@@ -5,6 +5,10 @@ def average_distance(floyd_matrix, verbose=False):
         for j in range(i, n):
             sum += floyd_matrix[i][j]
     result = (2/(n*(n-1)))*sum
+
+    o =  f'Prumerna vzdalenost - {result}'
+
+    output = f'{o}\n'
     if verbose:
-        print(f'Prumerna vzdalenost - {result}')
-    return result
+        print(o)
+    return (output, result)

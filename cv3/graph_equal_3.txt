@@ -1,0 +1,615 @@
+
+========================
+Degree Distribution
+========================
+ID 1 - Degree 0
+ID 2 - Degree 0
+ID 3 - Degree 0
+ID 4 - Degree 0
+ID 5 - Degree 0
+ID 6 - Degree 0
+ID 7 - Degree 0
+ID 8 - Degree 0
+ID 9 - Degree 0
+ID 10 - Degree 0
+ID 11 - Degree 0
+ID 12 - Degree 0
+ID 13 - Degree 0
+ID 14 - Degree 0
+ID 15 - Degree 0
+ID 16 - Degree 0
+ID 17 - Degree 0
+ID 18 - Degree 0
+ID 19 - Degree 0
+ID 20 - Degree 0
+ID 21 - Degree 0
+ID 22 - Degree 0
+ID 23 - Degree 0
+ID 24 - Degree 0
+ID 25 - Degree 0
+ID 26 - Degree 0
+ID 27 - Degree 0
+ID 28 - Degree 0
+ID 29 - Degree 0
+ID 30 - Degree 0
+ID 31 - Degree 0
+ID 32 - Degree 0
+ID 33 - Degree 0
+ID 34 - Degree 0
+ID 35 - Degree 0
+ID 36 - Degree 0
+ID 37 - Degree 0
+ID 38 - Degree 0
+ID 39 - Degree 0
+ID 40 - Degree 0
+ID 41 - Degree 0
+ID 42 - Degree 0
+ID 43 - Degree 0
+ID 44 - Degree 0
+ID 45 - Degree 0
+ID 46 - Degree 0
+ID 47 - Degree 0
+ID 48 - Degree 0
+ID 49 - Degree 0
+ID 50 - Degree 0
+ID 51 - Degree 0
+ID 52 - Degree 0
+ID 53 - Degree 0
+ID 54 - Degree 0
+ID 55 - Degree 0
+ID 56 - Degree 0
+ID 57 - Degree 0
+ID 58 - Degree 0
+ID 59 - Degree 0
+ID 60 - Degree 0
+ID 61 - Degree 0
+ID 62 - Degree 0
+ID 63 - Degree 0
+ID 64 - Degree 0
+ID 65 - Degree 0
+ID 66 - Degree 0
+ID 67 - Degree 0
+ID 68 - Degree 0
+ID 69 - Degree 0
+ID 70 - Degree 0
+ID 71 - Degree 0
+ID 72 - Degree 0
+ID 73 - Degree 0
+ID 74 - Degree 0
+ID 75 - Degree 0
+ID 76 - Degree 0
+ID 77 - Degree 0
+ID 78 - Degree 0
+ID 79 - Degree 0
+ID 80 - Degree 0
+ID 81 - Degree 0
+ID 82 - Degree 0
+ID 83 - Degree 0
+ID 84 - Degree 0
+ID 85 - Degree 0
+ID 86 - Degree 0
+ID 87 - Degree 0
+ID 88 - Degree 0
+ID 89 - Degree 0
+ID 90 - Degree 0
+ID 91 - Degree 0
+ID 92 - Degree 0
+ID 93 - Degree 0
+ID 94 - Degree 0
+ID 95 - Degree 0
+ID 96 - Degree 0
+ID 97 - Degree 0
+ID 98 - Degree 0
+ID 99 - Degree 0
+ID 100 - Degree 0
+ID 101 - Degree 0
+ID 102 - Degree 0
+ID 103 - Degree 0
+ID 104 - Degree 0
+ID 105 - Degree 0
+ID 106 - Degree 0
+ID 107 - Degree 0
+ID 108 - Degree 0
+ID 109 - Degree 0
+ID 110 - Degree 0
+ID 111 - Degree 0
+ID 112 - Degree 0
+ID 113 - Degree 0
+ID 114 - Degree 0
+ID 115 - Degree 0
+ID 116 - Degree 0
+ID 117 - Degree 0
+ID 118 - Degree 0
+ID 119 - Degree 0
+ID 120 - Degree 0
+ID 121 - Degree 0
+ID 122 - Degree 0
+ID 123 - Degree 0
+ID 124 - Degree 0
+ID 125 - Degree 0
+ID 126 - Degree 0
+ID 127 - Degree 0
+ID 128 - Degree 0
+ID 129 - Degree 0
+ID 130 - Degree 0
+ID 131 - Degree 0
+ID 132 - Degree 0
+ID 133 - Degree 0
+ID 134 - Degree 0
+ID 135 - Degree 0
+ID 136 - Degree 0
+ID 137 - Degree 0
+ID 138 - Degree 0
+ID 139 - Degree 0
+ID 140 - Degree 0
+ID 141 - Degree 0
+ID 142 - Degree 0
+ID 143 - Degree 0
+ID 144 - Degree 0
+ID 145 - Degree 0
+ID 146 - Degree 0
+ID 147 - Degree 0
+ID 148 - Degree 0
+ID 149 - Degree 0
+ID 150 - Degree 0
+ID 151 - Degree 0
+ID 152 - Degree 0
+ID 153 - Degree 0
+ID 154 - Degree 0
+ID 155 - Degree 0
+ID 156 - Degree 0
+ID 157 - Degree 0
+ID 158 - Degree 0
+ID 159 - Degree 0
+ID 160 - Degree 0
+ID 161 - Degree 0
+ID 162 - Degree 0
+ID 163 - Degree 0
+ID 164 - Degree 0
+ID 165 - Degree 0
+ID 166 - Degree 0
+ID 167 - Degree 0
+ID 168 - Degree 0
+ID 169 - Degree 0
+ID 170 - Degree 0
+ID 171 - Degree 0
+ID 172 - Degree 0
+ID 173 - Degree 0
+ID 174 - Degree 0
+ID 175 - Degree 0
+ID 176 - Degree 0
+ID 177 - Degree 0
+ID 178 - Degree 0
+ID 179 - Degree 0
+ID 180 - Degree 0
+ID 181 - Degree 0
+ID 182 - Degree 0
+ID 183 - Degree 0
+ID 184 - Degree 0
+ID 185 - Degree 0
+ID 186 - Degree 0
+ID 187 - Degree 0
+ID 188 - Degree 0
+ID 189 - Degree 0
+ID 190 - Degree 0
+ID 191 - Degree 0
+ID 192 - Degree 0
+ID 193 - Degree 0
+ID 194 - Degree 0
+ID 195 - Degree 0
+ID 196 - Degree 0
+ID 197 - Degree 0
+ID 198 - Degree 0
+ID 199 - Degree 0
+ID 200 - Degree 0
+Maximalni stupen - 0
+Minimalni stupen - 0
+Prumerny stupen - 0.0
+
+Prumerna vzdalenost - inf
+
+Prumer grafu - inf
+
+ID 1 - clossnes centraility 0.0
+ID 2 - clossnes centraility 0.0
+ID 3 - clossnes centraility 0.0
+ID 4 - clossnes centraility 0.0
+ID 5 - clossnes centraility 0.0
+ID 6 - clossnes centraility 0.0
+ID 7 - clossnes centraility 0.0
+ID 8 - clossnes centraility 0.0
+ID 9 - clossnes centraility 0.0
+ID 10 - clossnes centraility 0.0
+ID 11 - clossnes centraility 0.0
+ID 12 - clossnes centraility 0.0
+ID 13 - clossnes centraility 0.0
+ID 14 - clossnes centraility 0.0
+ID 15 - clossnes centraility 0.0
+ID 16 - clossnes centraility 0.0
+ID 17 - clossnes centraility 0.0
+ID 18 - clossnes centraility 0.0
+ID 19 - clossnes centraility 0.0
+ID 20 - clossnes centraility 0.0
+ID 21 - clossnes centraility 0.0
+ID 22 - clossnes centraility 0.0
+ID 23 - clossnes centraility 0.0
+ID 24 - clossnes centraility 0.0
+ID 25 - clossnes centraility 0.0
+ID 26 - clossnes centraility 0.0
+ID 27 - clossnes centraility 0.0
+ID 28 - clossnes centraility 0.0
+ID 29 - clossnes centraility 0.0
+ID 30 - clossnes centraility 0.0
+ID 31 - clossnes centraility 0.0
+ID 32 - clossnes centraility 0.0
+ID 33 - clossnes centraility 0.0
+ID 34 - clossnes centraility 0.0
+ID 35 - clossnes centraility 0.0
+ID 36 - clossnes centraility 0.0
+ID 37 - clossnes centraility 0.0
+ID 38 - clossnes centraility 0.0
+ID 39 - clossnes centraility 0.0
+ID 40 - clossnes centraility 0.0
+ID 41 - clossnes centraility 0.0
+ID 42 - clossnes centraility 0.0
+ID 43 - clossnes centraility 0.0
+ID 44 - clossnes centraility 0.0
+ID 45 - clossnes centraility 0.0
+ID 46 - clossnes centraility 0.0
+ID 47 - clossnes centraility 0.0
+ID 48 - clossnes centraility 0.0
+ID 49 - clossnes centraility 0.0
+ID 50 - clossnes centraility 0.0
+ID 51 - clossnes centraility 0.0
+ID 52 - clossnes centraility 0.0
+ID 53 - clossnes centraility 0.0
+ID 54 - clossnes centraility 0.0
+ID 55 - clossnes centraility 0.0
+ID 56 - clossnes centraility 0.0
+ID 57 - clossnes centraility 0.0
+ID 58 - clossnes centraility 0.0
+ID 59 - clossnes centraility 0.0
+ID 60 - clossnes centraility 0.0
+ID 61 - clossnes centraility 0.0
+ID 62 - clossnes centraility 0.0
+ID 63 - clossnes centraility 0.0
+ID 64 - clossnes centraility 0.0
+ID 65 - clossnes centraility 0.0
+ID 66 - clossnes centraility 0.0
+ID 67 - clossnes centraility 0.0
+ID 68 - clossnes centraility 0.0
+ID 69 - clossnes centraility 0.0
+ID 70 - clossnes centraility 0.0
+ID 71 - clossnes centraility 0.0
+ID 72 - clossnes centraility 0.0
+ID 73 - clossnes centraility 0.0
+ID 74 - clossnes centraility 0.0
+ID 75 - clossnes centraility 0.0
+ID 76 - clossnes centraility 0.0
+ID 77 - clossnes centraility 0.0
+ID 78 - clossnes centraility 0.0
+ID 79 - clossnes centraility 0.0
+ID 80 - clossnes centraility 0.0
+ID 81 - clossnes centraility 0.0
+ID 82 - clossnes centraility 0.0
+ID 83 - clossnes centraility 0.0
+ID 84 - clossnes centraility 0.0
+ID 85 - clossnes centraility 0.0
+ID 86 - clossnes centraility 0.0
+ID 87 - clossnes centraility 0.0
+ID 88 - clossnes centraility 0.0
+ID 89 - clossnes centraility 0.0
+ID 90 - clossnes centraility 0.0
+ID 91 - clossnes centraility 0.0
+ID 92 - clossnes centraility 0.0
+ID 93 - clossnes centraility 0.0
+ID 94 - clossnes centraility 0.0
+ID 95 - clossnes centraility 0.0
+ID 96 - clossnes centraility 0.0
+ID 97 - clossnes centraility 0.0
+ID 98 - clossnes centraility 0.0
+ID 99 - clossnes centraility 0.0
+ID 100 - clossnes centraility 0.0
+ID 101 - clossnes centraility 0.0
+ID 102 - clossnes centraility 0.0
+ID 103 - clossnes centraility 0.0
+ID 104 - clossnes centraility 0.0
+ID 105 - clossnes centraility 0.0
+ID 106 - clossnes centraility 0.0
+ID 107 - clossnes centraility 0.0
+ID 108 - clossnes centraility 0.0
+ID 109 - clossnes centraility 0.0
+ID 110 - clossnes centraility 0.0
+ID 111 - clossnes centraility 0.0
+ID 112 - clossnes centraility 0.0
+ID 113 - clossnes centraility 0.0
+ID 114 - clossnes centraility 0.0
+ID 115 - clossnes centraility 0.0
+ID 116 - clossnes centraility 0.0
+ID 117 - clossnes centraility 0.0
+ID 118 - clossnes centraility 0.0
+ID 119 - clossnes centraility 0.0
+ID 120 - clossnes centraility 0.0
+ID 121 - clossnes centraility 0.0
+ID 122 - clossnes centraility 0.0
+ID 123 - clossnes centraility 0.0
+ID 124 - clossnes centraility 0.0
+ID 125 - clossnes centraility 0.0
+ID 126 - clossnes centraility 0.0
+ID 127 - clossnes centraility 0.0
+ID 128 - clossnes centraility 0.0
+ID 129 - clossnes centraility 0.0
+ID 130 - clossnes centraility 0.0
+ID 131 - clossnes centraility 0.0
+ID 132 - clossnes centraility 0.0
+ID 133 - clossnes centraility 0.0
+ID 134 - clossnes centraility 0.0
+ID 135 - clossnes centraility 0.0
+ID 136 - clossnes centraility 0.0
+ID 137 - clossnes centraility 0.0
+ID 138 - clossnes centraility 0.0
+ID 139 - clossnes centraility 0.0
+ID 140 - clossnes centraility 0.0
+ID 141 - clossnes centraility 0.0
+ID 142 - clossnes centraility 0.0
+ID 143 - clossnes centraility 0.0
+ID 144 - clossnes centraility 0.0
+ID 145 - clossnes centraility 0.0
+ID 146 - clossnes centraility 0.0
+ID 147 - clossnes centraility 0.0
+ID 148 - clossnes centraility 0.0
+ID 149 - clossnes centraility 0.0
+ID 150 - clossnes centraility 0.0
+ID 151 - clossnes centraility 0.0
+ID 152 - clossnes centraility 0.0
+ID 153 - clossnes centraility 0.0
+ID 154 - clossnes centraility 0.0
+ID 155 - clossnes centraility 0.0
+ID 156 - clossnes centraility 0.0
+ID 157 - clossnes centraility 0.0
+ID 158 - clossnes centraility 0.0
+ID 159 - clossnes centraility 0.0
+ID 160 - clossnes centraility 0.0
+ID 161 - clossnes centraility 0.0
+ID 162 - clossnes centraility 0.0
+ID 163 - clossnes centraility 0.0
+ID 164 - clossnes centraility 0.0
+ID 165 - clossnes centraility 0.0
+ID 166 - clossnes centraility 0.0
+ID 167 - clossnes centraility 0.0
+ID 168 - clossnes centraility 0.0
+ID 169 - clossnes centraility 0.0
+ID 170 - clossnes centraility 0.0
+ID 171 - clossnes centraility 0.0
+ID 172 - clossnes centraility 0.0
+ID 173 - clossnes centraility 0.0
+ID 174 - clossnes centraility 0.0
+ID 175 - clossnes centraility 0.0
+ID 176 - clossnes centraility 0.0
+ID 177 - clossnes centraility 0.0
+ID 178 - clossnes centraility 0.0
+ID 179 - clossnes centraility 0.0
+ID 180 - clossnes centraility 0.0
+ID 181 - clossnes centraility 0.0
+ID 182 - clossnes centraility 0.0
+ID 183 - clossnes centraility 0.0
+ID 184 - clossnes centraility 0.0
+ID 185 - clossnes centraility 0.0
+ID 186 - clossnes centraility 0.0
+ID 187 - clossnes centraility 0.0
+ID 188 - clossnes centraility 0.0
+ID 189 - clossnes centraility 0.0
+ID 190 - clossnes centraility 0.0
+ID 191 - clossnes centraility 0.0
+ID 192 - clossnes centraility 0.0
+ID 193 - clossnes centraility 0.0
+ID 194 - clossnes centraility 0.0
+ID 195 - clossnes centraility 0.0
+ID 196 - clossnes centraility 0.0
+ID 197 - clossnes centraility 0.0
+ID 198 - clossnes centraility 0.0
+ID 199 - clossnes centraility 0.0
+ID 200 - clossnes centraility 0.0
+
+Cluster coefficient - 
+1;0
+2;0
+3;0
+4;0
+5;0
+6;0
+7;0
+8;0
+9;0
+10;0
+11;0
+12;0
+13;0
+14;0
+15;0
+16;0
+17;0
+18;0
+19;0
+20;0
+21;0
+22;0
+23;0
+24;0
+25;0
+26;0
+27;0
+28;0
+29;0
+30;0
+31;0
+32;0
+33;0
+34;0
+35;0
+36;0
+37;0
+38;0
+39;0
+40;0
+41;0
+42;0
+43;0
+44;0
+45;0
+46;0
+47;0
+48;0
+49;0
+50;0
+51;0
+52;0
+53;0
+54;0
+55;0
+56;0
+57;0
+58;0
+59;0
+60;0
+61;0
+62;0
+63;0
+64;0
+65;0
+66;0
+67;0
+68;0
+69;0
+70;0
+71;0
+72;0
+73;0
+74;0
+75;0
+76;0
+77;0
+78;0
+79;0
+80;0
+81;0
+82;0
+83;0
+84;0
+85;0
+86;0
+87;0
+88;0
+89;0
+90;0
+91;0
+92;0
+93;0
+94;0
+95;0
+96;0
+97;0
+98;0
+99;0
+100;0
+101;0
+102;0
+103;0
+104;0
+105;0
+106;0
+107;0
+108;0
+109;0
+110;0
+111;0
+112;0
+113;0
+114;0
+115;0
+116;0
+117;0
+118;0
+119;0
+120;0
+121;0
+122;0
+123;0
+124;0
+125;0
+126;0
+127;0
+128;0
+129;0
+130;0
+131;0
+132;0
+133;0
+134;0
+135;0
+136;0
+137;0
+138;0
+139;0
+140;0
+141;0
+142;0
+143;0
+144;0
+145;0
+146;0
+147;0
+148;0
+149;0
+150;0
+151;0
+152;0
+153;0
+154;0
+155;0
+156;0
+157;0
+158;0
+159;0
+160;0
+161;0
+162;0
+163;0
+164;0
+165;0
+166;0
+167;0
+168;0
+169;0
+170;0
+171;0
+172;0
+173;0
+174;0
+175;0
+176;0
+177;0
+178;0
+179;0
+180;0
+181;0
+182;0
+183;0
+184;0
+185;0
+186;0
+187;0
+188;0
+189;0
+190;0
+191;0
+192;0
+193;0
+194;0
+195;0
+196;0
+197;0
+198;0
+199;0
+200;0
+Graph transitivity - 0.0

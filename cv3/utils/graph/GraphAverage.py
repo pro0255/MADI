@@ -12,6 +12,9 @@ def graph_average(floyd_matrix, verbose=False):
         else:
             if vertex_excentricity > max_excentricity:
                 max_excentricity = vertex_excentricity 
+
+    o = f'Prumer grafu - {max_excentricity}'
+    output = f'{o}\n'
     if verbose:
-        print(f'Prumer grafu - {max_excentricity}')
-    return max_excentricity
+        print(o)
+    return (output, max_excentricity)
