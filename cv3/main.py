@@ -9,6 +9,10 @@ from utils.graph.AverageDistance import average_distance
 from utils.graph.GraphAverage import graph_average
 from utils.graph.ClusterCoefficient import calculate_cluster_coefficient, run_calculate_cluster_coefficient
 from utils.graph.ClusterEffect import draw_cluster_effect
+from utils.graph.GenerateGraph import generate_random_graph
+from lab.LabRandomGraphModels import LabRandomGraphModels
+from utils.graph.GraphProperties import print_graph_properties
+
 
 data = pd.read_csv("KarateClub.csv", ';', header=None)
 
@@ -26,7 +30,6 @@ class AdjacencyMatrix():
         self.matrix = np.zeros((size, size))
         self.create(data)
     
-
     def create(self, data):
         for row_index in range(data.shape[0]):
             row = data.iloc[row_index, :]
@@ -103,7 +106,6 @@ class AdjacencyList():
             output += f'{vertex}\n'
         return output
 
-
 first_column = data.iloc[:, 0]
 second_column = data.iloc[:, 1]
 
@@ -128,12 +130,8 @@ if show_hist:
     # print(np.max(matrix_list.all_degres))
     bins = list(range(1, np.max(matrix_list.all_degres)+2))
     # print(bins)
-
-
     weights = np.zeros_like(occurences) + 1 / len(occurences)
-
     bins = math.ceil(((np.max(occurences) - np.min(occurences)) + 1)/1)
-
     plt.hist(occurences, bins=bins, alpha=0.5, histtype='bar', ec='black', color="green", density=rc)
     plt.grid(axis='y', alpha=0.75)
     plt.xlabel(f"degrees (# of connections)")
@@ -149,33 +147,38 @@ floyd_matrix = floyd.start(matrix.matrix)
 print(floyd_matrix)
 average_distance(floyd_matrix)
 print('==========================')
-# graph_average(floyd_matrix)
+graph_average(floyd_matrix)
 print('==========================')
 for i in range(len(floyd_matrix)):
     calculate_closness_centrality(floyd_matrix, i)
 print('==========================')
-
 def calculcate_graph_transitivity(suma, matrix):
     return suma/len(matrix)
-
 def print_lab6_result(csv, transitivity):
     print('=========Cluster Coeficient===========')
     print(csv)
     print('=========Graph Transitivity===========')
     print(transitivity)
     print('======================================')
-
-
 print('==========================')
-csv, suma  = run_calculate_cluster_coefficient(matrix) #it is ok
-transitivity = calculcate_graph_transitivity(suma,matrix.matrix)
-draw_cluster_effect(matrix.matrix)
+matrix2 = matrix.matrix
+csv, suma  = run_calculate_cluster_coefficient(matrix2) #it is ok
+transitivity = calculcate_graph_transitivity(suma, matrix2)
+# draw_cluster_effect(matrix.matrix)
 print_lab6_result(csv, transitivity)
 
 
 with open('cluster_coefficient.csv', 'w') as f:
     f.write(csv)
+
+
 print('==========================')
+
+print('==========NEXT===========')
+
+
+g1 = generate_random_graph(10, 0.5)
+print_graph_properties(matrix2)
 
 
 

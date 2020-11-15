@@ -5,7 +5,6 @@ class FloydAlgorithm():
         pass
 
     def start(self, adjacency_matrix):
-        print('Starting FloydAlgorithm')
         number_of_vertecies = len(adjacency_matrix)
 
         floyd_matrix = np.full(adjacency_matrix.shape, np.inf)
