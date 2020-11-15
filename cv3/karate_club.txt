@@ -1,4 +1,5 @@
-
+ 
+ 
 ========================
 Degree Distribution
 ========================
@@ -39,6 +40,19 @@ ID 34 - Degree 17
 Maximalni stupen - 17
 Minimalni stupen - 1
 Prumerny stupen - 4.588235294117647
+
+Relativni cetnost stupnu
+Degree 1 - 0.03%
+Degree 2 - 0.32%
+Degree 3 - 0.18%
+Degree 4 - 0.18%
+Degree 5 - 0.09%
+Degree 6 - 0.06%
+Degree 9 - 0.03%
+Degree 10 - 0.03%
+Degree 12 - 0.03%
+Degree 16 - 0.03%
+Degree 17 - 0.03%
 
 Prumerna vzdalenost - 2.408199643493761
 

@@ -1,210 +1,221 @@
-
+N=200 p=0.00501
+========================
+ 
+ 
 ========================
 Degree Distribution
 ========================
 ID 1 - Degree 0
 ID 2 - Degree 0
-ID 3 - Degree 3
-ID 4 - Degree 0
+ID 3 - Degree 1
+ID 4 - Degree 2
 ID 5 - Degree 1
 ID 6 - Degree 1
-ID 7 - Degree 1
-ID 8 - Degree 1
-ID 9 - Degree 3
+ID 7 - Degree 0
+ID 8 - Degree 0
+ID 9 - Degree 0
 ID 10 - Degree 1
-ID 11 - Degree 4
-ID 12 - Degree 2
-ID 13 - Degree 2
-ID 14 - Degree 2
-ID 15 - Degree 0
-ID 16 - Degree 3
-ID 17 - Degree 0
+ID 11 - Degree 2
+ID 12 - Degree 1
+ID 13 - Degree 0
+ID 14 - Degree 0
+ID 15 - Degree 2
+ID 16 - Degree 1
+ID 17 - Degree 2
 ID 18 - Degree 2
-ID 19 - Degree 0
+ID 19 - Degree 1
 ID 20 - Degree 0
 ID 21 - Degree 0
-ID 22 - Degree 0
-ID 23 - Degree 0
-ID 24 - Degree 1
+ID 22 - Degree 1
+ID 23 - Degree 1
+ID 24 - Degree 2
 ID 25 - Degree 1
-ID 26 - Degree 1
+ID 26 - Degree 2
 ID 27 - Degree 1
 ID 28 - Degree 1
-ID 29 - Degree 1
-ID 30 - Degree 2
-ID 31 - Degree 2
+ID 29 - Degree 0
+ID 30 - Degree 1
+ID 31 - Degree 1
 ID 32 - Degree 1
-ID 33 - Degree 3
-ID 34 - Degree 0
-ID 35 - Degree 1
-ID 36 - Degree 0
-ID 37 - Degree 1
-ID 38 - Degree 1
-ID 39 - Degree 1
-ID 40 - Degree 1
+ID 33 - Degree 0
+ID 34 - Degree 1
+ID 35 - Degree 4
+ID 36 - Degree 1
+ID 37 - Degree 0
+ID 38 - Degree 2
+ID 39 - Degree 0
+ID 40 - Degree 0
 ID 41 - Degree 2
 ID 42 - Degree 1
-ID 43 - Degree 2
+ID 43 - Degree 1
 ID 44 - Degree 0
-ID 45 - Degree 0
+ID 45 - Degree 3
 ID 46 - Degree 0
-ID 47 - Degree 0
+ID 47 - Degree 1
 ID 48 - Degree 1
-ID 49 - Degree 0
-ID 50 - Degree 0
-ID 51 - Degree 2
-ID 52 - Degree 1
-ID 53 - Degree 1
-ID 54 - Degree 1
-ID 55 - Degree 1
+ID 49 - Degree 2
+ID 50 - Degree 1
+ID 51 - Degree 1
+ID 52 - Degree 3
+ID 53 - Degree 0
+ID 54 - Degree 2
+ID 55 - Degree 2
 ID 56 - Degree 0
-ID 57 - Degree 3
-ID 58 - Degree 4
-ID 59 - Degree 0
+ID 57 - Degree 2
+ID 58 - Degree 1
+ID 59 - Degree 1
 ID 60 - Degree 1
-ID 61 - Degree 0
-ID 62 - Degree 0
-ID 63 - Degree 0
-ID 64 - Degree 1
-ID 65 - Degree 1
-ID 66 - Degree 0
+ID 61 - Degree 1
+ID 62 - Degree 3
+ID 63 - Degree 2
+ID 64 - Degree 2
+ID 65 - Degree 2
+ID 66 - Degree 2
 ID 67 - Degree 0
 ID 68 - Degree 0
 ID 69 - Degree 0
 ID 70 - Degree 1
-ID 71 - Degree 2
-ID 72 - Degree 0
-ID 73 - Degree 0
+ID 71 - Degree 1
+ID 72 - Degree 1
+ID 73 - Degree 2
 ID 74 - Degree 1
-ID 75 - Degree 0
+ID 75 - Degree 1
 ID 76 - Degree 0
-ID 77 - Degree 0
+ID 77 - Degree 1
 ID 78 - Degree 2
 ID 79 - Degree 0
-ID 80 - Degree 2
-ID 81 - Degree 0
-ID 82 - Degree 1
-ID 83 - Degree 2
-ID 84 - Degree 3
-ID 85 - Degree 3
-ID 86 - Degree 3
+ID 80 - Degree 1
+ID 81 - Degree 1
+ID 82 - Degree 2
+ID 83 - Degree 0
+ID 84 - Degree 0
+ID 85 - Degree 1
+ID 86 - Degree 2
 ID 87 - Degree 1
 ID 88 - Degree 1
 ID 89 - Degree 1
-ID 90 - Degree 1
-ID 91 - Degree 2
+ID 90 - Degree 3
+ID 91 - Degree 0
 ID 92 - Degree 1
-ID 93 - Degree 0
-ID 94 - Degree 0
-ID 95 - Degree 0
+ID 93 - Degree 1
+ID 94 - Degree 2
+ID 95 - Degree 1
 ID 96 - Degree 1
-ID 97 - Degree 0
-ID 98 - Degree 1
-ID 99 - Degree 1
+ID 97 - Degree 1
+ID 98 - Degree 0
+ID 99 - Degree 0
 ID 100 - Degree 2
-ID 101 - Degree 0
-ID 102 - Degree 2
-ID 103 - Degree 0
+ID 101 - Degree 1
+ID 102 - Degree 3
+ID 103 - Degree 2
 ID 104 - Degree 0
-ID 105 - Degree 1
+ID 105 - Degree 0
 ID 106 - Degree 2
-ID 107 - Degree 0
-ID 108 - Degree 0
+ID 107 - Degree 1
+ID 108 - Degree 2
 ID 109 - Degree 1
-ID 110 - Degree 1
-ID 111 - Degree 0
-ID 112 - Degree 2
-ID 113 - Degree 0
-ID 114 - Degree 1
+ID 110 - Degree 0
+ID 111 - Degree 2
+ID 112 - Degree 1
+ID 113 - Degree 2
+ID 114 - Degree 0
 ID 115 - Degree 0
-ID 116 - Degree 0
-ID 117 - Degree 1
+ID 116 - Degree 2
+ID 117 - Degree 0
 ID 118 - Degree 1
-ID 119 - Degree 2
-ID 120 - Degree 0
-ID 121 - Degree 3
-ID 122 - Degree 1
-ID 123 - Degree 1
-ID 124 - Degree 2
-ID 125 - Degree 1
-ID 126 - Degree 2
-ID 127 - Degree 1
-ID 128 - Degree 1
-ID 129 - Degree 2
-ID 130 - Degree 1
-ID 131 - Degree 1
+ID 119 - Degree 1
+ID 120 - Degree 2
+ID 121 - Degree 2
+ID 122 - Degree 0
+ID 123 - Degree 0
+ID 124 - Degree 1
+ID 125 - Degree 3
+ID 126 - Degree 0
+ID 127 - Degree 0
+ID 128 - Degree 3
+ID 129 - Degree 0
+ID 130 - Degree 0
+ID 131 - Degree 3
 ID 132 - Degree 0
-ID 133 - Degree 0
-ID 134 - Degree 1
-ID 135 - Degree 1
-ID 136 - Degree 1
-ID 137 - Degree 2
-ID 138 - Degree 0
-ID 139 - Degree 1
-ID 140 - Degree 3
-ID 141 - Degree 0
+ID 133 - Degree 1
+ID 134 - Degree 2
+ID 135 - Degree 0
+ID 136 - Degree 0
+ID 137 - Degree 0
+ID 138 - Degree 1
+ID 139 - Degree 0
+ID 140 - Degree 0
+ID 141 - Degree 1
 ID 142 - Degree 0
-ID 143 - Degree 2
+ID 143 - Degree 1
 ID 144 - Degree 1
-ID 145 - Degree 2
-ID 146 - Degree 0
-ID 147 - Degree 0
+ID 145 - Degree 0
+ID 146 - Degree 3
+ID 147 - Degree 1
 ID 148 - Degree 1
 ID 149 - Degree 1
-ID 150 - Degree 2
-ID 151 - Degree 0
+ID 150 - Degree 0
+ID 151 - Degree 2
 ID 152 - Degree 1
-ID 153 - Degree 0
-ID 154 - Degree 2
-ID 155 - Degree 3
+ID 153 - Degree 1
+ID 154 - Degree 0
+ID 155 - Degree 2
 ID 156 - Degree 1
-ID 157 - Degree 1
+ID 157 - Degree 0
 ID 158 - Degree 1
-ID 159 - Degree 0
+ID 159 - Degree 1
 ID 160 - Degree 0
 ID 161 - Degree 0
-ID 162 - Degree 0
-ID 163 - Degree 1
+ID 162 - Degree 1
+ID 163 - Degree 3
 ID 164 - Degree 0
-ID 165 - Degree 3
-ID 166 - Degree 1
-ID 167 - Degree 1
-ID 168 - Degree 1
-ID 169 - Degree 1
-ID 170 - Degree 1
+ID 165 - Degree 1
+ID 166 - Degree 0
+ID 167 - Degree 5
+ID 168 - Degree 2
+ID 169 - Degree 0
+ID 170 - Degree 0
 ID 171 - Degree 1
-ID 172 - Degree 1
+ID 172 - Degree 0
 ID 173 - Degree 1
-ID 174 - Degree 2
-ID 175 - Degree 0
-ID 176 - Degree 0
-ID 177 - Degree 2
+ID 174 - Degree 0
+ID 175 - Degree 1
+ID 176 - Degree 1
+ID 177 - Degree 0
 ID 178 - Degree 1
 ID 179 - Degree 1
-ID 180 - Degree 2
+ID 180 - Degree 1
 ID 181 - Degree 0
-ID 182 - Degree 0
-ID 183 - Degree 1
+ID 182 - Degree 1
+ID 183 - Degree 0
 ID 184 - Degree 1
 ID 185 - Degree 0
-ID 186 - Degree 3
-ID 187 - Degree 2
+ID 186 - Degree 1
+ID 187 - Degree 0
 ID 188 - Degree 1
 ID 189 - Degree 1
 ID 190 - Degree 1
-ID 191 - Degree 2
-ID 192 - Degree 0
-ID 193 - Degree 1
+ID 191 - Degree 0
+ID 192 - Degree 1
+ID 193 - Degree 4
 ID 194 - Degree 2
-ID 195 - Degree 3
+ID 195 - Degree 0
 ID 196 - Degree 0
-ID 197 - Degree 0
-ID 198 - Degree 1
-ID 199 - Degree 2
+ID 197 - Degree 1
+ID 198 - Degree 0
+ID 199 - Degree 1
 ID 200 - Degree 1
-Maximalni stupen - 4
+Maximalni stupen - 5
 Minimalni stupen - 0
 Prumerny stupen - 0.99
+
+Relativni cetnost stupnu
+Degree 0 - 0.34%
+Degree 1 - 0.41%
+Degree 2 - 0.18%
+Degree 3 - 0.05%
+Degree 4 - 0.01%
+Degree 5 - 0.01%
 
 Prumerna vzdalenost - inf
 
@@ -414,98 +425,98 @@ ID 200 - clossnes centraility 0.0
 Cluster coefficient - 
 1;0
 2;0
-3;0.0
-4;0
+3;0
+4;0.0
 5;0
 6;0
 7;0
 8;0
-9;0.0
+9;0
 10;0
 11;0.0
-12;0.0
-13;0.0
-14;0.0
-15;0
-16;0.0
-17;0
+12;0
+13;0
+14;0
+15;0.0
+16;0
+17;0.0
 18;0.0
 19;0
 20;0
 21;0
 22;0
 23;0
-24;0
+24;0.0
 25;0
-26;0
+26;0.0
 27;0
 28;0
 29;0
-30;0.0
-31;0.0
+30;0
+31;0
 32;0
-33;0.0
+33;0
 34;0
-35;0
+35;0.0
 36;0
 37;0
-38;0
+38;0.0
 39;0
 40;0
 41;0.0
 42;0
-43;0.0
+43;0
 44;0
-45;0
+45;0.0
 46;0
 47;0
 48;0
-49;0
+49;0.0
 50;0
-51;0.0
-52;0
+51;0
+52;0.0
 53;0
-54;0
-55;0
+54;0.0
+55;0.0
 56;0
 57;0.0
-58;0.0
+58;0
 59;0
 60;0
 61;0
-62;0
-63;0
-64;0
-65;0
-66;0
+62;0.0
+63;0.0
+64;0.0
+65;0.0
+66;0.0
 67;0
 68;0
 69;0
 70;0
-71;0.0
+71;0
 72;0
-73;0
+73;0.0
 74;0
 75;0
 76;0
 77;0
 78;0.0
 79;0
-80;0.0
+80;0
 81;0
-82;0
-83;0.0
-84;0.0
-85;0.0
+82;0.0
+83;0
+84;0
+85;0
 86;0.0
 87;0
 88;0
 89;0
-90;0
-91;0.0
+90;0.0
+91;0
 92;0
 93;0
-94;0
+94;0.0
 95;0
 96;0
 97;0
@@ -514,58 +525,58 @@ Cluster coefficient -
 100;0.0
 101;0
 102;0.0
-103;0
+103;0.0
 104;0
 105;0
 106;0.0
 107;0
-108;0
+108;0.0
 109;0
 110;0
-111;0
-112;0.0
-113;0
+111;0.0
+112;0
+113;0.0
 114;0
 115;0
-116;0
+116;0.0
 117;0
 118;0
-119;0.0
-120;0
+119;0
+120;0.0
 121;0.0
 122;0
 123;0
-124;0.0
-125;0
-126;0.0
+124;0
+125;0.0
+126;0
 127;0
-128;0
-129;0.0
+128;0.3333333333333333
+129;0
 130;0
-131;0
+131;0.0
 132;0
 133;0
-134;0
+134;0.0
 135;0
 136;0
-137;0.0
+137;0
 138;0
 139;0
-140;0.0
+140;0
 141;0
 142;0
-143;0.0
+143;0
 144;0
-145;0.0
-146;0
+145;0
+146;0.0
 147;0
 148;0
 149;0
-150;0.0
-151;0
+150;0
+151;0.0
 152;0
 153;0
-154;0.0
+154;0
 155;0.0
 156;0
 157;0
@@ -574,42 +585,42 @@ Cluster coefficient -
 160;0
 161;0
 162;0
-163;0
+163;0.0
 164;0
-165;0.0
+165;0
 166;0
-167;0
-168;0
+167;0.1
+168;0.0
 169;0
 170;0
 171;0
 172;0
 173;0
-174;0.0
+174;0
 175;0
 176;0
-177;0.0
+177;0
 178;0
 179;0
-180;0.0
+180;0
 181;0
 182;0
 183;0
 184;0
 185;0
-186;0.0
-187;0.0
+186;0
+187;0
 188;0
 189;0
 190;0
-191;0.0
+191;0
 192;0
-193;0
-194;0.0
-195;0.0
+193;0.0
+194;1.0
+195;0
 196;0
 197;0
 198;0
-199;0.0
+199;0
 200;0
-Graph transitivity - 0.0
+Graph transitivity - 0.007166666666666667

@@ -168,9 +168,11 @@ transitivity = calculcate_graph_transitivity(suma, matrix2)
 print_lab6_result(csv, transitivity)
 
 
-def write_to_file(path, text):
+def write_to_file(path, text, des = ''):
+
+    final = f'{des} \n {text}'
     with open(path, 'w') as f:
-        f.write(text)    
+        f.write(final)    
 
 
 write_to_file('cluster_coefficient.csv', csv)
@@ -181,21 +183,27 @@ write_to_file('cluster_coefficient.csv', csv)
 ###############################################################
 ###############################################################
 print('==========GRAPH OUTPUTS===========')
-g1 = generate_random_graph(200, 0.00501) #degree == 1
-g2 = generate_random_graph(200, 0.1) #degree > 1
-g3 = generate_random_graph(200, 0.000501) #degree < 1
+
+N = 200
+p1 = 0.00501
+p2 = 0.1
+p3 = 0.000501
+
+g1 = generate_random_graph(N, p1) #degree == 1
+g2 = generate_random_graph(N, p2) #degree > 1
+g3 = generate_random_graph(N, p3) #degree < 1
 
 karate_output = print_graph_properties(matrix2) 
 write_to_file('karate_club.txt', karate_output)
 
 output1 = print_graph_properties(g1)
-write_to_file('graph_equal_1.txt', output1)
+write_to_file('graph_equal_1.txt', output1, f'N={N} p={p1}\n========================\n')
 
 output2 = print_graph_properties(g2)
-write_to_file('graph_equal_2.txt', output2)
+write_to_file('graph_equal_2.txt', output2, f'N={N} p={p2}\n========================\n')
 
 output3 = print_graph_properties(g3)
-write_to_file('graph_equal_3.txt', output3)
+write_to_file('graph_equal_3.txt', output3, f'N={N} p={p3}\n========================\n')
 ###############################################################
 ###############################################################
 ###############################################################

@@ -14,6 +14,9 @@ def degree_distribution(matrix, verbose=False):
         de.append(degree)
 
     c = Counter(de)
+
+   
+
     maximal = max(c.keys())
     minimal = min(c.keys())
     average = sum(de)/len(de)
@@ -24,6 +27,14 @@ def degree_distribution(matrix, verbose=False):
     output += f'{maxo}\n'
     output += f'{mino}\n'
     output += f'{avgo}\n'
+
+
+    s = sorted(c.items(), reverse=False)
+    output += '\nRelativni cetnost stupnu\n'
+    for tup in s:
+        d_i = tup[0]
+        rc = tup[1]/sum(c.values())
+        output += f'Degree {d_i} - {round(rc, 2)}%\n'
 
     if verbose:
         print(maxo)

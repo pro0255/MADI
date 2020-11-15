@@ -16,7 +16,6 @@ def print_graph_properties(matrix):
     floyd_matrix = floyd.start(matrix)
 
     degree_output, degree_value = degree_distribution(matrix, verbose)
-
     average_output, average_distance_value = average_distance(floyd_matrix, verbose)
     graph_average_output, graph_average_value = graph_average(floyd_matrix, verbose)
 
