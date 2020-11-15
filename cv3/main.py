@@ -177,8 +177,12 @@ print('==========================')
 print('==========NEXT===========')
 
 
-g1 = generate_random_graph(10, 0.5)
-print_graph_properties(matrix2)
+g1 = generate_random_graph(200, 0.00501) #degree == 1
+# g2 = generate_random_graph(200, 0.1) #degree > 1
+# g3 = generate_random_graph(200, 0.0000501) #degree < 1
+print_graph_properties(g1)
+# print_graph_properties(g2)
+# print_graph_properties(g3)
 
 
 

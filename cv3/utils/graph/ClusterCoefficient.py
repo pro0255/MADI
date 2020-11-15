@@ -5,14 +5,17 @@ def calculate_cluster_coefficient(a_matrix, vi, verbose=True):
     cluster_coefficient = 0
     current_matrix = a_matrix
     current_row = current_matrix[vi]
+    indeces = np.argwhere(current_row == 1).reshape(-1)
 
-    indeces = np.concatenate(np.argwhere(current_row == 1)) 
-    number_of_neighbours = len(indeces)
+    try:
+        number_of_neighbours = len(indeces)
+
+        if number_of_neighbours < 2:
+            return 0
+    except:
+        return 0    
+
     maximum_number_of_edges = number_of_neighbours * (number_of_neighbours - 1) 
-
-    if number_of_neighbours < 2:
-        return 0
-    
     number_of_edges = 0
 
     for index, j in enumerate(indeces):
