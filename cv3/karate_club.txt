@@ -3,10 +3,8 @@
 Komponenta ID 0 je velka 34
 
 Ditrubuce
-Komponent s velikosti 34 je 1
 
 Ditrubuce relativni cetnost
-Komponent s velikosti 34 je 100.0%
 
 Velikost nejvetsi komponenty je 34
 

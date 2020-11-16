@@ -55,20 +55,20 @@ def inspect_graph(matrix, verbose=True):
     if verbose:
         print(number_of_components_output)
 
+
     distribution = defaultdict(int)
     for k,v in components.items():
         component_len_output = f'Komponenta ID {k} je velka {len(v)}'
         components_output += f'{component_len_output}\n'
+        distribution[len(v)] += 1
         if verbose:
             print(component_len_output)
-            distribution[len(v)] += 1
 
     components_output += '\nDitrubuce\n'
-
+    print(distribution)
     for k,v in distribution.items():
         components_distribution_output = f'Komponent s velikosti {k} je {v}'
         components_output += f'{components_distribution_output}\n'
-
         if verbose:
             print(components_distribution_output)
 
