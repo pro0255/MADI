@@ -24,6 +24,7 @@ class GRAPH_PROPERTIES(Enum):
     ADJECENCY_MATRIX = 'adjecency_matrix' ##matice sousednosti
     GRAPH_TRANSITIVITY = 'graph_transitivity' ## ??
     CLOSSNES_CENTRALITY = 'clossnes_centrality' ## ??
+    CLUSTER_COEFFICIENT = 'cluster_coefficient'
 
 
 
@@ -34,8 +35,30 @@ def create_graph_properties_dictionary(matrix):
     floyd = FloydAlgorithm()
     floyd_matrix = floyd.start(matrix)
     properties = {}
+    properties[GRAPH_PROPERTIES.ADJECENCY_MATRIX] = matrix
     properties[GRAPH_PROPERTIES.FLOYD_MATRIX] = floyd_matrix
     properties[GRAPH_PROPERTIES.GRAPH_AVERAGE] = graph_average(floyd_matrix)[1]
+    degree_value = degree_distribution(matrix)[1]
+    properties[GRAPH_PROPERTIES.MAX_DEGREE] = degree_value[0]
+    properties[GRAPH_PROPERTIES.MIN_DEGREE] = degree_value[1]
+    properties[GRAPH_PROPERTIES.AVG_DEGREE] = degree_value[2]
+    properties[GRAPH_PROPERTIES.DEGREE_DISTRIBUTION] = degree_value[3]
+    properties[GRAPH_PROPERTIES.AVERAGE_DISTANCE] = average_distance(floyd_matrix)[1]
+
+    closness_centrality_array = []
+    for i in range(len(floyd_matrix)):
+        calculate_closness_centrality_output, calculate_closness_centrality_value = calculate_closness_centrality(floyd_matrix, i, verbose)
+        closness_centrality_array.append(calculate_closness_centrality_value)
+
+    properties[GRAPH_PROPERTIES.CLOSSNES_CENTRALITY] = closness_centrality_array
+
+    cluster_coefficient_array = []
+    for i in range(len(matrix)):
+        value = calculate_cluster_coefficient(matrix, i, verbose)
+        cluster_coefficient_array.append(value)
+
+    properties[GRAPH_PROPERTIES.CLUSTER_COEFFICIENT] = cluster_coefficient_array
+    properties[GRAPH_PROPERTIES.GRAPH_TRANSITIVITY] = sum(cluster_coefficient_array)/len(matrix)
 
     return properties
 
@@ -57,6 +80,7 @@ def print_graph_properties(matrix):
     for i in range(len(floyd_matrix)):
         calculate_closness_centrality_output, calculate_closness_centrality_value = calculate_closness_centrality(floyd_matrix, i, verbose)
         calculate_closness_centrality_sum_output += f'{calculate_closness_centrality_output}'
+
 
     cluster_coefficient_output, suma  = run_calculate_cluster_coefficient(matrix, verbose) #it is ok
 

@@ -1,223 +1,224 @@
 N=200 p=0.00501
 ========================
  
- Prumer pres jednotlive komponenty souvislosti je 0.801980198019802
+ Prumer pres jednotlive komponenty souvislosti je 0.7326732673267327
 
 Cely graf
 ==============================================================
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 1
-ID 2 - Degree 2
-ID 3 - Degree 1
-ID 4 - Degree 1
-ID 5 - Degree 0
-ID 6 - Degree 1
-ID 7 - Degree 1
-ID 8 - Degree 1
-ID 9 - Degree 1
-ID 10 - Degree 1
+ID 1 - Degree 2
+ID 2 - Degree 0
+ID 3 - Degree 2
+ID 4 - Degree 3
+ID 5 - Degree 2
+ID 6 - Degree 2
+ID 7 - Degree 0
+ID 8 - Degree 0
+ID 9 - Degree 2
+ID 10 - Degree 0
 ID 11 - Degree 1
-ID 12 - Degree 1
-ID 13 - Degree 1
-ID 14 - Degree 1
+ID 12 - Degree 0
+ID 13 - Degree 3
+ID 14 - Degree 2
 ID 15 - Degree 2
-ID 16 - Degree 1
-ID 17 - Degree 1
+ID 16 - Degree 0
+ID 17 - Degree 0
 ID 18 - Degree 1
-ID 19 - Degree 0
-ID 20 - Degree 1
+ID 19 - Degree 1
+ID 20 - Degree 2
 ID 21 - Degree 1
 ID 22 - Degree 0
-ID 23 - Degree 1
+ID 23 - Degree 0
 ID 24 - Degree 0
-ID 25 - Degree 2
+ID 25 - Degree 0
 ID 26 - Degree 0
-ID 27 - Degree 2
-ID 28 - Degree 0
-ID 29 - Degree 0
-ID 30 - Degree 3
-ID 31 - Degree 2
-ID 32 - Degree 1
-ID 33 - Degree 0
-ID 34 - Degree 0
-ID 35 - Degree 0
-ID 36 - Degree 2
+ID 27 - Degree 1
+ID 28 - Degree 1
+ID 29 - Degree 1
+ID 30 - Degree 1
+ID 31 - Degree 0
+ID 32 - Degree 3
+ID 33 - Degree 3
+ID 34 - Degree 2
+ID 35 - Degree 1
+ID 36 - Degree 1
 ID 37 - Degree 1
-ID 38 - Degree 0
-ID 39 - Degree 0
-ID 40 - Degree 0
+ID 38 - Degree 1
+ID 39 - Degree 1
+ID 40 - Degree 1
 ID 41 - Degree 1
-ID 42 - Degree 1
-ID 43 - Degree 0
-ID 44 - Degree 1
+ID 42 - Degree 2
+ID 43 - Degree 3
+ID 44 - Degree 0
 ID 45 - Degree 2
-ID 46 - Degree 1
-ID 47 - Degree 0
-ID 48 - Degree 1
-ID 49 - Degree 0
-ID 50 - Degree 0
+ID 46 - Degree 2
+ID 47 - Degree 1
+ID 48 - Degree 0
+ID 49 - Degree 2
+ID 50 - Degree 1
 ID 51 - Degree 1
 ID 52 - Degree 0
 ID 53 - Degree 0
-ID 54 - Degree 1
-ID 55 - Degree 2
-ID 56 - Degree 2
-ID 57 - Degree 2
-ID 58 - Degree 0
-ID 59 - Degree 1
+ID 54 - Degree 4
+ID 55 - Degree 0
+ID 56 - Degree 1
+ID 57 - Degree 0
+ID 58 - Degree 1
+ID 59 - Degree 0
 ID 60 - Degree 0
 ID 61 - Degree 2
 ID 62 - Degree 1
-ID 63 - Degree 1
-ID 64 - Degree 2
-ID 65 - Degree 1
+ID 63 - Degree 3
+ID 64 - Degree 1
+ID 65 - Degree 2
 ID 66 - Degree 1
-ID 67 - Degree 2
-ID 68 - Degree 0
+ID 67 - Degree 1
+ID 68 - Degree 1
 ID 69 - Degree 1
-ID 70 - Degree 2
+ID 70 - Degree 0
 ID 71 - Degree 0
 ID 72 - Degree 1
-ID 73 - Degree 0
+ID 73 - Degree 1
 ID 74 - Degree 0
 ID 75 - Degree 1
 ID 76 - Degree 2
 ID 77 - Degree 2
 ID 78 - Degree 0
-ID 79 - Degree 2
-ID 80 - Degree 1
+ID 79 - Degree 1
+ID 80 - Degree 0
 ID 81 - Degree 0
 ID 82 - Degree 0
-ID 83 - Degree 3
-ID 84 - Degree 1
-ID 85 - Degree 3
+ID 83 - Degree 0
+ID 84 - Degree 0
+ID 85 - Degree 0
 ID 86 - Degree 0
-ID 87 - Degree 1
-ID 88 - Degree 0
-ID 89 - Degree 1
-ID 90 - Degree 0
-ID 91 - Degree 3
+ID 87 - Degree 0
+ID 88 - Degree 2
+ID 89 - Degree 2
+ID 90 - Degree 2
+ID 91 - Degree 1
 ID 92 - Degree 0
-ID 93 - Degree 1
-ID 94 - Degree 2
+ID 93 - Degree 0
+ID 94 - Degree 5
 ID 95 - Degree 0
-ID 96 - Degree 1
-ID 97 - Degree 0
-ID 98 - Degree 1
-ID 99 - Degree 2
+ID 96 - Degree 2
+ID 97 - Degree 1
+ID 98 - Degree 2
+ID 99 - Degree 1
 ID 100 - Degree 2
-ID 101 - Degree 4
+ID 101 - Degree 1
 ID 102 - Degree 2
-ID 103 - Degree 0
-ID 104 - Degree 0
-ID 105 - Degree 2
+ID 103 - Degree 2
+ID 104 - Degree 3
+ID 105 - Degree 0
 ID 106 - Degree 1
-ID 107 - Degree 2
+ID 107 - Degree 1
 ID 108 - Degree 1
 ID 109 - Degree 2
-ID 110 - Degree 3
-ID 111 - Degree 0
-ID 112 - Degree 3
-ID 113 - Degree 1
+ID 110 - Degree 0
+ID 111 - Degree 1
+ID 112 - Degree 1
+ID 113 - Degree 0
 ID 114 - Degree 0
-ID 115 - Degree 0
-ID 116 - Degree 0
-ID 117 - Degree 1
-ID 118 - Degree 0
+ID 115 - Degree 1
+ID 116 - Degree 1
+ID 117 - Degree 0
+ID 118 - Degree 1
 ID 119 - Degree 1
 ID 120 - Degree 0
-ID 121 - Degree 1
+ID 121 - Degree 0
 ID 122 - Degree 0
-ID 123 - Degree 1
+ID 123 - Degree 2
 ID 124 - Degree 1
-ID 125 - Degree 0
-ID 126 - Degree 3
+ID 125 - Degree 1
+ID 126 - Degree 2
 ID 127 - Degree 2
-ID 128 - Degree 1
-ID 129 - Degree 2
-ID 130 - Degree 0
-ID 131 - Degree 1
-ID 132 - Degree 1
-ID 133 - Degree 1
-ID 134 - Degree 0
+ID 128 - Degree 4
+ID 129 - Degree 1
+ID 130 - Degree 1
+ID 131 - Degree 3
+ID 132 - Degree 0
+ID 133 - Degree 0
+ID 134 - Degree 1
 ID 135 - Degree 2
 ID 136 - Degree 2
-ID 137 - Degree 0
-ID 138 - Degree 0
-ID 139 - Degree 3
-ID 140 - Degree 1
-ID 141 - Degree 2
-ID 142 - Degree 0
+ID 137 - Degree 1
+ID 138 - Degree 1
+ID 139 - Degree 1
+ID 140 - Degree 0
+ID 141 - Degree 0
+ID 142 - Degree 2
 ID 143 - Degree 1
 ID 144 - Degree 1
 ID 145 - Degree 0
-ID 146 - Degree 1
-ID 147 - Degree 1
-ID 148 - Degree 0
-ID 149 - Degree 0
+ID 146 - Degree 0
+ID 147 - Degree 0
+ID 148 - Degree 1
+ID 149 - Degree 1
 ID 150 - Degree 2
-ID 151 - Degree 2
-ID 152 - Degree 0
-ID 153 - Degree 0
-ID 154 - Degree 1
-ID 155 - Degree 0
-ID 156 - Degree 0
-ID 157 - Degree 2
+ID 151 - Degree 0
+ID 152 - Degree 1
+ID 153 - Degree 1
+ID 154 - Degree 0
+ID 155 - Degree 1
+ID 156 - Degree 1
+ID 157 - Degree 0
 ID 158 - Degree 2
 ID 159 - Degree 1
-ID 160 - Degree 1
+ID 160 - Degree 0
 ID 161 - Degree 0
-ID 162 - Degree 1
-ID 163 - Degree 2
-ID 164 - Degree 1
+ID 162 - Degree 0
+ID 163 - Degree 1
+ID 164 - Degree 0
 ID 165 - Degree 0
-ID 166 - Degree 1
-ID 167 - Degree 1
+ID 166 - Degree 2
+ID 167 - Degree 0
 ID 168 - Degree 1
-ID 169 - Degree 2
-ID 170 - Degree 1
-ID 171 - Degree 3
-ID 172 - Degree 1
-ID 173 - Degree 0
-ID 174 - Degree 0
+ID 169 - Degree 1
+ID 170 - Degree 2
+ID 171 - Degree 2
+ID 172 - Degree 0
+ID 173 - Degree 1
+ID 174 - Degree 1
 ID 175 - Degree 1
-ID 176 - Degree 0
-ID 177 - Degree 0
+ID 176 - Degree 2
+ID 177 - Degree 2
 ID 178 - Degree 2
 ID 179 - Degree 1
-ID 180 - Degree 1
-ID 181 - Degree 2
-ID 182 - Degree 3
-ID 183 - Degree 1
-ID 184 - Degree 2
+ID 180 - Degree 0
+ID 181 - Degree 0
+ID 182 - Degree 1
+ID 183 - Degree 0
+ID 184 - Degree 0
 ID 185 - Degree 2
-ID 186 - Degree 1
-ID 187 - Degree 0
-ID 188 - Degree 2
-ID 189 - Degree 0
-ID 190 - Degree 0
-ID 191 - Degree 2
+ID 186 - Degree 2
+ID 187 - Degree 1
+ID 188 - Degree 0
+ID 189 - Degree 1
+ID 190 - Degree 1
+ID 191 - Degree 0
 ID 192 - Degree 1
-ID 193 - Degree 3
-ID 194 - Degree 1
-ID 195 - Degree 0
+ID 193 - Degree 0
+ID 194 - Degree 0
+ID 195 - Degree 3
 ID 196 - Degree 1
 ID 197 - Degree 0
 ID 198 - Degree 0
 ID 199 - Degree 1
-ID 200 - Degree 1
-Maximalni stupen - 4
+ID 200 - Degree 0
+Maximalni stupen - 5
 Minimalni stupen - 0
 Prumerny stupen - 0.99
 
 Relativni cetnost stupnu
-Degree 0 - 0.34%
-Degree 1 - 0.4%
-Degree 2 - 0.2%
-Degree 3 - 0.06%
+Degree 0 - 0.36%
+Degree 1 - 0.37%
+Degree 2 - 0.21%
+Degree 3 - 0.04%
 Degree 4 - 0.01%
+Degree 5 - 0.01%
 
 Prumerna vzdalenost - inf
 
@@ -425,76 +426,76 @@ ID 199 - clossnes centraility 0.0
 ID 200 - clossnes centraility 0.0
 
 Cluster coefficient - 
-1;0
-2;0.0
-3;0
-4;0
-5;0
-6;0
+1;0.0
+2;0
+3;0.0
+4;0.0
+5;0.0
+6;0.0
 7;0
 8;0
-9;0
+9;0.0
 10;0
 11;0
 12;0
-13;0
-14;0
+13;0.0
+14;0.0
 15;0.0
 16;0
 17;0
 18;0
 19;0
-20;0
+20;0.0
 21;0
 22;0
 23;0
 24;0
-25;0.0
+25;0
 26;0
-27;0.0
+27;0
 28;0
 29;0
-30;0.0
-31;0.0
-32;0
-33;0
-34;0
+30;0
+31;0
+32;0.0
+33;0.0
+34;0.0
 35;0
-36;0.0
+36;0
 37;0
 38;0
 39;0
 40;0
 41;0
-42;0
-43;0
+42;0.0
+43;0.0
 44;0
 45;0.0
-46;0
+46;0.0
 47;0
 48;0
-49;0
+49;0.0
 50;0
 51;0
 52;0
 53;0
-54;0
-55;0.0
-56;0.0
-57;0.0
+54;0.0
+55;0
+56;0
+57;0
 58;0
 59;0
 60;0
 61;0.0
 62;0
-63;0
-64;0.0
-65;0
+63;0.0
+64;0
+65;0.0
 66;0
-67;0.0
+67;0
 68;0
 69;0
-70;0.0
+70;0
 71;0
 72;0
 73;0
@@ -503,40 +504,40 @@ Cluster coefficient -
 76;0.0
 77;0.0
 78;0
-79;0.0
+79;0
 80;0
 81;0
 82;0
-83;0.0
+83;0
 84;0
-85;0.0
+85;0
 86;0
 87;0
-88;0
-89;0
-90;0
-91;0.0
+88;0.0
+89;0.0
+90;0.0
+91;0
 92;0
 93;0
 94;0.0
 95;0
-96;0
+96;0.0
 97;0
-98;0
-99;0.0
+98;0.0
+99;0
 100;0.0
-101;0.0
+101;0
 102;0.0
-103;0
-104;0
-105;0.0
+103;0.0
+104;0.0
+105;0
 106;0
-107;0.0
+107;0
 108;0
 109;0.0
-110;0.0
+110;0
 111;0
-112;0.0
+112;0
 113;0
 114;0
 115;0
@@ -547,15 +548,15 @@ Cluster coefficient -
 120;0
 121;0
 122;0
-123;0
+123;0.0
 124;0
 125;0
 126;0.0
 127;0.0
-128;0
-129;0.0
+128;0.0
+129;0
 130;0
-131;0
+131;0.0
 132;0
 133;0
 134;0
@@ -563,10 +564,10 @@ Cluster coefficient -
 136;0.0
 137;0
 138;0
-139;0.0
+139;0
 140;0
-141;0.0
-142;0
+141;0
+142;0.0
 143;0
 144;0
 145;0
@@ -575,51 +576,51 @@ Cluster coefficient -
 148;0
 149;0
 150;0.0
-151;0.0
+151;0
 152;0
 153;0
 154;0
 155;0
 156;0
-157;0.0
+157;0
 158;0.0
 159;0
 160;0
 161;0
 162;0
-163;0.0
+163;0
 164;0
 165;0
-166;0
+166;0.0
 167;0
 168;0
-169;0.0
-170;0
+169;0
+170;0.0
 171;0.0
 172;0
 173;0
 174;0
 175;0
-176;0
-177;0
+176;0.0
+177;0.0
 178;0.0
 179;0
 180;0
-181;0.0
-182;0.0
+181;0
+182;0
 183;0
-184;0.0
+184;0
 185;0.0
-186;0
+186;0.0
 187;0
-188;0.0
+188;0
 189;0
 190;0
-191;0.0
+191;0
 192;0
-193;0.0
+193;0
 194;0
-195;0
+195;0.0
 196;0
 197;0
 198;0
@@ -629,50 +630,50 @@ Graph transitivity - 0.0
 
 ==============================================================
 Pocet komponent souvislosti je 101
-Komponenta ID 0 je velka 19
-Komponenta ID 1 je velka 5
-Komponenta ID 2 je velka 2
-Komponenta ID 3 je velka 2
-Komponenta ID 4 je velka 1
-Komponenta ID 5 je velka 2
-Komponenta ID 6 je velka 7
-Komponenta ID 7 je velka 2
-Komponenta ID 8 je velka 7
-Komponenta ID 9 je velka 2
-Komponenta ID 10 je velka 3
-Komponenta ID 11 je velka 4
-Komponenta ID 12 je velka 6
+Komponenta ID 0 je velka 3
+Komponenta ID 1 je velka 1
+Komponenta ID 2 je velka 21
+Komponenta ID 3 je velka 15
+Komponenta ID 4 je velka 15
+Komponenta ID 5 je velka 1
+Komponenta ID 6 je velka 1
+Komponenta ID 7 je velka 1
+Komponenta ID 8 je velka 4
+Komponenta ID 9 je velka 1
+Komponenta ID 10 je velka 6
+Komponenta ID 11 je velka 1
+Komponenta ID 12 je velka 1
 Komponenta ID 13 je velka 2
 Komponenta ID 14 je velka 2
 Komponenta ID 15 je velka 1
-Komponenta ID 16 je velka 2
+Komponenta ID 16 je velka 1
 Komponenta ID 17 je velka 1
-Komponenta ID 18 je velka 2
+Komponenta ID 18 je velka 1
 Komponenta ID 19 je velka 1
-Komponenta ID 20 je velka 10
-Komponenta ID 21 je velka 1
-Komponenta ID 22 je velka 4
-Komponenta ID 23 je velka 1
-Komponenta ID 24 je velka 1
-Komponenta ID 25 je velka 6
-Komponenta ID 26 je velka 1
-Komponenta ID 27 je velka 1
+Komponenta ID 20 je velka 2
+Komponenta ID 21 je velka 5
+Komponenta ID 22 je velka 1
+Komponenta ID 23 je velka 5
+Komponenta ID 24 je velka 3
+Komponenta ID 25 je velka 2
+Komponenta ID 26 je velka 5
+Komponenta ID 27 je velka 3
 Komponenta ID 28 je velka 1
-Komponenta ID 29 je velka 5
+Komponenta ID 29 je velka 6
 Komponenta ID 30 je velka 1
-Komponenta ID 31 je velka 1
+Komponenta ID 31 je velka 2
 Komponenta ID 32 je velka 1
-Komponenta ID 33 je velka 2
+Komponenta ID 33 je velka 1
 Komponenta ID 34 je velka 1
-Komponenta ID 35 je velka 3
+Komponenta ID 35 je velka 2
 Komponenta ID 36 je velka 1
-Komponenta ID 37 je velka 4
+Komponenta ID 37 je velka 3
 Komponenta ID 38 je velka 1
 Komponenta ID 39 je velka 1
-Komponenta ID 40 je velka 1
+Komponenta ID 40 je velka 2
 Komponenta ID 41 je velka 1
-Komponenta ID 42 je velka 4
-Komponenta ID 43 je velka 1
+Komponenta ID 42 je velka 1
+Komponenta ID 43 je velka 2
 Komponenta ID 44 je velka 1
 Komponenta ID 45 je velka 2
 Komponenta ID 46 je velka 1
@@ -680,20 +681,20 @@ Komponenta ID 47 je velka 1
 Komponenta ID 48 je velka 1
 Komponenta ID 49 je velka 1
 Komponenta ID 50 je velka 1
-Komponenta ID 51 je velka 4
-Komponenta ID 52 je velka 2
+Komponenta ID 51 je velka 1
+Komponenta ID 52 je velka 1
 Komponenta ID 53 je velka 1
 Komponenta ID 54 je velka 1
 Komponenta ID 55 je velka 1
 Komponenta ID 56 je velka 1
 Komponenta ID 57 je velka 1
-Komponenta ID 58 je velka 1
-Komponenta ID 59 je velka 1
-Komponenta ID 60 je velka 1
+Komponenta ID 58 je velka 3
+Komponenta ID 59 je velka 2
+Komponenta ID 60 je velka 3
 Komponenta ID 61 je velka 1
-Komponenta ID 62 je velka 1
-Komponenta ID 63 je velka 2
-Komponenta ID 64 je velka 7
+Komponenta ID 62 je velka 2
+Komponenta ID 63 je velka 1
+Komponenta ID 64 je velka 2
 Komponenta ID 65 je velka 1
 Komponenta ID 66 je velka 1
 Komponenta ID 67 je velka 1
@@ -701,23 +702,23 @@ Komponenta ID 68 je velka 1
 Komponenta ID 69 je velka 1
 Komponenta ID 70 je velka 1
 Komponenta ID 71 je velka 1
-Komponenta ID 72 je velka 2
-Komponenta ID 73 je velka 1
-Komponenta ID 74 je velka 2
+Komponenta ID 72 je velka 1
+Komponenta ID 73 je velka 2
+Komponenta ID 74 je velka 1
 Komponenta ID 75 je velka 1
 Komponenta ID 76 je velka 1
 Komponenta ID 77 je velka 1
 Komponenta ID 78 je velka 1
-Komponenta ID 79 je velka 2
+Komponenta ID 79 je velka 1
 Komponenta ID 80 je velka 1
-Komponenta ID 81 je velka 1
+Komponenta ID 81 je velka 2
 Komponenta ID 82 je velka 1
 Komponenta ID 83 je velka 1
 Komponenta ID 84 je velka 1
 Komponenta ID 85 je velka 1
 Komponenta ID 86 je velka 1
 Komponenta ID 87 je velka 1
-Komponenta ID 88 je velka 2
+Komponenta ID 88 je velka 1
 Komponenta ID 89 je velka 1
 Komponenta ID 90 je velka 1
 Komponenta ID 91 je velka 1
@@ -732,207 +733,60 @@ Komponenta ID 99 je velka 1
 Komponenta ID 100 je velka 1
 
 Ditrubuce
-Komponent s velikosti 19 je 1
-Komponent s velikosti 5 je 2
-Komponent s velikosti 2 je 17
-Komponent s velikosti 1 je 68
-Komponent s velikosti 7 je 3
-Komponent s velikosti 3 je 2
-Komponent s velikosti 4 je 5
+Komponent s velikosti 3 je 6
+Komponent s velikosti 1 je 72
+Komponent s velikosti 21 je 1
+Komponent s velikosti 15 je 2
+Komponent s velikosti 4 je 1
 Komponent s velikosti 6 je 2
-Komponent s velikosti 10 je 1
+Komponent s velikosti 2 je 14
+Komponent s velikosti 5 je 3
 
 Ditrubuce relativni cetnost
-Komponent s velikosti 19 je 0.9900990099009901%
-Komponent s velikosti 5 je 1.9801980198019802%
-Komponent s velikosti 2 je 16.831683168316832%
-Komponent s velikosti 1 je 67.32673267326733%
-Komponent s velikosti 7 je 2.9702970297029703%
-Komponent s velikosti 3 je 1.9801980198019802%
-Komponent s velikosti 4 je 4.9504950495049505%
+Komponent s velikosti 3 je 5.9405940594059405%
+Komponent s velikosti 1 je 71.28712871287128%
+Komponent s velikosti 21 je 0.9900990099009901%
+Komponent s velikosti 15 je 1.9801980198019802%
+Komponent s velikosti 4 je 0.9900990099009901%
 Komponent s velikosti 6 je 1.9801980198019802%
-Komponent s velikosti 10 je 0.9900990099009901%
+Komponent s velikosti 2 je 13.861386138613863%
+Komponent s velikosti 5 je 2.9702970297029703%
 
-Velikost nejvetsi komponenty je 19
+Velikost nejvetsi komponenty je 21
 
 ==============================================================Komponenta ID 0 vlastnosti==============================================================
 
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 1
+ID 1 - Degree 2
 ID 2 - Degree 1
 ID 3 - Degree 1
-ID 4 - Degree 2
-ID 5 - Degree 2
-ID 6 - Degree 2
-ID 7 - Degree 2
-ID 8 - Degree 3
-ID 9 - Degree 3
-ID 10 - Degree 1
-ID 11 - Degree 2
-ID 12 - Degree 4
-ID 13 - Degree 3
-ID 14 - Degree 1
-ID 15 - Degree 1
-ID 16 - Degree 2
-ID 17 - Degree 1
-ID 18 - Degree 1
-ID 19 - Degree 3
-Maximalni stupen - 4
+Maximalni stupen - 2
 Minimalni stupen - 1
-Prumerny stupen - 1.894736842105263
+Prumerny stupen - 1.3333333333333333
 
 Relativni cetnost stupnu
-Degree 1 - 0.42%
-Degree 2 - 0.32%
-Degree 3 - 0.21%
-Degree 4 - 0.05%
+Degree 1 - 0.67%
+Degree 2 - 0.33%
 
-Prumerna vzdalenost - 3.8830409356725144
+Prumerna vzdalenost - 1.3333333333333333
 
-Prumer grafu - 8.0
+Prumer grafu - 2.0
 
-ID 1 - clossnes centraility 0.2878787878787879
-ID 2 - clossnes centraility 0.2345679012345679
-ID 3 - clossnes centraility 0.18811881188118812
-ID 4 - clossnes centraility 0.2261904761904762
-ID 5 - clossnes centraility 0.296875
-ID 6 - clossnes centraility 0.2676056338028169
-ID 7 - clossnes centraility 0.3114754098360656
-ID 8 - clossnes centraility 0.41304347826086957
-ID 9 - clossnes centraility 0.3064516129032258
-ID 10 - clossnes centraility 0.24050632911392406
-ID 11 - clossnes centraility 0.2753623188405797
-ID 12 - clossnes centraility 0.3877551020408163
-ID 13 - clossnes centraility 0.3392857142857143
-ID 14 - clossnes centraility 0.24050632911392406
-ID 15 - clossnes centraility 0.24358974358974358
-ID 16 - clossnes centraility 0.296875
-ID 17 - clossnes centraility 0.2159090909090909
-ID 18 - clossnes centraility 0.2345679012345679
-ID 19 - clossnes centraility 0.3877551020408163
+ID 1 - clossnes centraility 1.5
+ID 2 - clossnes centraility 1.0
+ID 3 - clossnes centraility 1.0
 
 Cluster coefficient - 
-1;0
+1;0.0
 2;0
 3;0
-4;0.0
-5;0.0
-6;0.0
-7;0.0
-8;0.0
-9;0.0
-10;0
-11;0.0
-12;0.0
-13;0.0
-14;0
-15;0
-16;0.0
-17;0
-18;0
-19;0.0
 Graph transitivity - 0.0
 
 ==============================================================
 
 ==============================================================Komponenta ID 1 vlastnosti==============================================================
-
-========================
-Degree Distribution
-========================
-ID 1 - Degree 2
-ID 2 - Degree 1
-ID 3 - Degree 3
-ID 4 - Degree 1
-ID 5 - Degree 1
-Maximalni stupen - 3
-Minimalni stupen - 1
-Prumerny stupen - 1.6
-
-Relativni cetnost stupnu
-Degree 1 - 0.6%
-Degree 2 - 0.2%
-Degree 3 - 0.2%
-
-Prumerna vzdalenost - 1.8
-
-Prumer grafu - 3.0
-
-ID 1 - clossnes centraility 0.8333333333333334
-ID 2 - clossnes centraility 0.5555555555555556
-ID 3 - clossnes centraility 1.0
-ID 4 - clossnes centraility 0.625
-ID 5 - clossnes centraility 0.625
-
-Cluster coefficient - 
-1;0.0
-2;0
-3;0.0
-4;0
-5;0
-Graph transitivity - 0.0
-
-==============================================================
-
-==============================================================Komponenta ID 2 vlastnosti==============================================================
-
-========================
-Degree Distribution
-========================
-ID 1 - Degree 1
-ID 2 - Degree 1
-Maximalni stupen - 1
-Minimalni stupen - 1
-Prumerny stupen - 1.0
-
-Relativni cetnost stupnu
-Degree 1 - 1.0%
-
-Prumerna vzdalenost - 1.0
-
-Prumer grafu - 1.0
-
-ID 1 - clossnes centraility 2.0
-ID 2 - clossnes centraility 2.0
-
-Cluster coefficient - 
-1;0
-2;0
-Graph transitivity - 0.0
-
-==============================================================
-
-==============================================================Komponenta ID 3 vlastnosti==============================================================
-
-========================
-Degree Distribution
-========================
-ID 1 - Degree 1
-ID 2 - Degree 1
-Maximalni stupen - 1
-Minimalni stupen - 1
-Prumerny stupen - 1.0
-
-Relativni cetnost stupnu
-Degree 1 - 1.0%
-
-Prumerna vzdalenost - 1.0
-
-Prumer grafu - 1.0
-
-ID 1 - clossnes centraility 2.0
-ID 2 - clossnes centraility 2.0
-
-Cluster coefficient - 
-1;0
-2;0
-Graph transitivity - 0.0
-
-==============================================================
-
-==============================================================Komponenta ID 4 vlastnosti==============================================================
 
 ========================
 Degree Distribution
@@ -957,30 +811,255 @@ Graph transitivity - 0.0
 
 ==============================================================
 
+==============================================================Komponenta ID 2 vlastnosti==============================================================
+
+========================
+Degree Distribution
+========================
+ID 1 - Degree 2
+ID 2 - Degree 2
+ID 3 - Degree 3
+ID 4 - Degree 1
+ID 5 - Degree 3
+ID 6 - Degree 2
+ID 7 - Degree 1
+ID 8 - Degree 2
+ID 9 - Degree 1
+ID 10 - Degree 2
+ID 11 - Degree 2
+ID 12 - Degree 3
+ID 13 - Degree 2
+ID 14 - Degree 1
+ID 15 - Degree 4
+ID 16 - Degree 1
+ID 17 - Degree 2
+ID 18 - Degree 1
+ID 19 - Degree 1
+ID 20 - Degree 3
+ID 21 - Degree 1
+Maximalni stupen - 4
+Minimalni stupen - 1
+Prumerny stupen - 1.9047619047619047
+
+Relativni cetnost stupnu
+Degree 1 - 0.38%
+Degree 2 - 0.38%
+Degree 3 - 0.19%
+Degree 4 - 0.05%
+
+Prumerna vzdalenost - 4.295238095238096
+
+Prumer grafu - 9.0
+
+ID 1 - clossnes centraility 0.2413793103448276
+ID 2 - clossnes centraility 0.22580645161290322
+ID 3 - clossnes centraility 0.3181818181818182
+ID 4 - clossnes centraility 0.2625
+ID 5 - clossnes centraility 0.3684210526315789
+ID 6 - clossnes centraility 0.25301204819277107
+ID 7 - clossnes centraility 0.19811320754716982
+ID 8 - clossnes centraility 0.21428571428571427
+ID 9 - clossnes centraility 0.20588235294117646
+ID 10 - clossnes centraility 0.3620689655172414
+ID 11 - clossnes centraility 0.23076923076923078
+ID 12 - clossnes centraility 0.28378378378378377
+ID 13 - clossnes centraility 0.25925925925925924
+ID 14 - clossnes centraility 0.19090909090909092
+ID 15 - clossnes centraility 0.3442622950819672
+ID 16 - clossnes centraility 0.23595505617977527
+ID 17 - clossnes centraility 0.27631578947368424
+ID 18 - clossnes centraility 0.1794871794871795
+ID 19 - clossnes centraility 0.1875
+ID 20 - clossnes centraility 0.3
+ID 21 - clossnes centraility 0.22580645161290322
+
+Cluster coefficient - 
+1;0.0
+2;0.0
+3;0.0
+4;0
+5;0.0
+6;0.0
+7;0
+8;0.0
+9;0
+10;0.0
+11;0.0
+12;0.0
+13;0.0
+14;0
+15;0.0
+16;0
+17;0.0
+18;0
+19;0
+20;0.0
+21;0
+Graph transitivity - 0.0
+
+==============================================================
+
+==============================================================Komponenta ID 3 vlastnosti==============================================================
+
+========================
+Degree Distribution
+========================
+ID 1 - Degree 3
+ID 2 - Degree 2
+ID 3 - Degree 1
+ID 4 - Degree 1
+ID 5 - Degree 1
+ID 6 - Degree 2
+ID 7 - Degree 3
+ID 8 - Degree 4
+ID 9 - Degree 1
+ID 10 - Degree 2
+ID 11 - Degree 1
+ID 12 - Degree 1
+ID 13 - Degree 2
+ID 14 - Degree 2
+ID 15 - Degree 2
+Maximalni stupen - 4
+Minimalni stupen - 1
+Prumerny stupen - 1.8666666666666667
+
+Relativni cetnost stupnu
+Degree 1 - 0.4%
+Degree 2 - 0.4%
+Degree 3 - 0.13%
+Degree 4 - 0.07%
+
+Prumerna vzdalenost - 3.7904761904761908
+
+Prumer grafu - 8.0
+
+ID 1 - clossnes centraility 0.40540540540540543
+ID 2 - clossnes centraility 0.39473684210526316
+ID 3 - clossnes centraility 0.21428571428571427
+ID 4 - clossnes centraility 0.22727272727272727
+ID 5 - clossnes centraility 0.2727272727272727
+ID 6 - clossnes centraility 0.36585365853658536
+ID 7 - clossnes centraility 0.32608695652173914
+ID 8 - clossnes centraility 0.35714285714285715
+ID 9 - clossnes centraility 0.2727272727272727
+ID 10 - clossnes centraility 0.2631578947368421
+ID 11 - clossnes centraility 0.2459016393442623
+ID 12 - clossnes centraility 0.21428571428571427
+ID 13 - clossnes centraility 0.2631578947368421
+ID 14 - clossnes centraility 0.3125
+ID 15 - clossnes centraility 0.2830188679245283
+
+Cluster coefficient - 
+1;0.0
+2;0.0
+3;0
+4;0
+5;0
+6;0.0
+7;0.0
+8;0.0
+9;0
+10;0.0
+11;0
+12;0
+13;0.0
+14;0.0
+15;0.0
+Graph transitivity - 0.0
+
+==============================================================
+
+==============================================================Komponenta ID 4 vlastnosti==============================================================
+
+========================
+Degree Distribution
+========================
+ID 1 - Degree 2
+ID 2 - Degree 3
+ID 3 - Degree 2
+ID 4 - Degree 2
+ID 5 - Degree 2
+ID 6 - Degree 1
+ID 7 - Degree 1
+ID 8 - Degree 5
+ID 9 - Degree 1
+ID 10 - Degree 2
+ID 11 - Degree 2
+ID 12 - Degree 2
+ID 13 - Degree 1
+ID 14 - Degree 1
+ID 15 - Degree 1
+Maximalni stupen - 5
+Minimalni stupen - 1
+Prumerny stupen - 1.8666666666666667
+
+Relativni cetnost stupnu
+Degree 1 - 0.4%
+Degree 2 - 0.47%
+Degree 3 - 0.07%
+Degree 5 - 0.07%
+
+Prumerna vzdalenost - 3.6952380952380954
+
+Prumer grafu - 8.0
+
+ID 1 - clossnes centraility 0.2727272727272727
+ID 2 - clossnes centraility 0.42857142857142855
+ID 3 - clossnes centraility 0.4166666666666667
+ID 4 - clossnes centraility 0.3409090909090909
+ID 5 - clossnes centraility 0.3
+ID 6 - clossnes centraility 0.28846153846153844
+ID 7 - clossnes centraility 0.28846153846153844
+ID 8 - clossnes centraility 0.38461538461538464
+ID 9 - clossnes centraility 0.23809523809523808
+ID 10 - clossnes centraility 0.29411764705882354
+ID 11 - clossnes centraility 0.35714285714285715
+ID 12 - clossnes centraility 0.24193548387096775
+ID 13 - clossnes centraility 0.28846153846153844
+ID 14 - clossnes centraility 0.2
+ID 15 - clossnes centraility 0.22058823529411764
+
+Cluster coefficient - 
+1;0.0
+2;0.0
+3;0.0
+4;0.0
+5;0.0
+6;0
+7;0
+8;0.0
+9;0
+10;0.0
+11;0.0
+12;0.0
+13;0
+14;0
+15;0
+Graph transitivity - 0.0
+
+==============================================================
+
 ==============================================================Komponenta ID 5 vlastnosti==============================================================
 
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 1
-ID 2 - Degree 1
-Maximalni stupen - 1
-Minimalni stupen - 1
-Prumerny stupen - 1.0
+ID 1 - Degree 0
+Maximalni stupen - 0
+Minimalni stupen - 0
+Prumerny stupen - 0.0
 
 Relativni cetnost stupnu
-Degree 1 - 1.0%
+Degree 0 - 1.0%
 
-Prumerna vzdalenost - 1.0
+Prumerna vzdalenost - 0
 
-Prumer grafu - 1.0
+Prumer grafu - 0.0
 
-ID 1 - clossnes centraility 2.0
-ID 2 - clossnes centraility 2.0
+ID 1 - clossnes centraility 0
 
 Cluster coefficient - 
 1;0
-2;0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -990,42 +1069,22 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 1
-ID 2 - Degree 1
-ID 3 - Degree 2
-ID 4 - Degree 2
-ID 5 - Degree 1
-ID 6 - Degree 3
-ID 7 - Degree 2
-Maximalni stupen - 3
-Minimalni stupen - 1
-Prumerny stupen - 1.7142857142857142
+ID 1 - Degree 0
+Maximalni stupen - 0
+Minimalni stupen - 0
+Prumerny stupen - 0.0
 
 Relativni cetnost stupnu
-Degree 1 - 0.43%
-Degree 2 - 0.43%
-Degree 3 - 0.14%
+Degree 0 - 1.0%
 
-Prumerna vzdalenost - 2.380952380952381
+Prumerna vzdalenost - 0
 
-Prumer grafu - 5.0
+Prumer grafu - 0.0
 
-ID 1 - clossnes centraility 0.4666666666666667
-ID 2 - clossnes centraility 0.3888888888888889
-ID 3 - clossnes centraility 0.5
-ID 4 - clossnes centraility 0.5384615384615384
-ID 5 - clossnes centraility 0.3684210526315789
-ID 6 - clossnes centraility 0.7
-ID 7 - clossnes centraility 0.6363636363636364
+ID 1 - clossnes centraility 0
 
 Cluster coefficient - 
 1;0
-2;0
-3;0.0
-4;0.0
-5;0
-6;0.0
-7;0.0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -1035,25 +1094,22 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 1
-ID 2 - Degree 1
-Maximalni stupen - 1
-Minimalni stupen - 1
-Prumerny stupen - 1.0
+ID 1 - Degree 0
+Maximalni stupen - 0
+Minimalni stupen - 0
+Prumerny stupen - 0.0
 
 Relativni cetnost stupnu
-Degree 1 - 1.0%
+Degree 0 - 1.0%
 
-Prumerna vzdalenost - 1.0
+Prumerna vzdalenost - 0
 
-Prumer grafu - 1.0
+Prumer grafu - 0.0
 
-ID 1 - clossnes centraility 2.0
-ID 2 - clossnes centraility 2.0
+ID 1 - clossnes centraility 0
 
 Cluster coefficient - 
 1;0
-2;0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -1064,113 +1120,8 @@ Graph transitivity - 0.0
 Degree Distribution
 ========================
 ID 1 - Degree 1
-ID 2 - Degree 2
-ID 3 - Degree 1
-ID 4 - Degree 1
-ID 5 - Degree 2
-ID 6 - Degree 3
-ID 7 - Degree 2
-Maximalni stupen - 3
-Minimalni stupen - 1
-Prumerny stupen - 1.7142857142857142
-
-Relativni cetnost stupnu
-Degree 1 - 0.43%
-Degree 2 - 0.43%
-Degree 3 - 0.14%
-
-Prumerna vzdalenost - 2.2857142857142856
-
-Prumer grafu - 4.0
-
-ID 1 - clossnes centraility 0.4117647058823529
-ID 2 - clossnes centraility 0.5833333333333334
-ID 3 - clossnes centraility 0.4117647058823529
-ID 4 - clossnes centraility 0.4117647058823529
-ID 5 - clossnes centraility 0.5833333333333334
-ID 6 - clossnes centraility 0.7777777777777778
-ID 7 - clossnes centraility 0.5833333333333334
-
-Cluster coefficient - 
-1;0
-2;0.0
-3;0
-4;0
-5;0.0
-6;0.0
-7;0.0
-Graph transitivity - 0.0
-
-==============================================================
-
-==============================================================Komponenta ID 9 vlastnosti==============================================================
-
-========================
-Degree Distribution
-========================
-ID 1 - Degree 1
 ID 2 - Degree 1
-Maximalni stupen - 1
-Minimalni stupen - 1
-Prumerny stupen - 1.0
-
-Relativni cetnost stupnu
-Degree 1 - 1.0%
-
-Prumerna vzdalenost - 1.0
-
-Prumer grafu - 1.0
-
-ID 1 - clossnes centraility 2.0
-ID 2 - clossnes centraility 2.0
-
-Cluster coefficient - 
-1;0
-2;0
-Graph transitivity - 0.0
-
-==============================================================
-
-==============================================================Komponenta ID 10 vlastnosti==============================================================
-
-========================
-Degree Distribution
-========================
-ID 1 - Degree 1
-ID 2 - Degree 2
-ID 3 - Degree 1
-Maximalni stupen - 2
-Minimalni stupen - 1
-Prumerny stupen - 1.3333333333333333
-
-Relativni cetnost stupnu
-Degree 1 - 0.67%
-Degree 2 - 0.33%
-
-Prumerna vzdalenost - 1.3333333333333333
-
-Prumer grafu - 2.0
-
-ID 1 - clossnes centraility 1.0
-ID 2 - clossnes centraility 1.5
-ID 3 - clossnes centraility 1.0
-
-Cluster coefficient - 
-1;0
-2;0.0
-3;0
-Graph transitivity - 0.0
-
-==============================================================
-
-==============================================================Komponenta ID 11 vlastnosti==============================================================
-
-========================
-Degree Distribution
-========================
-ID 1 - Degree 1
-ID 2 - Degree 3
-ID 3 - Degree 1
+ID 3 - Degree 3
 ID 4 - Degree 1
 Maximalni stupen - 3
 Minimalni stupen - 1
@@ -1185,15 +1136,106 @@ Prumerna vzdalenost - 1.5
 Prumer grafu - 2.0
 
 ID 1 - clossnes centraility 0.8
-ID 2 - clossnes centraility 1.3333333333333333
-ID 3 - clossnes centraility 0.8
+ID 2 - clossnes centraility 0.8
+ID 3 - clossnes centraility 1.3333333333333333
 ID 4 - clossnes centraility 0.8
 
 Cluster coefficient - 
 1;0
-2;0.0
-3;0
+2;0
+3;0.0
 4;0
+Graph transitivity - 0.0
+
+==============================================================
+
+==============================================================Komponenta ID 9 vlastnosti==============================================================
+
+========================
+Degree Distribution
+========================
+ID 1 - Degree 0
+Maximalni stupen - 0
+Minimalni stupen - 0
+Prumerny stupen - 0.0
+
+Relativni cetnost stupnu
+Degree 0 - 1.0%
+
+Prumerna vzdalenost - 0
+
+Prumer grafu - 0.0
+
+ID 1 - clossnes centraility 0
+
+Cluster coefficient - 
+1;0
+Graph transitivity - 0.0
+
+==============================================================
+
+==============================================================Komponenta ID 10 vlastnosti==============================================================
+
+========================
+Degree Distribution
+========================
+ID 1 - Degree 2
+ID 2 - Degree 2
+ID 3 - Degree 2
+ID 4 - Degree 2
+ID 5 - Degree 1
+ID 6 - Degree 1
+Maximalni stupen - 2
+Minimalni stupen - 1
+Prumerny stupen - 1.6666666666666667
+
+Relativni cetnost stupnu
+Degree 1 - 0.33%
+Degree 2 - 0.67%
+
+Prumerna vzdalenost - 2.3333333333333335
+
+Prumer grafu - 5.0
+
+ID 1 - clossnes centraility 0.6666666666666666
+ID 2 - clossnes centraility 0.5454545454545454
+ID 3 - clossnes centraility 0.6666666666666666
+ID 4 - clossnes centraility 0.5454545454545454
+ID 5 - clossnes centraility 0.4
+ID 6 - clossnes centraility 0.4
+
+Cluster coefficient - 
+1;0.0
+2;0.0
+3;0.0
+4;0.0
+5;0
+6;0
+Graph transitivity - 0.0
+
+==============================================================
+
+==============================================================Komponenta ID 11 vlastnosti==============================================================
+
+========================
+Degree Distribution
+========================
+ID 1 - Degree 0
+Maximalni stupen - 0
+Minimalni stupen - 0
+Prumerny stupen - 0.0
+
+Relativni cetnost stupnu
+Degree 0 - 1.0%
+
+Prumerna vzdalenost - 0
+
+Prumer grafu - 0.0
+
+ID 1 - clossnes centraility 0
+
+Cluster coefficient - 
+1;0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -1203,39 +1245,22 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 1
-ID 2 - Degree 2
-ID 3 - Degree 1
-ID 4 - Degree 2
-ID 5 - Degree 1
-ID 6 - Degree 3
-Maximalni stupen - 3
-Minimalni stupen - 1
-Prumerny stupen - 1.6666666666666667
+ID 1 - Degree 0
+Maximalni stupen - 0
+Minimalni stupen - 0
+Prumerny stupen - 0.0
 
 Relativni cetnost stupnu
-Degree 1 - 0.5%
-Degree 2 - 0.33%
-Degree 3 - 0.17%
+Degree 0 - 1.0%
 
-Prumerna vzdalenost - 2.0666666666666664
+Prumerna vzdalenost - 0
 
-Prumer grafu - 4.0
+Prumer grafu - 0.0
 
-ID 1 - clossnes centraility 0.5454545454545454
-ID 2 - clossnes centraility 0.6666666666666666
-ID 3 - clossnes centraility 0.46153846153846156
-ID 4 - clossnes centraility 0.6666666666666666
-ID 5 - clossnes centraility 0.46153846153846156
-ID 6 - clossnes centraility 0.8571428571428571
+ID 1 - clossnes centraility 0
 
 Cluster coefficient - 
 1;0
-2;0.0
-3;0
-4;0.0
-5;0
-6;0.0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -1326,25 +1351,22 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 1
-ID 2 - Degree 1
-Maximalni stupen - 1
-Minimalni stupen - 1
-Prumerny stupen - 1.0
+ID 1 - Degree 0
+Maximalni stupen - 0
+Minimalni stupen - 0
+Prumerny stupen - 0.0
 
 Relativni cetnost stupnu
-Degree 1 - 1.0%
+Degree 0 - 1.0%
 
-Prumerna vzdalenost - 1.0
+Prumerna vzdalenost - 0
 
-Prumer grafu - 1.0
+Prumer grafu - 0.0
 
-ID 1 - clossnes centraility 2.0
-ID 2 - clossnes centraility 2.0
+ID 1 - clossnes centraility 0
 
 Cluster coefficient - 
 1;0
-2;0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -1379,25 +1401,22 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 1
-ID 2 - Degree 1
-Maximalni stupen - 1
-Minimalni stupen - 1
-Prumerny stupen - 1.0
+ID 1 - Degree 0
+Maximalni stupen - 0
+Minimalni stupen - 0
+Prumerny stupen - 0.0
 
 Relativni cetnost stupnu
-Degree 1 - 1.0%
+Degree 0 - 1.0%
 
-Prumerna vzdalenost - 1.0
+Prumerna vzdalenost - 0
 
-Prumer grafu - 1.0
+Prumer grafu - 0.0
 
-ID 1 - clossnes centraility 2.0
-ID 2 - clossnes centraility 2.0
+ID 1 - clossnes centraility 0
 
 Cluster coefficient - 
 1;0
-2;0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -1432,51 +1451,25 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 2
+ID 1 - Degree 1
 ID 2 - Degree 1
-ID 3 - Degree 1
-ID 4 - Degree 3
-ID 5 - Degree 1
-ID 6 - Degree 2
-ID 7 - Degree 2
-ID 8 - Degree 2
-ID 9 - Degree 2
-ID 10 - Degree 2
-Maximalni stupen - 3
+Maximalni stupen - 1
 Minimalni stupen - 1
-Prumerny stupen - 1.8
+Prumerny stupen - 1.0
 
 Relativni cetnost stupnu
-Degree 1 - 0.3%
-Degree 2 - 0.6%
-Degree 3 - 0.1%
+Degree 1 - 1.0%
 
-Prumerna vzdalenost - 3.511111111111111
+Prumerna vzdalenost - 1.0
 
-Prumer grafu - 8.0
+Prumer grafu - 1.0
 
-ID 1 - clossnes centraility 0.2777777777777778
-ID 2 - clossnes centraility 0.2631578947368421
-ID 3 - clossnes centraility 0.2631578947368421
-ID 4 - clossnes centraility 0.3333333333333333
-ID 5 - clossnes centraility 0.22727272727272727
-ID 6 - clossnes centraility 0.4166666666666667
-ID 7 - clossnes centraility 0.38461538461538464
-ID 8 - clossnes centraility 0.3333333333333333
-ID 9 - clossnes centraility 0.38461538461538464
-ID 10 - clossnes centraility 0.4166666666666667
+ID 1 - clossnes centraility 2.0
+ID 2 - clossnes centraility 2.0
 
 Cluster coefficient - 
-1;0.0
+1;0
 2;0
-3;0
-4;0.0
-5;0
-6;0.0
-7;0.0
-8;0.0
-9;0.0
-10;0.0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -1486,22 +1479,35 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 0
-Maximalni stupen - 0
-Minimalni stupen - 0
-Prumerny stupen - 0.0
+ID 1 - Degree 1
+ID 2 - Degree 2
+ID 3 - Degree 1
+ID 4 - Degree 2
+ID 5 - Degree 2
+Maximalni stupen - 2
+Minimalni stupen - 1
+Prumerny stupen - 1.6
 
 Relativni cetnost stupnu
-Degree 0 - 1.0%
+Degree 1 - 0.4%
+Degree 2 - 0.6%
 
-Prumerna vzdalenost - 0
+Prumerna vzdalenost - 2.0
 
-Prumer grafu - 0.0
+Prumer grafu - 4.0
 
-ID 1 - clossnes centraility 0
+ID 1 - clossnes centraility 0.5
+ID 2 - clossnes centraility 0.7142857142857143
+ID 3 - clossnes centraility 0.5
+ID 4 - clossnes centraility 0.8333333333333334
+ID 5 - clossnes centraility 0.7142857142857143
 
 Cluster coefficient - 
 1;0
+2;0.0
+3;0
+4;0.0
+5;0.0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -1511,32 +1517,22 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 2
-ID 2 - Degree 2
-ID 3 - Degree 1
-ID 4 - Degree 1
-Maximalni stupen - 2
-Minimalni stupen - 1
-Prumerny stupen - 1.5
+ID 1 - Degree 0
+Maximalni stupen - 0
+Minimalni stupen - 0
+Prumerny stupen - 0.0
 
 Relativni cetnost stupnu
-Degree 1 - 0.5%
-Degree 2 - 0.5%
+Degree 0 - 1.0%
 
-Prumerna vzdalenost - 1.6666666666666665
+Prumerna vzdalenost - 0
 
-Prumer grafu - 3.0
+Prumer grafu - 0.0
 
-ID 1 - clossnes centraility 1.0
-ID 2 - clossnes centraility 1.0
-ID 3 - clossnes centraility 0.6666666666666666
-ID 4 - clossnes centraility 0.6666666666666666
+ID 1 - clossnes centraility 0
 
 Cluster coefficient - 
-1;0.0
-2;0.0
-3;0
-4;0
+1;0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -1546,22 +1542,36 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 0
-Maximalni stupen - 0
-Minimalni stupen - 0
-Prumerny stupen - 0.0
+ID 1 - Degree 3
+ID 2 - Degree 1
+ID 3 - Degree 1
+ID 4 - Degree 2
+ID 5 - Degree 1
+Maximalni stupen - 3
+Minimalni stupen - 1
+Prumerny stupen - 1.6
 
 Relativni cetnost stupnu
-Degree 0 - 1.0%
+Degree 1 - 0.6%
+Degree 2 - 0.2%
+Degree 3 - 0.2%
 
-Prumerna vzdalenost - 0
+Prumerna vzdalenost - 1.8
 
-Prumer grafu - 0.0
+Prumer grafu - 3.0
 
-ID 1 - clossnes centraility 0
+ID 1 - clossnes centraility 1.0
+ID 2 - clossnes centraility 0.5555555555555556
+ID 3 - clossnes centraility 0.625
+ID 4 - clossnes centraility 0.8333333333333334
+ID 5 - clossnes centraility 0.625
 
 Cluster coefficient - 
-1;0
+1;0.0
+2;0
+3;0
+4;0.0
+5;0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -1571,22 +1581,29 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 0
-Maximalni stupen - 0
-Minimalni stupen - 0
-Prumerny stupen - 0.0
+ID 1 - Degree 1
+ID 2 - Degree 1
+ID 3 - Degree 2
+Maximalni stupen - 2
+Minimalni stupen - 1
+Prumerny stupen - 1.3333333333333333
 
 Relativni cetnost stupnu
-Degree 0 - 1.0%
+Degree 1 - 0.67%
+Degree 2 - 0.33%
 
-Prumerna vzdalenost - 0
+Prumerna vzdalenost - 1.3333333333333333
 
-Prumer grafu - 0.0
+Prumer grafu - 2.0
 
-ID 1 - clossnes centraility 0
+ID 1 - clossnes centraility 1.0
+ID 2 - clossnes centraility 1.0
+ID 3 - clossnes centraility 1.5
 
 Cluster coefficient - 
 1;0
+2;0
+3;0.0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -1596,39 +1613,25 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 3
-ID 2 - Degree 2
-ID 3 - Degree 1
-ID 4 - Degree 1
-ID 5 - Degree 1
-ID 6 - Degree 2
-Maximalni stupen - 3
+ID 1 - Degree 1
+ID 2 - Degree 1
+Maximalni stupen - 1
 Minimalni stupen - 1
-Prumerny stupen - 1.6666666666666667
+Prumerny stupen - 1.0
 
 Relativni cetnost stupnu
-Degree 1 - 0.5%
-Degree 2 - 0.33%
-Degree 3 - 0.17%
+Degree 1 - 1.0%
 
-Prumerna vzdalenost - 2.1333333333333333
+Prumerna vzdalenost - 1.0
 
-Prumer grafu - 4.0
+Prumer grafu - 1.0
 
-ID 1 - clossnes centraility 0.75
-ID 2 - clossnes centraility 0.75
-ID 3 - clossnes centraility 0.42857142857142855
-ID 4 - clossnes centraility 0.5
-ID 5 - clossnes centraility 0.5
-ID 6 - clossnes centraility 0.6
+ID 1 - clossnes centraility 2.0
+ID 2 - clossnes centraility 2.0
 
 Cluster coefficient - 
-1;0.0
-2;0.0
-3;0
-4;0
-5;0
-6;0.0
+1;0
+2;0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -1638,22 +1641,35 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 0
-Maximalni stupen - 0
-Minimalni stupen - 0
-Prumerny stupen - 0.0
+ID 1 - Degree 1
+ID 2 - Degree 2
+ID 3 - Degree 2
+ID 4 - Degree 2
+ID 5 - Degree 1
+Maximalni stupen - 2
+Minimalni stupen - 1
+Prumerny stupen - 1.6
 
 Relativni cetnost stupnu
-Degree 0 - 1.0%
+Degree 1 - 0.4%
+Degree 2 - 0.6%
 
-Prumerna vzdalenost - 0
+Prumerna vzdalenost - 2.0
 
-Prumer grafu - 0.0
+Prumer grafu - 4.0
 
-ID 1 - clossnes centraility 0
+ID 1 - clossnes centraility 0.5
+ID 2 - clossnes centraility 0.8333333333333334
+ID 3 - clossnes centraility 0.7142857142857143
+ID 4 - clossnes centraility 0.7142857142857143
+ID 5 - clossnes centraility 0.5
 
 Cluster coefficient - 
 1;0
+2;0.0
+3;0.0
+4;0.0
+5;0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -1663,22 +1679,29 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 0
-Maximalni stupen - 0
-Minimalni stupen - 0
-Prumerny stupen - 0.0
+ID 1 - Degree 1
+ID 2 - Degree 1
+ID 3 - Degree 2
+Maximalni stupen - 2
+Minimalni stupen - 1
+Prumerny stupen - 1.3333333333333333
 
 Relativni cetnost stupnu
-Degree 0 - 1.0%
+Degree 1 - 0.67%
+Degree 2 - 0.33%
 
-Prumerna vzdalenost - 0
+Prumerna vzdalenost - 1.3333333333333333
 
-Prumer grafu - 0.0
+Prumer grafu - 2.0
 
-ID 1 - clossnes centraility 0
+ID 1 - clossnes centraility 1.0
+ID 2 - clossnes centraility 1.0
+ID 3 - clossnes centraility 1.5
 
 Cluster coefficient - 
 1;0
+2;0
+3;0.0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -1713,35 +1736,38 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 1
-ID 2 - Degree 2
-ID 3 - Degree 2
+ID 1 - Degree 2
+ID 2 - Degree 1
+ID 3 - Degree 1
 ID 4 - Degree 2
-ID 5 - Degree 1
+ID 5 - Degree 2
+ID 6 - Degree 2
 Maximalni stupen - 2
 Minimalni stupen - 1
-Prumerny stupen - 1.6
+Prumerny stupen - 1.6666666666666667
 
 Relativni cetnost stupnu
-Degree 1 - 0.4%
-Degree 2 - 0.6%
+Degree 1 - 0.33%
+Degree 2 - 0.67%
 
-Prumerna vzdalenost - 2.0
+Prumerna vzdalenost - 2.3333333333333335
 
-Prumer grafu - 4.0
+Prumer grafu - 5.0
 
-ID 1 - clossnes centraility 0.5
-ID 2 - clossnes centraility 0.7142857142857143
-ID 3 - clossnes centraility 0.8333333333333334
-ID 4 - clossnes centraility 0.7142857142857143
-ID 5 - clossnes centraility 0.5
+ID 1 - clossnes centraility 0.6666666666666666
+ID 2 - clossnes centraility 0.4
+ID 3 - clossnes centraility 0.4
+ID 4 - clossnes centraility 0.5454545454545454
+ID 5 - clossnes centraility 0.6666666666666666
+ID 6 - clossnes centraility 0.5454545454545454
 
 Cluster coefficient - 
-1;0
-2;0.0
-3;0.0
+1;0.0
+2;0
+3;0
 4;0.0
-5;0
+5;0.0
+6;0.0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -1776,22 +1802,25 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 0
-Maximalni stupen - 0
-Minimalni stupen - 0
-Prumerny stupen - 0.0
+ID 1 - Degree 1
+ID 2 - Degree 1
+Maximalni stupen - 1
+Minimalni stupen - 1
+Prumerny stupen - 1.0
 
 Relativni cetnost stupnu
-Degree 0 - 1.0%
+Degree 1 - 1.0%
 
-Prumerna vzdalenost - 0
+Prumerna vzdalenost - 1.0
 
-Prumer grafu - 0.0
+Prumer grafu - 1.0
 
-ID 1 - clossnes centraility 0
+ID 1 - clossnes centraility 2.0
+ID 2 - clossnes centraility 2.0
 
 Cluster coefficient - 
 1;0
+2;0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -1826,25 +1855,22 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 1
-ID 2 - Degree 1
-Maximalni stupen - 1
-Minimalni stupen - 1
-Prumerny stupen - 1.0
+ID 1 - Degree 0
+Maximalni stupen - 0
+Minimalni stupen - 0
+Prumerny stupen - 0.0
 
 Relativni cetnost stupnu
-Degree 1 - 1.0%
+Degree 0 - 1.0%
 
-Prumerna vzdalenost - 1.0
+Prumerna vzdalenost - 0
 
-Prumer grafu - 1.0
+Prumer grafu - 0.0
 
-ID 1 - clossnes centraility 2.0
-ID 2 - clossnes centraility 2.0
+ID 1 - clossnes centraility 0
 
 Cluster coefficient - 
 1;0
-2;0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -1881,27 +1907,23 @@ Degree Distribution
 ========================
 ID 1 - Degree 1
 ID 2 - Degree 1
-ID 3 - Degree 2
-Maximalni stupen - 2
+Maximalni stupen - 1
 Minimalni stupen - 1
-Prumerny stupen - 1.3333333333333333
+Prumerny stupen - 1.0
 
 Relativni cetnost stupnu
-Degree 1 - 0.67%
-Degree 2 - 0.33%
+Degree 1 - 1.0%
 
-Prumerna vzdalenost - 1.3333333333333333
+Prumerna vzdalenost - 1.0
 
-Prumer grafu - 2.0
+Prumer grafu - 1.0
 
-ID 1 - clossnes centraility 1.0
-ID 2 - clossnes centraility 1.0
-ID 3 - clossnes centraility 1.5
+ID 1 - clossnes centraility 2.0
+ID 2 - clossnes centraility 2.0
 
 Cluster coefficient - 
 1;0
 2;0
-3;0.0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -1937,31 +1959,28 @@ Graph transitivity - 0.0
 Degree Distribution
 ========================
 ID 1 - Degree 1
-ID 2 - Degree 1
-ID 3 - Degree 2
-ID 4 - Degree 2
+ID 2 - Degree 2
+ID 3 - Degree 1
 Maximalni stupen - 2
 Minimalni stupen - 1
-Prumerny stupen - 1.5
+Prumerny stupen - 1.3333333333333333
 
 Relativni cetnost stupnu
-Degree 1 - 0.5%
-Degree 2 - 0.5%
+Degree 1 - 0.67%
+Degree 2 - 0.33%
 
-Prumerna vzdalenost - 1.6666666666666665
+Prumerna vzdalenost - 1.3333333333333333
 
-Prumer grafu - 3.0
+Prumer grafu - 2.0
 
-ID 1 - clossnes centraility 0.6666666666666666
-ID 2 - clossnes centraility 0.6666666666666666
+ID 1 - clossnes centraility 1.0
+ID 2 - clossnes centraility 1.5
 ID 3 - clossnes centraility 1.0
-ID 4 - clossnes centraility 1.0
 
 Cluster coefficient - 
 1;0
-2;0
-3;0.0
-4;0.0
+2;0.0
+3;0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -2021,22 +2040,25 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 0
-Maximalni stupen - 0
-Minimalni stupen - 0
-Prumerny stupen - 0.0
+ID 1 - Degree 1
+ID 2 - Degree 1
+Maximalni stupen - 1
+Minimalni stupen - 1
+Prumerny stupen - 1.0
 
 Relativni cetnost stupnu
-Degree 0 - 1.0%
+Degree 1 - 1.0%
 
-Prumerna vzdalenost - 0
+Prumerna vzdalenost - 1.0
 
-Prumer grafu - 0.0
+Prumer grafu - 1.0
 
-ID 1 - clossnes centraility 0
+ID 1 - clossnes centraility 2.0
+ID 2 - clossnes centraility 2.0
 
 Cluster coefficient - 
 1;0
+2;0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -2071,41 +2093,6 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 2
-ID 2 - Degree 2
-ID 3 - Degree 1
-ID 4 - Degree 1
-Maximalni stupen - 2
-Minimalni stupen - 1
-Prumerny stupen - 1.5
-
-Relativni cetnost stupnu
-Degree 1 - 0.5%
-Degree 2 - 0.5%
-
-Prumerna vzdalenost - 1.6666666666666665
-
-Prumer grafu - 3.0
-
-ID 1 - clossnes centraility 1.0
-ID 2 - clossnes centraility 1.0
-ID 3 - clossnes centraility 0.6666666666666666
-ID 4 - clossnes centraility 0.6666666666666666
-
-Cluster coefficient - 
-1;0.0
-2;0.0
-3;0
-4;0
-Graph transitivity - 0.0
-
-==============================================================
-
-==============================================================Komponenta ID 43 vlastnosti==============================================================
-
-========================
-Degree Distribution
-========================
 ID 1 - Degree 0
 Maximalni stupen - 0
 Minimalni stupen - 0
@@ -2122,6 +2109,34 @@ ID 1 - clossnes centraility 0
 
 Cluster coefficient - 
 1;0
+Graph transitivity - 0.0
+
+==============================================================
+
+==============================================================Komponenta ID 43 vlastnosti==============================================================
+
+========================
+Degree Distribution
+========================
+ID 1 - Degree 1
+ID 2 - Degree 1
+Maximalni stupen - 1
+Minimalni stupen - 1
+Prumerny stupen - 1.0
+
+Relativni cetnost stupnu
+Degree 1 - 1.0%
+
+Prumerna vzdalenost - 1.0
+
+Prumer grafu - 1.0
+
+ID 1 - clossnes centraility 2.0
+ID 2 - clossnes centraility 2.0
+
+Cluster coefficient - 
+1;0
+2;0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -2309,32 +2324,22 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 2
-ID 2 - Degree 1
-ID 3 - Degree 1
-ID 4 - Degree 2
-Maximalni stupen - 2
-Minimalni stupen - 1
-Prumerny stupen - 1.5
+ID 1 - Degree 0
+Maximalni stupen - 0
+Minimalni stupen - 0
+Prumerny stupen - 0.0
 
 Relativni cetnost stupnu
-Degree 1 - 0.5%
-Degree 2 - 0.5%
+Degree 0 - 1.0%
 
-Prumerna vzdalenost - 1.6666666666666665
+Prumerna vzdalenost - 0
 
-Prumer grafu - 3.0
+Prumer grafu - 0.0
 
-ID 1 - clossnes centraility 1.0
-ID 2 - clossnes centraility 0.6666666666666666
-ID 3 - clossnes centraility 0.6666666666666666
-ID 4 - clossnes centraility 1.0
+ID 1 - clossnes centraility 0
 
 Cluster coefficient - 
-1;0.0
-2;0
-3;0
-4;0.0
+1;0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -2344,25 +2349,22 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 1
-ID 2 - Degree 1
-Maximalni stupen - 1
-Minimalni stupen - 1
-Prumerny stupen - 1.0
+ID 1 - Degree 0
+Maximalni stupen - 0
+Minimalni stupen - 0
+Prumerny stupen - 0.0
 
 Relativni cetnost stupnu
-Degree 1 - 1.0%
+Degree 0 - 1.0%
 
-Prumerna vzdalenost - 1.0
+Prumerna vzdalenost - 0
 
-Prumer grafu - 1.0
+Prumer grafu - 0.0
 
-ID 1 - clossnes centraility 2.0
-ID 2 - clossnes centraility 2.0
+ID 1 - clossnes centraility 0
 
 Cluster coefficient - 
 1;0
-2;0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -2497,22 +2499,29 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 0
-Maximalni stupen - 0
-Minimalni stupen - 0
-Prumerny stupen - 0.0
+ID 1 - Degree 2
+ID 2 - Degree 1
+ID 3 - Degree 1
+Maximalni stupen - 2
+Minimalni stupen - 1
+Prumerny stupen - 1.3333333333333333
 
 Relativni cetnost stupnu
-Degree 0 - 1.0%
+Degree 1 - 0.67%
+Degree 2 - 0.33%
 
-Prumerna vzdalenost - 0
+Prumerna vzdalenost - 1.3333333333333333
 
-Prumer grafu - 0.0
+Prumer grafu - 2.0
 
-ID 1 - clossnes centraility 0
+ID 1 - clossnes centraility 1.5
+ID 2 - clossnes centraility 1.0
+ID 3 - clossnes centraility 1.0
 
 Cluster coefficient - 
-1;0
+1;0.0
+2;0
+3;0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -2522,22 +2531,25 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 0
-Maximalni stupen - 0
-Minimalni stupen - 0
-Prumerny stupen - 0.0
+ID 1 - Degree 1
+ID 2 - Degree 1
+Maximalni stupen - 1
+Minimalni stupen - 1
+Prumerny stupen - 1.0
 
 Relativni cetnost stupnu
-Degree 0 - 1.0%
+Degree 1 - 1.0%
 
-Prumerna vzdalenost - 0
+Prumerna vzdalenost - 1.0
 
-Prumer grafu - 0.0
+Prumer grafu - 1.0
 
-ID 1 - clossnes centraility 0
+ID 1 - clossnes centraility 2.0
+ID 2 - clossnes centraility 2.0
 
 Cluster coefficient - 
 1;0
+2;0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -2547,22 +2559,29 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 0
-Maximalni stupen - 0
-Minimalni stupen - 0
-Prumerny stupen - 0.0
+ID 1 - Degree 1
+ID 2 - Degree 2
+ID 3 - Degree 1
+Maximalni stupen - 2
+Minimalni stupen - 1
+Prumerny stupen - 1.3333333333333333
 
 Relativni cetnost stupnu
-Degree 0 - 1.0%
+Degree 1 - 0.67%
+Degree 2 - 0.33%
 
-Prumerna vzdalenost - 0
+Prumerna vzdalenost - 1.3333333333333333
 
-Prumer grafu - 0.0
+Prumer grafu - 2.0
 
-ID 1 - clossnes centraility 0
+ID 1 - clossnes centraility 1.0
+ID 2 - clossnes centraility 1.5
+ID 3 - clossnes centraility 1.0
 
 Cluster coefficient - 
 1;0
+2;0.0
+3;0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -2597,31 +2616,6 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 0
-Maximalni stupen - 0
-Minimalni stupen - 0
-Prumerny stupen - 0.0
-
-Relativni cetnost stupnu
-Degree 0 - 1.0%
-
-Prumerna vzdalenost - 0
-
-Prumer grafu - 0.0
-
-ID 1 - clossnes centraility 0
-
-Cluster coefficient - 
-1;0
-Graph transitivity - 0.0
-
-==============================================================
-
-==============================================================Komponenta ID 63 vlastnosti==============================================================
-
-========================
-Degree Distribution
-========================
 ID 1 - Degree 1
 ID 2 - Degree 1
 Maximalni stupen - 1
@@ -2645,46 +2639,55 @@ Graph transitivity - 0.0
 
 ==============================================================
 
+==============================================================Komponenta ID 63 vlastnosti==============================================================
+
+========================
+Degree Distribution
+========================
+ID 1 - Degree 0
+Maximalni stupen - 0
+Minimalni stupen - 0
+Prumerny stupen - 0.0
+
+Relativni cetnost stupnu
+Degree 0 - 1.0%
+
+Prumerna vzdalenost - 0
+
+Prumer grafu - 0.0
+
+ID 1 - clossnes centraility 0
+
+Cluster coefficient - 
+1;0
+Graph transitivity - 0.0
+
+==============================================================
+
 ==============================================================Komponenta ID 64 vlastnosti==============================================================
 
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 2
-ID 2 - Degree 2
-ID 3 - Degree 2
-ID 4 - Degree 2
-ID 5 - Degree 1
-ID 6 - Degree 1
-ID 7 - Degree 2
-Maximalni stupen - 2
+ID 1 - Degree 1
+ID 2 - Degree 1
+Maximalni stupen - 1
 Minimalni stupen - 1
-Prumerny stupen - 1.7142857142857142
+Prumerny stupen - 1.0
 
 Relativni cetnost stupnu
-Degree 1 - 0.29%
-Degree 2 - 0.71%
+Degree 1 - 1.0%
 
-Prumerna vzdalenost - 2.6666666666666665
+Prumerna vzdalenost - 1.0
 
-Prumer grafu - 6.0
+Prumer grafu - 1.0
 
-ID 1 - clossnes centraility 0.5833333333333334
-ID 2 - clossnes centraility 0.5384615384615384
-ID 3 - clossnes centraility 0.4375
-ID 4 - clossnes centraility 0.5384615384615384
-ID 5 - clossnes centraility 0.3333333333333333
-ID 6 - clossnes centraility 0.3333333333333333
-ID 7 - clossnes centraility 0.4375
+ID 1 - clossnes centraility 2.0
+ID 2 - clossnes centraility 2.0
 
 Cluster coefficient - 
-1;0.0
-2;0.0
-3;0.0
-4;0.0
-5;0
-6;0
-7;0.0
+1;0
+2;0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -2869,34 +2872,6 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 1
-ID 2 - Degree 1
-Maximalni stupen - 1
-Minimalni stupen - 1
-Prumerny stupen - 1.0
-
-Relativni cetnost stupnu
-Degree 1 - 1.0%
-
-Prumerna vzdalenost - 1.0
-
-Prumer grafu - 1.0
-
-ID 1 - clossnes centraility 2.0
-ID 2 - clossnes centraility 2.0
-
-Cluster coefficient - 
-1;0
-2;0
-Graph transitivity - 0.0
-
-==============================================================
-
-==============================================================Komponenta ID 73 vlastnosti==============================================================
-
-========================
-Degree Distribution
-========================
 ID 1 - Degree 0
 Maximalni stupen - 0
 Minimalni stupen - 0
@@ -2917,7 +2892,7 @@ Graph transitivity - 0.0
 
 ==============================================================
 
-==============================================================Komponenta ID 74 vlastnosti==============================================================
+==============================================================Komponenta ID 73 vlastnosti==============================================================
 
 ========================
 Degree Distribution
@@ -2941,6 +2916,31 @@ ID 2 - clossnes centraility 2.0
 Cluster coefficient - 
 1;0
 2;0
+Graph transitivity - 0.0
+
+==============================================================
+
+==============================================================Komponenta ID 74 vlastnosti==============================================================
+
+========================
+Degree Distribution
+========================
+ID 1 - Degree 0
+Maximalni stupen - 0
+Minimalni stupen - 0
+Prumerny stupen - 0.0
+
+Relativni cetnost stupnu
+Degree 0 - 1.0%
+
+Prumerna vzdalenost - 0
+
+Prumer grafu - 0.0
+
+ID 1 - clossnes centraility 0
+
+Cluster coefficient - 
+1;0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -3050,25 +3050,22 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 1
-ID 2 - Degree 1
-Maximalni stupen - 1
-Minimalni stupen - 1
-Prumerny stupen - 1.0
+ID 1 - Degree 0
+Maximalni stupen - 0
+Minimalni stupen - 0
+Prumerny stupen - 0.0
 
 Relativni cetnost stupnu
-Degree 1 - 1.0%
+Degree 0 - 1.0%
 
-Prumerna vzdalenost - 1.0
+Prumerna vzdalenost - 0
 
-Prumer grafu - 1.0
+Prumer grafu - 0.0
 
-ID 1 - clossnes centraility 2.0
-ID 2 - clossnes centraility 2.0
+ID 1 - clossnes centraility 0
 
 Cluster coefficient - 
 1;0
-2;0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -3103,22 +3100,25 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 0
-Maximalni stupen - 0
-Minimalni stupen - 0
-Prumerny stupen - 0.0
+ID 1 - Degree 1
+ID 2 - Degree 1
+Maximalni stupen - 1
+Minimalni stupen - 1
+Prumerny stupen - 1.0
 
 Relativni cetnost stupnu
-Degree 0 - 1.0%
+Degree 1 - 1.0%
 
-Prumerna vzdalenost - 0
+Prumerna vzdalenost - 1.0
 
-Prumer grafu - 0.0
+Prumer grafu - 1.0
 
-ID 1 - clossnes centraility 0
+ID 1 - clossnes centraility 2.0
+ID 2 - clossnes centraility 2.0
 
 Cluster coefficient - 
 1;0
+2;0
 Graph transitivity - 0.0
 
 ==============================================================
@@ -3278,25 +3278,22 @@ Graph transitivity - 0.0
 ========================
 Degree Distribution
 ========================
-ID 1 - Degree 1
-ID 2 - Degree 1
-Maximalni stupen - 1
-Minimalni stupen - 1
-Prumerny stupen - 1.0
+ID 1 - Degree 0
+Maximalni stupen - 0
+Minimalni stupen - 0
+Prumerny stupen - 0.0
 
 Relativni cetnost stupnu
-Degree 1 - 1.0%
+Degree 0 - 1.0%
 
-Prumerna vzdalenost - 1.0
+Prumerna vzdalenost - 0
 
-Prumer grafu - 1.0
+Prumer grafu - 0.0
 
-ID 1 - clossnes centraility 2.0
-ID 2 - clossnes centraility 2.0
+ID 1 - clossnes centraility 0
 
 Cluster coefficient - 
 1;0
-2;0
 Graph transitivity - 0.0
 
 ==============================================================

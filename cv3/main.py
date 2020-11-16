@@ -198,8 +198,9 @@ g3 = generate_random_graph(N, p3) #degree < 1
 # karate_output = inspect_graph(matrix2, False) 
 # write_to_file('karate_club.txt', karate_output)
 
-output1 = inspect_graph(g1, False)
-write_to_file('graph_equal_1.txt', output1, f'N={N} p={p1}\n========================\n')
+output1 = print_graph_properties(matrix2)
+print(output1[1])
+# write_to_file('graph_equal_1.txt', output1, f'N={N} p={p1}\n========================\n')
 
 # output2 = inspect_graph(g2, False)
 # write_to_file('graph_equal_2.txt', output2, f'N={N} p={p2}\n========================\n')
