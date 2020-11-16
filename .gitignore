@@ -113,6 +113,7 @@ venv.bak/
 
 #own
 ignore
+cv8_gephi
 
 # mypy
 .mypy_cache/
