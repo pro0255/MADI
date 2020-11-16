@@ -6,13 +6,14 @@ from utils.graph.ClosnessCentrality import calculate_closness_centrality
 from utils.graph.ClusterCoefficient import calculate_cluster_coefficient, run_calculate_cluster_coefficient, calculcate_graph_transitivity
 from utils.graph.DegreeDistribution import degree_distribution
 from utils.graph.ConnectedComponents import connected_components
-from collections import defaultdict
+from collections import defaultdict, Counter
 import numpy as np
 from enum import Enum
 
+verbose = False
 DELIMITER = '=============================================================='
 
-verbose = False
+
 class GRAPH_PROPERTIES(Enum):
     GRAPH_AVERAGE = 'graph_average' ##prumer graf
     AVERAGE_DISTANCE = 'average_distance' ##prumarna vzdalenost v grafu
@@ -26,7 +27,7 @@ class GRAPH_PROPERTIES(Enum):
     CLOSSNES_CENTRALITY = 'clossnes_centrality' ## ??
     CLUSTER_COEFFICIENT = 'cluster_coefficient'
 
-class GRAPH_CONNECTED_COMPONENTS_PROPERTIES(ENUM):
+class GRAPH_CONNECTED_COMPONENTS_PROPERTIES(Enum):
     NUMBER_OF_CONNECTED_COMPONENTS: 'number_of_connected_components' ##pocet komponent souvislosti
     MAX_CONNECTED_COMPONENT: 'max_connected_component' ##velikost nejvetsi komponenty souvislosti
     MIN_CONNECTED_COMPONENT: 'min_connected_component' ##velikost nejmensi komponenty souvislosti
@@ -36,26 +37,30 @@ class GRAPH_CONNECTED_COMPONENTS_PROPERTIES(ENUM):
     COMPONENTS_COUNTER = 'components_counter'
 
 
+class GRAPH_INSPECTION(Enum):
+    WHOLE = 'whole' ##cely graf - GRAPH_PROPERTIES
+    CONNECTED_COMPONENTS = 'connected_components' ##pole - GRAPH_PROPERTIES
 
 def create_connected_components_dictionary_for_graph(matrix):
     result = {}
     components, matrix = connected_components(matrix)
     result[GRAPH_CONNECTED_COMPONENTS_PROPERTIES.COMPONENTS] = components
-    result[GRAPH_CONNECTED_COMPONENTS_PROPERTIES.NUMBER_OF_CONNECTED_COMPONENTS] = len(components.keys())
+    result["number_of_connected_components"] = len(components.keys())
     sizes = [len(v) for k,v in components.items()]
     c = Counter(sizes)
     result[GRAPH_CONNECTED_COMPONENTS_PROPERTIES.COMPONENTS_SIZES] = sizes
     result[GRAPH_CONNECTED_COMPONENTS_PROPERTIES.COMPONENTS_COUNTER] = c
-    result[GRAPH_CONNECTED_COMPONENTS_PROPERTIES.MAX_CONNECTED_COMPONENT] = max(sizes)
+    result["max_connected_component"] = max(sizes)
 
     sorted_components_indicies = [sorted(value) for value in components.values()]
     subgraphs = []
     for subgraph_indicies in sorted_components_indicies:
-    grid = np.ix_(subgraph_indicies, subgraph_indicies)
-    subgraphs.append(matrix[grid])
+        grid = np.ix_(subgraph_indicies, subgraph_indicies)
+        subgraphs.append(matrix[grid])
 
     for sub_matrix in subgraphs:
         component_dic = create_graph_properties_dictionary(sub_matrix)
+    return result
 
 
 #!: Create output function for this dictionary
@@ -90,6 +95,11 @@ def create_graph_properties_dictionary(matrix):
 
     return properties
 
+def make_graph_inspection(matrix):
+    dic = {}
+    dic[GRAPH_INSPECTION.WHOLE] = create_graph_properties_dictionary(matrix)
+    dic[GRAPH_INSPECTION.CONNECTED_COMPONENTS] = create_connected_components_dictionary_for_graph(matrix)
+    return dic
 
 def print_graph_properties(matrix):
     PROPERTIES_DIC = create_graph_properties_dictionary(matrix)
@@ -125,9 +135,7 @@ def print_graph_properties(matrix):
     return (all_output, PROPERTIES_DIC)
 
 
-class GRAPH_INSPECTION(Enum):
-    WHOLE = 'whole' ##cely graf - GRAPH_PROPERTIES
-    CONNECTED_COMPONENTS = 'connected_components' ##pole - GRAPH_PROPERTIES
+
 
 
 def inspect_graph(matrix, verbose=True):

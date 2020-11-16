@@ -14,6 +14,7 @@ from lab.LabRandomGraphModels import LabRandomGraphModels
 from utils.graph.GraphProperties import print_graph_properties
 from utils.graph.GraphProperties import inspect_graph
 from utils.graph.ConnectedComponents import connected_components
+from utils.graph.GraphProperties import make_graph_inspection
 
 data = pd.read_csv("KarateClub.csv", ';', header=None)
 
@@ -195,11 +196,14 @@ g2 = generate_random_graph(N, p2) #degree > 1
 g3 = generate_random_graph(N, p3) #degree < 1
 
 
+res = make_graph_inspection(matrix2)
+print(res)
+
 # karate_output = inspect_graph(matrix2, False) 
 # write_to_file('karate_club.txt', karate_output)
 
-output1 = print_graph_properties(matrix2)
-print(output1[1])
+# output1 = print_graph_properties(matrix2)
+# print(output1[1])
 # write_to_file('graph_equal_1.txt', output1, f'N={N} p={p1}\n========================\n')
 
 # output2 = inspect_graph(g2, False)
