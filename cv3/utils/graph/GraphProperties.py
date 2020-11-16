@@ -26,8 +26,36 @@ class GRAPH_PROPERTIES(Enum):
     CLOSSNES_CENTRALITY = 'clossnes_centrality' ## ??
     CLUSTER_COEFFICIENT = 'cluster_coefficient'
 
+class GRAPH_CONNECTED_COMPONENTS_PROPERTIES(ENUM):
+    NUMBER_OF_CONNECTED_COMPONENTS: 'number_of_connected_components' ##pocet komponent souvislosti
+    MAX_CONNECTED_COMPONENT: 'max_connected_component' ##velikost nejvetsi komponenty souvislosti
+    MIN_CONNECTED_COMPONENT: 'min_connected_component' ##velikost nejmensi komponenty souvislosti
+    COMPONENTS = 'components' ##pole GRAPH_PROPERTIES pro kazdou nelezenou komponentu
+    COMPONENTS_PROPERTIES = 'components_properties'
+    COMPONENTS_SIZES = 'component_sizes'
+    COMPONENTS_COUNTER = 'components_counter'
 
 
+
+def create_connected_components_dictionary_for_graph(matrix):
+    result = {}
+    components, matrix = connected_components(matrix)
+    result[GRAPH_CONNECTED_COMPONENTS_PROPERTIES.COMPONENTS] = components
+    result[GRAPH_CONNECTED_COMPONENTS_PROPERTIES.NUMBER_OF_CONNECTED_COMPONENTS] = len(components.keys())
+    sizes = [len(v) for k,v in components.items()]
+    c = Counter(sizes)
+    result[GRAPH_CONNECTED_COMPONENTS_PROPERTIES.COMPONENTS_SIZES] = sizes
+    result[GRAPH_CONNECTED_COMPONENTS_PROPERTIES.COMPONENTS_COUNTER] = c
+    result[GRAPH_CONNECTED_COMPONENTS_PROPERTIES.MAX_CONNECTED_COMPONENT] = max(sizes)
+
+    sorted_components_indicies = [sorted(value) for value in components.values()]
+    subgraphs = []
+    for subgraph_indicies in sorted_components_indicies:
+    grid = np.ix_(subgraph_indicies, subgraph_indicies)
+    subgraphs.append(matrix[grid])
+
+    for sub_matrix in subgraphs:
+        component_dic = create_graph_properties_dictionary(sub_matrix)
 
 
 #!: Create output function for this dictionary
