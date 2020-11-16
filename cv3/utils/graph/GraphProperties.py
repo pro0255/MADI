@@ -8,8 +8,23 @@ from utils.graph.DegreeDistribution import degree_distribution
 from utils.graph.ConnectedComponents import connected_components
 from collections import defaultdict
 import numpy as np
+from enum import Enum
+
+DELIMITER = '=============================================================='
 
 verbose = False
+class GRAPH_PROPERTIES(Enum):
+    GRAPH_AVERAGE = 'graph_average' ##prumer grafu
+
+
+#!: Create output function for this dictionary
+def create_graph_properties_dictionary(matrix):
+    floyd = FloydAlgorithm()
+    floyd_matrix = floyd.start(matrix)
+    properties = {}
+    properties[GRAPH_PROPERTIES.GRAPH_AVERAGE] = graph_average(floyd_matrix)[1]
+    return properties
+
 
 def print_graph_properties(matrix):
     all_output = ''
@@ -45,7 +60,11 @@ def print_graph_properties(matrix):
 
 
 def inspect_graph(matrix, verbose=True):
-    components_output = ""
+    print(create_graph_properties_dictionary(matrix))
+    exit()
+    whole_graph_output = print_graph_properties(matrix)
+
+    components_output = f'\nCely graf\n{DELIMITER}whole_graph_output\n{DELIMITER}\n'
     components, matrix = connected_components(matrix)
     number_of_connected_components = len(components.keys())
     
@@ -100,7 +119,7 @@ def inspect_graph(matrix, verbose=True):
     
     for index,subgraph in enumerate(subgraphs):
         subgraph_output = print_graph_properties(subgraph)
-        components_output += f'\n====================Komponenta ID {index} vlastnosti===================\n{subgraph_output}\n=========================================\n'
+        components_output += f'\n{DELIMITER}Komponenta ID {index} vlastnosti{DELIMITER}\n{subgraph_output}\n{DELIMITER}\n'
 
     return components_output
 
