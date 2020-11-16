@@ -14,7 +14,19 @@ DELIMITER = '=============================================================='
 
 verbose = False
 class GRAPH_PROPERTIES(Enum):
-    GRAPH_AVERAGE = 'graph_average' ##prumer grafu
+    GRAPH_AVERAGE = 'graph_average' ##prumer graf
+    AVERAGE_DISTANCE = 'average_distance' ##prumarna vzdalenost v grafu
+    MAX_DEGREE = 'max_degree' ##maximalni stupen v grafu
+    MIN_DEGREE = 'min_degree' ##minimalni stupen v grafu
+    AVG_DEGREE = 'avg_degree' ##prumerny stupen v grafu
+    DEGREE_DISTRIBUTION = 'degree_distribution' ##distribuce stupnu v grafu (moznost histogramu)
+    FLOYD_MATRIX = 'floyd_matrix' ##floyd matice - matice vzdalenosti
+    ADJECENCY_MATRIX = 'adjecency_matrix' ##matice sousednosti
+    GRAPH_TRANSITIVITY = 'graph_transitivity' ## ??
+    CLOSSNES_CENTRALITY = 'clossnes_centrality' ## ??
+
+
+
 
 
 #!: Create output function for this dictionary
