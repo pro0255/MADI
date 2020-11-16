@@ -19,6 +19,7 @@ class GRAPH_PROPERTIES(Enum):
 
 #!: Create output function for this dictionary
 def create_graph_properties_dictionary(matrix):
+    
     floyd = FloydAlgorithm()
     floyd_matrix = floyd.start(matrix)
     properties = {}
@@ -27,6 +28,8 @@ def create_graph_properties_dictionary(matrix):
 
 
 def print_graph_properties(matrix):
+    PROPERTIES_DIC = create_graph_properties_dictionary(matrix)
+
     all_output = ''
 
     floyd = FloydAlgorithm()
@@ -54,17 +57,23 @@ def print_graph_properties(matrix):
     all_output += f'{calculate_closness_centrality_sum_output}\n'
     all_output += f'Cluster coefficient - \n{cluster_coefficient_output}'
     all_output += f'{transitivity_output}\n'
-    return all_output
+    return (all_output, PROPERTIES_DIC)
 
 
+class GRAPH_INSPECTION(Enum):
+    WHOLE = 'whole' ##cely graf - GRAPH_PROPERTIES
+    CONNECTED_COMPONENTS = 'connected_components' ##pole - GRAPH_PROPERTIES
 
 
 def inspect_graph(matrix, verbose=True):
-    print(create_graph_properties_dictionary(matrix))
-    exit()
-    whole_graph_output = print_graph_properties(matrix)
+    GRAPH_DIC = {}
+    GRAPH_DIC[GRAPH_INSPECTION.CONNECTED_COMPONENTS] = []
 
-    components_output = f'\nCely graf\n{DELIMITER}whole_graph_output\n{DELIMITER}\n'
+
+    whole_graph_output, whole_graph_dic = print_graph_properties(matrix)
+    GRAPH_DIC[GRAPH_INSPECTION.WHOLE] = whole_graph_dic
+
+    components_output = f'\nCely graf\n{DELIMITER}{whole_graph_output}\n{DELIMITER}\n'
     components, matrix = connected_components(matrix)
     number_of_connected_components = len(components.keys())
     
@@ -118,10 +127,16 @@ def inspect_graph(matrix, verbose=True):
 
     
     for index,subgraph in enumerate(subgraphs):
-        subgraph_output = print_graph_properties(subgraph)
+        subgraph_output, subgraph_dic = print_graph_properties(subgraph)
+        GRAPH_DIC[GRAPH_INSPECTION.CONNECTED_COMPONENTS].append(subgraph_dic)
         components_output += f'\n{DELIMITER}Komponenta ID {index} vlastnosti{DELIMITER}\n{subgraph_output}\n{DELIMITER}\n'
 
-    return components_output
+    graph_averages = [component_properties[GRAPH_PROPERTIES.GRAPH_AVERAGE] for component_properties in GRAPH_DIC[GRAPH_INSPECTION.CONNECTED_COMPONENTS]]
+    average_over_components = sum(graph_averages)/len(graph_averages)
+
+
+
+    return f'Prumer pres jednotlive komponenty souvislosti je {average_over_components}\n{components_output}'
 
 
     
