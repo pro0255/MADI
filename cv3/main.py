@@ -12,7 +12,8 @@ from utils.graph.ClusterEffect import draw_cluster_effect
 from utils.graph.GenerateGraph import generate_random_graph
 from lab.LabRandomGraphModels import LabRandomGraphModels
 from utils.graph.GraphProperties import print_graph_properties
-
+from utils.graph.GraphProperties import inspect_graph
+from utils.graph.ConnectedComponents import connected_components
 
 data = pd.read_csv("KarateClub.csv", ';', header=None)
 
@@ -193,16 +194,17 @@ g1 = generate_random_graph(N, p1) #degree == 1
 g2 = generate_random_graph(N, p2) #degree > 1
 g3 = generate_random_graph(N, p3) #degree < 1
 
-karate_output = print_graph_properties(matrix2) 
+
+karate_output = inspect_graph(matrix2, False) 
 write_to_file('karate_club.txt', karate_output)
 
-output1 = print_graph_properties(g1)
+output1 = inspect_graph(g1, False)
 write_to_file('graph_equal_1.txt', output1, f'N={N} p={p1}\n========================\n')
 
-output2 = print_graph_properties(g2)
+output2 = inspect_graph(g2, False)
 write_to_file('graph_equal_2.txt', output2, f'N={N} p={p2}\n========================\n')
 
-output3 = print_graph_properties(g3)
+output3 = inspect_graph(g3, False)
 write_to_file('graph_equal_3.txt', output3, f'N={N} p={p3}\n========================\n')
 ###############################################################
 ###############################################################

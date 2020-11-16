@@ -1,5 +1,17 @@
  
- 
+ Pocet komponent souvislosti je 1
+Komponenta ID 0 je velka 34
+
+Ditrubuce
+Komponent s velikosti 34 je 1
+
+Ditrubuce relativni cetnost
+Komponent s velikosti 34 je 100.0%
+
+Velikost nejvetsi komponenty je 34
+
+====================Komponenta ID 0 vlastnosti===================
+
 ========================
 Degree Distribution
 ========================
@@ -129,3 +141,5 @@ Cluster coefficient -
 33;0.19696969696969696
 34;0.11029411764705882
 Graph transitivity - 0.5706384782076823
+
+=========================================
