@@ -65,7 +65,6 @@ def inspect_graph(matrix, verbose=True):
             print(component_len_output)
 
     components_output += '\nDitrubuce\n'
-    print(distribution)
     for k,v in distribution.items():
         components_distribution_output = f'Komponent s velikosti {k} je {v}'
         components_output += f'{components_distribution_output}\n'
