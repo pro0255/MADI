@@ -40,7 +40,7 @@ def degree_distribution(matrix, verbose=False):
         print(maxo)
         print(mino)
         print(avgo)
-    return (output, (maximal, minimal, average))
+    return (output, (maximal, minimal, average, c))
 
 
 

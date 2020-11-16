@@ -31,11 +31,12 @@ class GRAPH_PROPERTIES(Enum):
 
 #!: Create output function for this dictionary
 def create_graph_properties_dictionary(matrix):
-    
     floyd = FloydAlgorithm()
     floyd_matrix = floyd.start(matrix)
     properties = {}
+    properties[GRAPH_PROPERTIES.FLOYD_MATRIX] = floyd_matrix
     properties[GRAPH_PROPERTIES.GRAPH_AVERAGE] = graph_average(floyd_matrix)[1]
+
     return properties
 
 
