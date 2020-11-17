@@ -1,660 +1,882 @@
 N=200 p=0.1
 ========================
  
- 
-Cely graf
-==============================================================whole_graph_output
+
+
+ CELY GRAF 
+Prumer grafu je 3.0
+Prumerna vzdalenost v grafu je 2.020753768844221
+Maximalni stupen v grafu je 33
+Minimalni stupen v grafu je 11
+Prumerny stupen v grafu je 19.9
+Distribuce stupnu v grafu je:
+	Stupen 11 je obsazen 3 krat, s relativni cetnosti 0.015
+	Stupen 12 je obsazen 4 krat, s relativni cetnosti 0.02
+	Stupen 13 je obsazen 4 krat, s relativni cetnosti 0.02
+	Stupen 14 je obsazen 6 krat, s relativni cetnosti 0.03
+	Stupen 15 je obsazen 16 krat, s relativni cetnosti 0.08
+	Stupen 16 je obsazen 13 krat, s relativni cetnosti 0.065
+	Stupen 17 je obsazen 13 krat, s relativni cetnosti 0.065
+	Stupen 18 je obsazen 16 krat, s relativni cetnosti 0.08
+	Stupen 19 je obsazen 23 krat, s relativni cetnosti 0.115
+	Stupen 20 je obsazen 19 krat, s relativni cetnosti 0.095
+	Stupen 21 je obsazen 22 krat, s relativni cetnosti 0.11
+	Stupen 22 je obsazen 9 krat, s relativni cetnosti 0.045
+	Stupen 23 je obsazen 17 krat, s relativni cetnosti 0.085
+	Stupen 24 je obsazen 6 krat, s relativni cetnosti 0.03
+	Stupen 25 je obsazen 9 krat, s relativni cetnosti 0.045
+	Stupen 26 je obsazen 2 krat, s relativni cetnosti 0.01
+	Stupen 27 je obsazen 5 krat, s relativni cetnosti 0.025
+	Stupen 28 je obsazen 5 krat, s relativni cetnosti 0.025
+	Stupen 29 je obsazen 3 krat, s relativni cetnosti 0.015
+	Stupen 30 je obsazen 3 krat, s relativni cetnosti 0.015
+	Stupen 32 je obsazen 1 krat, s relativni cetnosti 0.005
+	Stupen 33 je obsazen 1 krat, s relativni cetnosti 0.005
+Closness centralita je:
+	Uzel 0 hodnota 0.5089058524173028
+	Uzel 1 hodnota 0.49875311720698257
+	Uzel 2 hodnota 0.47961630695443647
+	Uzel 3 hodnota 0.5012531328320802
+	Uzel 4 hodnota 0.5037783375314862
+	Uzel 5 hodnota 0.5050505050505051
+	Uzel 6 hodnota 0.4672897196261682
+	Uzel 7 hodnota 0.5221932114882507
+	Uzel 8 hodnota 0.5154639175257731
+	Uzel 9 hodnota 0.47961630695443647
+	Uzel 10 hodnota 0.5
+	Uzel 11 hodnota 0.5194805194805194
+	Uzel 12 hodnota 0.5141388174807198
+	Uzel 13 hodnota 0.5154639175257731
+	Uzel 14 hodnota 0.5012531328320802
+	Uzel 15 hodnota 0.5102040816326531
+	Uzel 16 hodnota 0.4807692307692308
+	Uzel 17 hodnota 0.477326968973747
+	Uzel 18 hodnota 0.5128205128205128
+	Uzel 19 hodnota 0.49504950495049505
+	Uzel 20 hodnota 0.46403712296983757
+	Uzel 21 hodnota 0.4878048780487805
+	Uzel 22 hodnota 0.5305039787798409
+	Uzel 23 hodnota 0.4889975550122249
+	Uzel 24 hodnota 0.4784688995215311
+	Uzel 25 hodnota 0.5128205128205128
+	Uzel 26 hodnota 0.5194805194805194
+	Uzel 27 hodnota 0.4975124378109453
+	Uzel 28 hodnota 0.5050505050505051
+	Uzel 29 hodnota 0.5167958656330749
+	Uzel 30 hodnota 0.5115089514066496
+	Uzel 31 hodnota 0.5063291139240507
+	Uzel 32 hodnota 0.4878048780487805
+	Uzel 33 hodnota 0.4728132387706856
+	Uzel 34 hodnota 0.5128205128205128
+	Uzel 35 hodnota 0.5089058524173028
+	Uzel 36 hodnota 0.5012531328320802
+	Uzel 37 hodnota 0.5291005291005291
+	Uzel 38 hodnota 0.49382716049382713
+	Uzel 39 hodnota 0.49382716049382713
+	Uzel 40 hodnota 0.49261083743842365
+	Uzel 41 hodnota 0.47961630695443647
+	Uzel 42 hodnota 0.5012531328320802
+	Uzel 43 hodnota 0.48661800486618007
+	Uzel 44 hodnota 0.5089058524173028
+	Uzel 45 hodnota 0.45454545454545453
+	Uzel 46 hodnota 0.5167958656330749
+	Uzel 47 hodnota 0.5012531328320802
+	Uzel 48 hodnota 0.4784688995215311
+	Uzel 49 hodnota 0.49627791563275436
+	Uzel 50 hodnota 0.5115089514066496
+	Uzel 51 hodnota 0.4914004914004914
+	Uzel 52 hodnota 0.5063291139240507
+	Uzel 53 hodnota 0.5319148936170213
+	Uzel 54 hodnota 0.5063291139240507
+	Uzel 55 hodnota 0.5076142131979695
+	Uzel 56 hodnota 0.5319148936170213
+	Uzel 57 hodnota 0.49875311720698257
+	Uzel 58 hodnota 0.48661800486618007
+	Uzel 59 hodnota 0.5319148936170213
+	Uzel 60 hodnota 0.5128205128205128
+	Uzel 61 hodnota 0.49627791563275436
+	Uzel 62 hodnota 0.45248868778280543
+	Uzel 63 hodnota 0.4854368932038835
+	Uzel 64 hodnota 0.4889975550122249
+	Uzel 65 hodnota 0.4854368932038835
+	Uzel 66 hodnota 0.5025125628140703
+	Uzel 67 hodnota 0.5154639175257731
+	Uzel 68 hodnota 0.5063291139240507
+	Uzel 69 hodnota 0.49019607843137253
+	Uzel 70 hodnota 0.5194805194805194
+	Uzel 71 hodnota 0.5012531328320802
+	Uzel 72 hodnota 0.5
+	Uzel 73 hodnota 0.4975124378109453
+	Uzel 74 hodnota 0.5063291139240507
+	Uzel 75 hodnota 0.47393364928909953
+	Uzel 76 hodnota 0.4662004662004662
+	Uzel 77 hodnota 0.5115089514066496
+	Uzel 78 hodnota 0.4750593824228028
+	Uzel 79 hodnota 0.5012531328320802
+	Uzel 80 hodnota 0.5277044854881267
+	Uzel 81 hodnota 0.5347593582887701
+	Uzel 82 hodnota 0.5390835579514824
+	Uzel 83 hodnota 0.5025125628140703
+	Uzel 84 hodnota 0.48661800486618007
+	Uzel 85 hodnota 0.5076142131979695
+	Uzel 86 hodnota 0.5263157894736842
+	Uzel 87 hodnota 0.5089058524173028
+	Uzel 88 hodnota 0.4878048780487805
+	Uzel 89 hodnota 0.5025125628140703
+	Uzel 90 hodnota 0.5167958656330749
+	Uzel 91 hodnota 0.5012531328320802
+	Uzel 92 hodnota 0.49627791563275436
+	Uzel 93 hodnota 0.5141388174807198
+	Uzel 94 hodnota 0.4662004662004662
+	Uzel 95 hodnota 0.5235602094240838
+	Uzel 96 hodnota 0.4889975550122249
+	Uzel 97 hodnota 0.4807692307692308
+	Uzel 98 hodnota 0.47058823529411764
+	Uzel 99 hodnota 0.477326968973747
+	Uzel 100 hodnota 0.47619047619047616
+	Uzel 101 hodnota 0.5063291139240507
+	Uzel 102 hodnota 0.4784688995215311
+	Uzel 103 hodnota 0.5277044854881267
+	Uzel 104 hodnota 0.49019607843137253
+	Uzel 105 hodnota 0.5167958656330749
+	Uzel 106 hodnota 0.49875311720698257
+	Uzel 107 hodnota 0.5194805194805194
+	Uzel 108 hodnota 0.5050505050505051
+	Uzel 109 hodnota 0.5025125628140703
+	Uzel 110 hodnota 0.5194805194805194
+	Uzel 111 hodnota 0.5050505050505051
+	Uzel 112 hodnota 0.5235602094240838
+	Uzel 113 hodnota 0.49019607843137253
+	Uzel 114 hodnota 0.49504950495049505
+	Uzel 115 hodnota 0.4975124378109453
+	Uzel 116 hodnota 0.4784688995215311
+	Uzel 117 hodnota 0.4728132387706856
+	Uzel 118 hodnota 0.5012531328320802
+	Uzel 119 hodnota 0.5063291139240507
+	Uzel 120 hodnota 0.4807692307692308
+	Uzel 121 hodnota 0.4830917874396135
+	Uzel 122 hodnota 0.5305039787798409
+	Uzel 123 hodnota 0.468384074941452
+	Uzel 124 hodnota 0.5
+	Uzel 125 hodnota 0.4694835680751174
+	Uzel 126 hodnota 0.4914004914004914
+	Uzel 127 hodnota 0.46296296296296297
+	Uzel 128 hodnota 0.5089058524173028
+	Uzel 129 hodnota 0.4662004662004662
+	Uzel 130 hodnota 0.49019607843137253
+	Uzel 131 hodnota 0.48426150121065376
+	Uzel 132 hodnota 0.4889975550122249
+	Uzel 133 hodnota 0.49382716049382713
+	Uzel 134 hodnota 0.4444444444444444
+	Uzel 135 hodnota 0.4914004914004914
+	Uzel 136 hodnota 0.5102040816326531
+	Uzel 137 hodnota 0.49382716049382713
+	Uzel 138 hodnota 0.5208333333333334
+	Uzel 139 hodnota 0.5194805194805194
+	Uzel 140 hodnota 0.5208333333333334
+	Uzel 141 hodnota 0.49261083743842365
+	Uzel 142 hodnota 0.47961630695443647
+	Uzel 143 hodnota 0.5
+	Uzel 144 hodnota 0.49504950495049505
+	Uzel 145 hodnota 0.5050505050505051
+	Uzel 146 hodnota 0.47961630695443647
+	Uzel 147 hodnota 0.49875311720698257
+	Uzel 148 hodnota 0.49382716049382713
+	Uzel 149 hodnota 0.46403712296983757
+	Uzel 150 hodnota 0.4608294930875576
+	Uzel 151 hodnota 0.4854368932038835
+	Uzel 152 hodnota 0.49504950495049505
+	Uzel 153 hodnota 0.4889975550122249
+	Uzel 154 hodnota 0.4975124378109453
+	Uzel 155 hodnota 0.5102040816326531
+	Uzel 156 hodnota 0.4819277108433735
+	Uzel 157 hodnota 0.5154639175257731
+	Uzel 158 hodnota 0.5347593582887701
+	Uzel 159 hodnota 0.47961630695443647
+	Uzel 160 hodnota 0.46296296296296297
+	Uzel 161 hodnota 0.5167958656330749
+	Uzel 162 hodnota 0.49261083743842365
+	Uzel 163 hodnota 0.5050505050505051
+	Uzel 164 hodnota 0.5012531328320802
+	Uzel 165 hodnota 0.5128205128205128
+	Uzel 166 hodnota 0.4878048780487805
+	Uzel 167 hodnota 0.5128205128205128
+	Uzel 168 hodnota 0.4975124378109453
+	Uzel 169 hodnota 0.4914004914004914
+	Uzel 170 hodnota 0.5141388174807198
+	Uzel 171 hodnota 0.5076142131979695
+	Uzel 172 hodnota 0.5115089514066496
+	Uzel 173 hodnota 0.5063291139240507
+	Uzel 174 hodnota 0.5167958656330749
+	Uzel 175 hodnota 0.5333333333333333
+	Uzel 176 hodnota 0.49875311720698257
+	Uzel 177 hodnota 0.47393364928909953
+	Uzel 178 hodnota 0.5208333333333334
+	Uzel 179 hodnota 0.5
+	Uzel 180 hodnota 0.5319148936170213
+	Uzel 181 hodnota 0.468384074941452
+	Uzel 182 hodnota 0.48426150121065376
+	Uzel 183 hodnota 0.47961630695443647
+	Uzel 184 hodnota 0.5277044854881267
+	Uzel 185 hodnota 0.49019607843137253
+	Uzel 186 hodnota 0.49382716049382713
+	Uzel 187 hodnota 0.4784688995215311
+	Uzel 188 hodnota 0.45662100456621
+	Uzel 189 hodnota 0.47058823529411764
+	Uzel 190 hodnota 0.5235602094240838
+	Uzel 191 hodnota 0.5063291139240507
+	Uzel 192 hodnota 0.4784688995215311
+	Uzel 193 hodnota 0.5102040816326531
+	Uzel 194 hodnota 0.5167958656330749
+	Uzel 195 hodnota 0.5050505050505051
+	Uzel 196 hodnota 0.5
+	Uzel 197 hodnota 0.5305039787798409
+	Uzel 198 hodnota 0.47961630695443647
+	Uzel 199 hodnota 0.437636761487965
+Shlukovaci koeficient je:
+	Uzel 0 hodnota 0.10526315789473684
+	Uzel 1 hodnota 0.1111111111111111
+	Uzel 2 hodnota 0.08088235294117647
+	Uzel 3 hodnota 0.07602339181286549
+	Uzel 4 hodnota 0.09523809523809523
+	Uzel 5 hodnota 0.08421052631578947
+	Uzel 6 hodnota 0.16666666666666666
+	Uzel 7 hodnota 0.11396011396011396
+	Uzel 8 hodnota 0.13438735177865613
+	Uzel 9 hodnota 0.11764705882352941
+	Uzel 10 hodnota 0.08947368421052632
+	Uzel 11 hodnota 0.07905138339920949
+	Uzel 12 hodnota 0.08695652173913043
+	Uzel 13 hodnota 0.1225296442687747
+	Uzel 14 hodnota 0.10476190476190476
+	Uzel 15 hodnota 0.07971014492753623
+	Uzel 16 hodnota 0.14166666666666666
+	Uzel 17 hodnota 0.10833333333333334
+	Uzel 18 hodnota 0.10507246376811594
+	Uzel 19 hodnota 0.10526315789473684
+	Uzel 20 hodnota 0.08974358974358974
+	Uzel 21 hodnota 0.11764705882352941
+	Uzel 22 hodnota 0.09195402298850575
+	Uzel 23 hodnota 0.17647058823529413
+	Uzel 24 hodnota 0.13333333333333333
+	Uzel 25 hodnota 0.09057971014492754
+	Uzel 26 hodnota 0.09
+	Uzel 27 hodnota 0.14736842105263157
+	Uzel 28 hodnota 0.07017543859649122
+	Uzel 29 hodnota 0.11333333333333333
+	Uzel 30 hodnota 0.1038961038961039
+	Uzel 31 hodnota 0.10822510822510822
+	Uzel 32 hodnota 0.09803921568627451
+	Uzel 33 hodnota 0.05714285714285714
+	Uzel 34 hodnota 0.06926406926406926
+	Uzel 35 hodnota 0.08300395256916997
+	Uzel 36 hodnota 0.0935672514619883
+	Uzel 37 hodnota 0.07142857142857142
+	Uzel 38 hodnota 0.10526315789473684
+	Uzel 39 hodnota 0.08771929824561403
+	Uzel 40 hodnota 0.08496732026143791
+	Uzel 41 hodnota 0.11428571428571428
+	Uzel 42 hodnota 0.11764705882352941
+	Uzel 43 hodnota 0.06432748538011696
+	Uzel 44 hodnota 0.07894736842105263
+	Uzel 45 hodnota 0.14545454545454545
+	Uzel 46 hodnota 0.08
+	Uzel 47 hodnota 0.12857142857142856
+	Uzel 48 hodnota 0.0915032679738562
+	Uzel 49 hodnota 0.0761904761904762
+	Uzel 50 hodnota 0.12857142857142856
+	Uzel 51 hodnota 0.075
+	Uzel 52 hodnota 0.11904761904761904
+	Uzel 53 hodnota 0.11375661375661375
+	Uzel 54 hodnota 0.11904761904761904
+	Uzel 55 hodnota 0.09047619047619047
+	Uzel 56 hodnota 0.08831908831908832
+	Uzel 57 hodnota 0.10822510822510822
+	Uzel 58 hodnota 0.11029411764705882
+	Uzel 59 hodnota 0.09852216748768473
+	Uzel 60 hodnota 0.12648221343873517
+	Uzel 61 hodnota 0.11052631578947368
+	Uzel 62 hodnota 0.15151515151515152
+	Uzel 63 hodnota 0.09166666666666666
+	Uzel 64 hodnota 0.08771929824561403
+	Uzel 65 hodnota 0.06593406593406594
+	Uzel 66 hodnota 0.10526315789473684
+	Uzel 67 hodnota 0.13043478260869565
+	Uzel 68 hodnota 0.06666666666666667
+	Uzel 69 hodnota 0.09523809523809523
+	Uzel 70 hodnota 0.09538461538461539
+	Uzel 71 hodnota 0.0935672514619883
+	Uzel 72 hodnota 0.08771929824561403
+	Uzel 73 hodnota 0.10526315789473684
+	Uzel 74 hodnota 0.09956709956709957
+	Uzel 75 hodnota 0.13186813186813187
+	Uzel 76 hodnota 0.07692307692307693
+	Uzel 77 hodnota 0.10276679841897234
+	Uzel 78 hodnota 0.08571428571428572
+	Uzel 79 hodnota 0.11904761904761904
+	Uzel 80 hodnota 0.08831908831908832
+	Uzel 81 hodnota 0.10804597701149425
+	Uzel 82 hodnota 0.10227272727272728
+	Uzel 83 hodnota 0.08695652173913043
+	Uzel 84 hodnota 0.14166666666666666
+	Uzel 85 hodnota 0.07368421052631578
+	Uzel 86 hodnota 0.08465608465608465
+	Uzel 87 hodnota 0.0761904761904762
+	Uzel 88 hodnota 0.11666666666666667
+	Uzel 89 hodnota 0.09523809523809523
+	Uzel 90 hodnota 0.1038961038961039
+	Uzel 91 hodnota 0.08421052631578947
+	Uzel 92 hodnota 0.15714285714285714
+	Uzel 93 hodnota 0.0735930735930736
+	Uzel 94 hodnota 0.14285714285714285
+	Uzel 95 hodnota 0.10666666666666667
+	Uzel 96 hodnota 0.1323529411764706
+	Uzel 97 hodnota 0.13333333333333333
+	Uzel 98 hodnota 0.0761904761904762
+	Uzel 99 hodnota 0.09523809523809523
+	Uzel 100 hodnota 0.125
+	Uzel 101 hodnota 0.07905138339920949
+	Uzel 102 hodnota 0.08088235294117647
+	Uzel 103 hodnota 0.13105413105413105
+	Uzel 104 hodnota 0.09558823529411764
+	Uzel 105 hodnota 0.08666666666666667
+	Uzel 106 hodnota 0.09941520467836257
+	Uzel 107 hodnota 0.09666666666666666
+	Uzel 108 hodnota 0.11578947368421053
+	Uzel 109 hodnota 0.09473684210526316
+	Uzel 110 hodnota 0.1067193675889328
+	Uzel 111 hodnota 0.12105263157894737
+	Uzel 112 hodnota 0.08547008547008547
+	Uzel 113 hodnota 0.11666666666666667
+	Uzel 114 hodnota 0.06432748538011696
+	Uzel 115 hodnota 0.09523809523809523
+	Uzel 116 hodnota 0.10833333333333334
+	Uzel 117 hodnota 0.09523809523809523
+	Uzel 118 hodnota 0.08771929824561403
+	Uzel 119 hodnota 0.09047619047619047
+	Uzel 120 hodnota 0.0718954248366013
+	Uzel 121 hodnota 0.14285714285714285
+	Uzel 122 hodnota 0.10804597701149425
+	Uzel 123 hodnota 0.12087912087912088
+	Uzel 124 hodnota 0.07602339181286549
+	Uzel 125 hodnota 0.08571428571428572
+	Uzel 126 hodnota 0.051470588235294115
+	Uzel 127 hodnota 0.045454545454545456
+	Uzel 128 hodnota 0.11428571428571428
+	Uzel 129 hodnota 0.12087912087912088
+	Uzel 130 hodnota 0.13450292397660818
+	Uzel 131 hodnota 0.06666666666666667
+	Uzel 132 hodnota 0.0718954248366013
+	Uzel 133 hodnota 0.0915032679738562
+	Uzel 134 hodnota 0.07272727272727272
+	Uzel 135 hodnota 0.0915032679738562
+	Uzel 136 hodnota 0.09523809523809523
+	Uzel 137 hodnota 0.1503267973856209
+	Uzel 138 hodnota 0.07666666666666666
+	Uzel 139 hodnota 0.10144927536231885
+	Uzel 140 hodnota 0.11692307692307692
+	Uzel 141 hodnota 0.1111111111111111
+	Uzel 142 hodnota 0.08823529411764706
+	Uzel 143 hodnota 0.1111111111111111
+	Uzel 144 hodnota 0.1
+	Uzel 145 hodnota 0.11052631578947368
+	Uzel 146 hodnota 0.10294117647058823
+	Uzel 147 hodnota 0.12418300653594772
+	Uzel 148 hodnota 0.0915032679738562
+	Uzel 149 hodnota 0.07692307692307693
+	Uzel 150 hodnota 0.1282051282051282
+	Uzel 151 hodnota 0.1323529411764706
+	Uzel 152 hodnota 0.07017543859649122
+	Uzel 153 hodnota 0.0935672514619883
+	Uzel 154 hodnota 0.07142857142857142
+	Uzel 155 hodnota 0.11578947368421053
+	Uzel 156 hodnota 0.10476190476190476
+	Uzel 157 hodnota 0.1067193675889328
+	Uzel 158 hodnota 0.0907258064516129
+	Uzel 159 hodnota 0.10833333333333334
+	Uzel 160 hodnota 0.06593406593406594
+	Uzel 161 hodnota 0.10507246376811594
+	Uzel 162 hodnota 0.12418300653594772
+	Uzel 163 hodnota 0.10476190476190476
+	Uzel 164 hodnota 0.1380952380952381
+	Uzel 165 hodnota 0.11857707509881422
+	Uzel 166 hodnota 0.11764705882352941
+	Uzel 167 hodnota 0.07114624505928854
+	Uzel 168 hodnota 0.08187134502923976
+	Uzel 169 hodnota 0.06842105263157895
+	Uzel 170 hodnota 0.07333333333333333
+	Uzel 171 hodnota 0.05238095238095238
+	Uzel 172 hodnota 0.09881422924901186
+	Uzel 173 hodnota 0.06315789473684211
+	Uzel 174 hodnota 0.08300395256916997
+	Uzel 175 hodnota 0.07936507936507936
+	Uzel 176 hodnota 0.1111111111111111
+	Uzel 177 hodnota 0.05714285714285714
+	Uzel 178 hodnota 0.08300395256916997
+	Uzel 179 hodnota 0.0784313725490196
+	Uzel 180 hodnota 0.10837438423645321
+	Uzel 181 hodnota 0.10989010989010989
+	Uzel 182 hodnota 0.08333333333333333
+	Uzel 183 hodnota 0.10476190476190476
+	Uzel 184 hodnota 0.0812807881773399
+	Uzel 185 hodnota 0.1437908496732026
+	Uzel 186 hodnota 0.09558823529411764
+	Uzel 187 hodnota 0.11666666666666667
+	Uzel 188 hodnota 0.13636363636363635
+	Uzel 189 hodnota 0.10476190476190476
+	Uzel 190 hodnota 0.12
+	Uzel 191 hodnota 0.0935672514619883
+	Uzel 192 hodnota 0.12380952380952381
+	Uzel 193 hodnota 0.12380952380952381
+	Uzel 194 hodnota 0.06493506493506493
+	Uzel 195 hodnota 0.07971014492753623
+	Uzel 196 hodnota 0.06842105263157895
+	Uzel 197 hodnota 0.1164021164021164
+	Uzel 198 hodnota 0.06666666666666667
+	Uzel 199 hodnota 0.07272727272727272
+Tranzitivita v grafu je 0.09979936181069265
+
 ==============================================================
+KOMPONENTY SOUVILOSTI 
 Pocet komponent souvislosti je 1
-Komponenta ID 0 je velka 200
-
-Ditrubuce
-Komponent s velikosti 200 je 1
-
-Ditrubuce relativni cetnost
-Komponent s velikosti 200 je 100.0%
-
-Velikost nejvetsi komponenty je 200
-
-==============================================================Komponenta ID 0 vlastnosti==============================================================
-
-========================
-Degree Distribution
-========================
-ID 1 - Degree 20
-ID 2 - Degree 18
-ID 3 - Degree 23
-ID 4 - Degree 19
-ID 5 - Degree 18
-ID 6 - Degree 13
-ID 7 - Degree 13
-ID 8 - Degree 28
-ID 9 - Degree 23
-ID 10 - Degree 24
-ID 11 - Degree 18
-ID 12 - Degree 19
-ID 13 - Degree 21
-ID 14 - Degree 26
-ID 15 - Degree 28
-ID 16 - Degree 25
-ID 17 - Degree 25
-ID 18 - Degree 26
-ID 19 - Degree 22
-ID 20 - Degree 18
-ID 21 - Degree 20
-ID 22 - Degree 16
-ID 23 - Degree 22
-ID 24 - Degree 25
-ID 25 - Degree 21
-ID 26 - Degree 19
-ID 27 - Degree 12
-ID 28 - Degree 21
-ID 29 - Degree 24
-ID 30 - Degree 29
-ID 31 - Degree 14
-ID 32 - Degree 14
-ID 33 - Degree 12
-ID 34 - Degree 11
-ID 35 - Degree 30
-ID 36 - Degree 16
-ID 37 - Degree 16
-ID 38 - Degree 22
-ID 39 - Degree 26
-ID 40 - Degree 25
-ID 41 - Degree 22
-ID 42 - Degree 29
-ID 43 - Degree 25
-ID 44 - Degree 23
-ID 45 - Degree 20
-ID 46 - Degree 21
-ID 47 - Degree 15
-ID 48 - Degree 24
-ID 49 - Degree 21
-ID 50 - Degree 22
-ID 51 - Degree 17
-ID 52 - Degree 19
-ID 53 - Degree 12
-ID 54 - Degree 14
-ID 55 - Degree 17
-ID 56 - Degree 21
-ID 57 - Degree 13
-ID 58 - Degree 14
-ID 59 - Degree 22
-ID 60 - Degree 24
-ID 61 - Degree 17
-ID 62 - Degree 14
-ID 63 - Degree 31
-ID 64 - Degree 15
-ID 65 - Degree 13
-ID 66 - Degree 15
-ID 67 - Degree 14
-ID 68 - Degree 20
-ID 69 - Degree 16
-ID 70 - Degree 19
-ID 71 - Degree 22
-ID 72 - Degree 18
-ID 73 - Degree 16
-ID 74 - Degree 18
-ID 75 - Degree 11
-ID 76 - Degree 25
-ID 77 - Degree 19
-ID 78 - Degree 10
-ID 79 - Degree 15
-ID 80 - Degree 26
-ID 81 - Degree 22
-ID 82 - Degree 20
-ID 83 - Degree 14
-ID 84 - Degree 19
-ID 85 - Degree 18
-ID 86 - Degree 16
-ID 87 - Degree 20
-ID 88 - Degree 17
-ID 89 - Degree 16
-ID 90 - Degree 18
-ID 91 - Degree 23
-ID 92 - Degree 23
-ID 93 - Degree 18
-ID 94 - Degree 16
-ID 95 - Degree 22
-ID 96 - Degree 17
-ID 97 - Degree 23
-ID 98 - Degree 16
-ID 99 - Degree 22
-ID 100 - Degree 24
-ID 101 - Degree 21
-ID 102 - Degree 29
-ID 103 - Degree 26
-ID 104 - Degree 15
-ID 105 - Degree 23
-ID 106 - Degree 22
-ID 107 - Degree 20
-ID 108 - Degree 18
-ID 109 - Degree 18
-ID 110 - Degree 15
-ID 111 - Degree 22
-ID 112 - Degree 24
-ID 113 - Degree 23
-ID 114 - Degree 15
-ID 115 - Degree 14
-ID 116 - Degree 17
-ID 117 - Degree 14
-ID 118 - Degree 21
-ID 119 - Degree 12
-ID 120 - Degree 22
-ID 121 - Degree 20
-ID 122 - Degree 18
-ID 123 - Degree 19
-ID 124 - Degree 24
-ID 125 - Degree 20
-ID 126 - Degree 18
-ID 127 - Degree 19
-ID 128 - Degree 14
-ID 129 - Degree 18
-ID 130 - Degree 17
-ID 131 - Degree 24
-ID 132 - Degree 20
-ID 133 - Degree 26
-ID 134 - Degree 18
-ID 135 - Degree 20
-ID 136 - Degree 20
-ID 137 - Degree 17
-ID 138 - Degree 25
-ID 139 - Degree 30
-ID 140 - Degree 20
-ID 141 - Degree 21
-ID 142 - Degree 19
-ID 143 - Degree 15
-ID 144 - Degree 26
-ID 145 - Degree 25
-ID 146 - Degree 28
-ID 147 - Degree 20
-ID 148 - Degree 14
-ID 149 - Degree 14
-ID 150 - Degree 21
-ID 151 - Degree 26
-ID 152 - Degree 24
-ID 153 - Degree 15
-ID 154 - Degree 31
-ID 155 - Degree 15
-ID 156 - Degree 23
-ID 157 - Degree 19
-ID 158 - Degree 20
-ID 159 - Degree 23
-ID 160 - Degree 10
-ID 161 - Degree 20
-ID 162 - Degree 22
-ID 163 - Degree 20
-ID 164 - Degree 18
-ID 165 - Degree 10
-ID 166 - Degree 18
-ID 167 - Degree 23
-ID 168 - Degree 21
-ID 169 - Degree 16
-ID 170 - Degree 18
-ID 171 - Degree 23
-ID 172 - Degree 23
-ID 173 - Degree 18
-ID 174 - Degree 22
-ID 175 - Degree 20
-ID 176 - Degree 23
-ID 177 - Degree 17
-ID 178 - Degree 23
-ID 179 - Degree 18
-ID 180 - Degree 23
-ID 181 - Degree 21
-ID 182 - Degree 14
-ID 183 - Degree 36
-ID 184 - Degree 17
-ID 185 - Degree 23
-ID 186 - Degree 21
-ID 187 - Degree 29
-ID 188 - Degree 22
-ID 189 - Degree 24
-ID 190 - Degree 20
-ID 191 - Degree 21
-ID 192 - Degree 14
-ID 193 - Degree 24
-ID 194 - Degree 18
-ID 195 - Degree 18
-ID 196 - Degree 18
-ID 197 - Degree 19
-ID 198 - Degree 21
-ID 199 - Degree 21
-ID 200 - Degree 21
-Maximalni stupen - 36
-Minimalni stupen - 10
-Prumerny stupen - 19.9
-
-Relativni cetnost stupnu
-Degree 10 - 0.01%
-Degree 11 - 0.01%
-Degree 12 - 0.02%
-Degree 13 - 0.02%
-Degree 14 - 0.07%
-Degree 15 - 0.05%
-Degree 16 - 0.05%
-Degree 17 - 0.05%
-Degree 18 - 0.12%
-Degree 19 - 0.06%
-Degree 20 - 0.1%
-Degree 21 - 0.09%
-Degree 22 - 0.08%
-Degree 23 - 0.09%
-Degree 24 - 0.06%
-Degree 25 - 0.04%
-Degree 26 - 0.04%
-Degree 28 - 0.01%
-Degree 29 - 0.02%
-Degree 30 - 0.01%
-Degree 31 - 0.01%
-Degree 36 - 0.01%
-
-Prumerna vzdalenost - 2.021457286432161
-
-Prumer grafu - 3.0
-
-ID 1 - clossnes centraility 0.5050505050505051
-ID 2 - clossnes centraility 0.48661800486618007
-ID 3 - clossnes centraility 0.5167958656330749
-ID 4 - clossnes centraility 0.4975124378109453
-ID 5 - clossnes centraility 0.4854368932038835
-ID 6 - clossnes centraility 0.4662004662004662
-ID 7 - clossnes centraility 0.45977011494252873
-ID 8 - clossnes centraility 0.5235602094240838
-ID 9 - clossnes centraility 0.5115089514066496
-ID 10 - clossnes centraility 0.5181347150259067
-ID 11 - clossnes centraility 0.49261083743842365
-ID 12 - clossnes centraility 0.49627791563275436
-ID 13 - clossnes centraility 0.5050505050505051
-ID 14 - clossnes centraility 0.5181347150259067
-ID 15 - clossnes centraility 0.5291005291005291
-ID 16 - clossnes centraility 0.5208333333333334
-ID 17 - clossnes centraility 0.5235602094240838
-ID 18 - clossnes centraility 0.5235602094240838
-ID 19 - clossnes centraility 0.5076142131979695
-ID 20 - clossnes centraility 0.49627791563275436
-ID 21 - clossnes centraility 0.49382716049382713
-ID 22 - clossnes centraility 0.477326968973747
-ID 23 - clossnes centraility 0.5076142131979695
-ID 24 - clossnes centraility 0.5167958656330749
-ID 25 - clossnes centraility 0.5037783375314862
-ID 26 - clossnes centraility 0.49504950495049505
-ID 27 - clossnes centraility 0.468384074941452
-ID 28 - clossnes centraility 0.5115089514066496
-ID 29 - clossnes centraility 0.5128205128205128
-ID 30 - clossnes centraility 0.5319148936170213
-ID 31 - clossnes centraility 0.4618937644341801
-ID 32 - clossnes centraility 0.4694835680751174
-ID 33 - clossnes centraility 0.4576659038901602
-ID 34 - clossnes centraility 0.4484304932735426
-ID 35 - clossnes centraility 0.5376344086021505
-ID 36 - clossnes centraility 0.47961630695443647
-ID 37 - clossnes centraility 0.4819277108433735
-ID 38 - clossnes centraility 0.5063291139240507
-ID 39 - clossnes centraility 0.5221932114882507
-ID 40 - clossnes centraility 0.5181347150259067
-ID 41 - clossnes centraility 0.5154639175257731
-ID 42 - clossnes centraility 0.5305039787798409
-ID 43 - clossnes centraility 0.5235602094240838
-ID 44 - clossnes centraility 0.5141388174807198
-ID 45 - clossnes centraility 0.5
-ID 46 - clossnes centraility 0.4975124378109453
-ID 47 - clossnes centraility 0.4662004662004662
-ID 48 - clossnes centraility 0.5221932114882507
-ID 49 - clossnes centraility 0.5141388174807198
-ID 50 - clossnes centraility 0.5063291139240507
-ID 51 - clossnes centraility 0.4889975550122249
-ID 52 - clossnes centraility 0.49261083743842365
-ID 53 - clossnes centraility 0.4618937644341801
-ID 54 - clossnes centraility 0.477326968973747
-ID 55 - clossnes centraility 0.4807692307692308
-ID 56 - clossnes centraility 0.5050505050505051
-ID 57 - clossnes centraility 0.4672897196261682
-ID 58 - clossnes centraility 0.4716981132075472
-ID 59 - clossnes centraility 0.5063291139240507
-ID 60 - clossnes centraility 0.5102040816326531
-ID 61 - clossnes centraility 0.48661800486618007
-ID 62 - clossnes centraility 0.4608294930875576
-ID 63 - clossnes centraility 0.5347593582887701
-ID 64 - clossnes centraility 0.4830917874396135
-ID 65 - clossnes centraility 0.46511627906976744
-ID 66 - clossnes centraility 0.4672897196261682
-ID 67 - clossnes centraility 0.4672897196261682
-ID 68 - clossnes centraility 0.5063291139240507
-ID 69 - clossnes centraility 0.47961630695443647
-ID 70 - clossnes centraility 0.5
-ID 71 - clossnes centraility 0.5194805194805194
-ID 72 - clossnes centraility 0.49627791563275436
-ID 73 - clossnes centraility 0.48426150121065376
-ID 74 - clossnes centraility 0.49875311720698257
-ID 75 - clossnes centraility 0.44742729306487694
-ID 76 - clossnes centraility 0.5208333333333334
-ID 77 - clossnes centraility 0.5012531328320802
-ID 78 - clossnes centraility 0.4434589800443459
-ID 79 - clossnes centraility 0.4750593824228028
-ID 80 - clossnes centraility 0.5235602094240838
-ID 81 - clossnes centraility 0.5076142131979695
-ID 82 - clossnes centraility 0.5025125628140703
-ID 83 - clossnes centraility 0.47619047619047616
-ID 84 - clossnes centraility 0.5
-ID 85 - clossnes centraility 0.49382716049382713
-ID 86 - clossnes centraility 0.48426150121065376
-ID 87 - clossnes centraility 0.5076142131979695
-ID 88 - clossnes centraility 0.477326968973747
-ID 89 - clossnes centraility 0.4854368932038835
-ID 90 - clossnes centraility 0.49019607843137253
-ID 91 - clossnes centraility 0.5141388174807198
-ID 92 - clossnes centraility 0.5089058524173028
-ID 93 - clossnes centraility 0.49627791563275436
-ID 94 - clossnes centraility 0.4819277108433735
-ID 95 - clossnes centraility 0.5037783375314862
-ID 96 - clossnes centraility 0.47961630695443647
-ID 97 - clossnes centraility 0.5115089514066496
-ID 98 - clossnes centraility 0.4889975550122249
-ID 99 - clossnes centraility 0.5076142131979695
-ID 100 - clossnes centraility 0.5154639175257731
-ID 101 - clossnes centraility 0.5037783375314862
-ID 102 - clossnes centraility 0.5263157894736842
-ID 103 - clossnes centraility 0.5208333333333334
-ID 104 - clossnes centraility 0.4716981132075472
-ID 105 - clossnes centraility 0.5115089514066496
-ID 106 - clossnes centraility 0.5063291139240507
-ID 107 - clossnes centraility 0.49504950495049505
-ID 108 - clossnes centraility 0.5037783375314862
-ID 109 - clossnes centraility 0.4830917874396135
-ID 110 - clossnes centraility 0.4819277108433735
-ID 111 - clossnes centraility 0.5102040816326531
-ID 112 - clossnes centraility 0.5167958656330749
-ID 113 - clossnes centraility 0.5115089514066496
-ID 114 - clossnes centraility 0.4878048780487805
-ID 115 - clossnes centraility 0.46296296296296297
-ID 116 - clossnes centraility 0.49019607843137253
-ID 117 - clossnes centraility 0.4716981132075472
-ID 118 - clossnes centraility 0.49875311720698257
-ID 119 - clossnes centraility 0.45045045045045046
-ID 120 - clossnes centraility 0.5063291139240507
-ID 121 - clossnes centraility 0.4975124378109453
-ID 122 - clossnes centraility 0.4975124378109453
-ID 123 - clossnes centraility 0.49627791563275436
-ID 124 - clossnes centraility 0.5208333333333334
-ID 125 - clossnes centraility 0.49875311720698257
-ID 126 - clossnes centraility 0.49261083743842365
-ID 127 - clossnes centraility 0.49875311720698257
-ID 128 - clossnes centraility 0.47619047619047616
-ID 129 - clossnes centraility 0.49261083743842365
-ID 130 - clossnes centraility 0.5
-ID 131 - clossnes centraility 0.5115089514066496
-ID 132 - clossnes centraility 0.49019607843137253
-ID 133 - clossnes centraility 0.5208333333333334
-ID 134 - clossnes centraility 0.4914004914004914
-ID 135 - clossnes centraility 0.5050505050505051
-ID 136 - clossnes centraility 0.4975124378109453
-ID 137 - clossnes centraility 0.4819277108433735
-ID 138 - clossnes centraility 0.5154639175257731
-ID 139 - clossnes centraility 0.5376344086021505
-ID 140 - clossnes centraility 0.5063291139240507
-ID 141 - clossnes centraility 0.5012531328320802
-ID 142 - clossnes centraility 0.5025125628140703
-ID 143 - clossnes centraility 0.4819277108433735
-ID 144 - clossnes centraility 0.5167958656330749
-ID 145 - clossnes centraility 0.5194805194805194
-ID 146 - clossnes centraility 0.5319148936170213
-ID 147 - clossnes centraility 0.49504950495049505
-ID 148 - clossnes centraility 0.47393364928909953
-ID 149 - clossnes centraility 0.4694835680751174
-ID 150 - clossnes centraility 0.5063291139240507
-ID 151 - clossnes centraility 0.5263157894736842
-ID 152 - clossnes centraility 0.5141388174807198
-ID 153 - clossnes centraility 0.4728132387706856
-ID 154 - clossnes centraility 0.5333333333333333
-ID 155 - clossnes centraility 0.4819277108433735
-ID 156 - clossnes centraility 0.5194805194805194
-ID 157 - clossnes centraility 0.49875311720698257
-ID 158 - clossnes centraility 0.49504950495049505
-ID 159 - clossnes centraility 0.5167958656330749
-ID 160 - clossnes centraility 0.44543429844098
-ID 161 - clossnes centraility 0.49875311720698257
-ID 162 - clossnes centraility 0.5063291139240507
-ID 163 - clossnes centraility 0.4975124378109453
-ID 164 - clossnes centraility 0.49627791563275436
-ID 165 - clossnes centraility 0.44150110375275936
-ID 166 - clossnes centraility 0.5012531328320802
-ID 167 - clossnes centraility 0.5128205128205128
-ID 168 - clossnes centraility 0.5141388174807198
-ID 169 - clossnes centraility 0.48426150121065376
-ID 170 - clossnes centraility 0.4889975550122249
-ID 171 - clossnes centraility 0.5141388174807198
-ID 172 - clossnes centraility 0.5167958656330749
-ID 173 - clossnes centraility 0.4889975550122249
-ID 174 - clossnes centraility 0.5
-ID 175 - clossnes centraility 0.5025125628140703
-ID 176 - clossnes centraility 0.5115089514066496
-ID 177 - clossnes centraility 0.4784688995215311
-ID 178 - clossnes centraility 0.5025125628140703
-ID 179 - clossnes centraility 0.5
-ID 180 - clossnes centraility 0.49875311720698257
-ID 181 - clossnes centraility 0.5154639175257731
-ID 182 - clossnes centraility 0.4662004662004662
-ID 183 - clossnes centraility 0.5494505494505495
-ID 184 - clossnes centraility 0.48426150121065376
-ID 185 - clossnes centraility 0.5063291139240507
-ID 186 - clossnes centraility 0.49875311720698257
-ID 187 - clossnes centraility 0.5361930294906166
-ID 188 - clossnes centraility 0.5050505050505051
-ID 189 - clossnes centraility 0.5249343832020997
-ID 190 - clossnes centraility 0.5089058524173028
-ID 191 - clossnes centraility 0.5115089514066496
-ID 192 - clossnes centraility 0.4662004662004662
-ID 193 - clossnes centraility 0.5208333333333334
-ID 194 - clossnes centraility 0.4854368932038835
-ID 195 - clossnes centraility 0.49875311720698257
-ID 196 - clossnes centraility 0.4975124378109453
-ID 197 - clossnes centraility 0.4914004914004914
-ID 198 - clossnes centraility 0.5076142131979695
-ID 199 - clossnes centraility 0.5
-ID 200 - clossnes centraility 0.5
-
-Cluster coefficient - 
-1;0.08421052631578947
-2;0.10457516339869281
-3;0.08695652173913043
-4;0.12280701754385964
-5;0.0915032679738562
-6;0.14102564102564102
-7;0.08974358974358974
-8;0.09523809523809523
-9;0.08300395256916997
-10;0.09782608695652174
-11;0.12418300653594772
-12;0.13450292397660818
-13;0.09523809523809523
-14;0.10461538461538461
-15;0.07671957671957672
-16;0.09333333333333334
-17;0.11333333333333333
-18;0.09538461538461539
-19;0.1038961038961039
-20;0.1437908496732026
-21;0.12105263157894737
-22;0.041666666666666664
-23;0.12121212121212122
-24;0.09
-25;0.08571428571428572
-26;0.13450292397660818
-27;0.09090909090909091
-28;0.07142857142857142
-29;0.06884057971014493
-30;0.07881773399014778
-31;0.06593406593406594
-32;0.08791208791208792
-33;0.12121212121212122
-34;0.12727272727272726
-35;0.09655172413793103
-36;0.1
-37;0.075
-38;0.1038961038961039
-39;0.11384615384615385
-40;0.14333333333333334
-41;0.12121212121212122
-42;0.1330049261083744
-43;0.043333333333333335
-44;0.08695652173913043
-45;0.11052631578947368
-46;0.1
-47;0.13333333333333333
-48;0.08333333333333333
-49;0.1
-50;0.09523809523809523
-51;0.11029411764705882
-52;0.07602339181286549
-53;0.10606060606060606
-54;0.0989010989010989
-55;0.11764705882352941
-56;0.09523809523809523
-57;0.05128205128205128
-58;0.13186813186813187
-59;0.10822510822510822
-60;0.11956521739130435
-61;0.15441176470588236
-62;0.13186813186813187
-63;0.10967741935483871
-64;0.10476190476190476
-65;0.16666666666666666
-66;0.13333333333333333
-67;0.16483516483516483
-68;0.08421052631578947
-69;0.1
-70;0.11695906432748537
-71;0.1038961038961039
-72;0.1111111111111111
-73;0.11666666666666667
-74;0.1437908496732026
-75;0.14545454545454545
-76;0.12333333333333334
-77;0.07602339181286549
-78;0.06666666666666667
-79;0.06666666666666667
-80;0.11076923076923077
-81;0.1038961038961039
-82;0.11052631578947368
-83;0.13186813186813187
-84;0.04093567251461988
-85;0.05228758169934641
-86;0.09166666666666666
-87;0.1
-88;0.08088235294117647
-89;0.06666666666666667
-90;0.0457516339869281
-91;0.11857707509881422
-92;0.09881422924901186
-93;0.1111111111111111
-94;0.125
-95;0.08225108225108226
-96;0.10294117647058823
-97;0.11462450592885376
-98;0.11666666666666667
-99;0.12121212121212122
-100;0.09420289855072464
-101;0.10476190476190476
-102;0.07881773399014778
-103;0.10153846153846154
-104;0.10476190476190476
-105;0.11857707509881422
-106;0.12121212121212122
-107;0.06842105263157895
-108;0.0784313725490196
-109;0.09803921568627451
-110;0.13333333333333333
-111;0.08658008658008658
-112;0.08333333333333333
-113;0.09486166007905138
-114;0.09523809523809523
-115;0.06593406593406594
-116;0.09558823529411764
-117;0.15384615384615385
-118;0.10952380952380952
-119;0.030303030303030304
-120;0.13852813852813853
-121;0.09473684210526316
-122;0.09803921568627451
-123;0.08187134502923976
-124;0.05434782608695652
-125;0.06842105263157895
-126;0.058823529411764705
-127;0.12280701754385964
-128;0.10989010989010989
-129;0.09803921568627451
-130;0.07352941176470588
-131;0.09420289855072464
-132;0.12631578947368421
-133;0.12
-134;0.0718954248366013
-135;0.10526315789473684
-136;0.06315789473684211
-137;0.08823529411764706
-138;0.09666666666666666
-139;0.09885057471264368
-140;0.10526315789473684
-141;0.10952380952380952
-142;0.11695906432748537
-143;0.08571428571428572
-144;0.11692307692307692
-145;0.12
-146;0.11904761904761904
-147;0.10526315789473684
-148;0.10989010989010989
-149;0.13186813186813187
-150;0.1
-151;0.12307692307692308
-152;0.10144927536231885
-153;0.13333333333333333
-154;0.1010752688172043
-155;0.12380952380952381
-156;0.11462450592885376
-157;0.05847953216374269
-158;0.10526315789473684
-159;0.11067193675889328
-160;0.08888888888888889
-161;0.08421052631578947
-162;0.09523809523809523
-163;0.06842105263157895
-164;0.1111111111111111
-165;0.1111111111111111
-166;0.1111111111111111
-167;0.1067193675889328
-168;0.13333333333333333
-169;0.10833333333333334
-170;0.0915032679738562
-171;0.1067193675889328
-172;0.07905138339920949
-173;0.0784313725490196
-174;0.11688311688311688
-175;0.08421052631578947
-176;0.09090909090909091
-177;0.08088235294117647
-178;0.06324110671936758
-179;0.09803921568627451
-180;0.11462450592885376
-181;0.10952380952380952
-182;0.13186813186813187
-183;0.1
-184;0.08823529411764706
-185;0.09090909090909091
-186;0.1
-187;0.10344827586206896
-188;0.12121212121212122
-189;0.11231884057971014
-190;0.11052631578947368
-191;0.09047619047619047
-192;0.08791208791208792
-193;0.11594202898550725
-194;0.0784313725490196
-195;0.11764705882352941
-196;0.1111111111111111
-197;0.0935672514619883
-198;0.11428571428571428
-199;0.1
-200;0.09523809523809523
-Graph transitivity - 0.10129301674804092
+Nejvetsi velikost v ramci komponent souvislosti je 200
+Nejmensi velikost v ramci komponent souvislosti je 200
+Prumer grafu pres jednoltive komponenty souvilosti je 3.0
+Rozlozeni komponent souvislosti je 
+	Komponent s velikosti 200 je 1, relativni cetnost 1.0
+==============================================================
+0
+==============================================================
+Prumer grafu je 3.0
+Prumerna vzdalenost v grafu je 2.020753768844221
+Maximalni stupen v grafu je 33
+Minimalni stupen v grafu je 11
+Prumerny stupen v grafu je 19.9
+Distribuce stupnu v grafu je:
+	Stupen 11 je obsazen 3 krat, s relativni cetnosti 0.015
+	Stupen 12 je obsazen 4 krat, s relativni cetnosti 0.02
+	Stupen 13 je obsazen 4 krat, s relativni cetnosti 0.02
+	Stupen 14 je obsazen 6 krat, s relativni cetnosti 0.03
+	Stupen 15 je obsazen 16 krat, s relativni cetnosti 0.08
+	Stupen 16 je obsazen 13 krat, s relativni cetnosti 0.065
+	Stupen 17 je obsazen 13 krat, s relativni cetnosti 0.065
+	Stupen 18 je obsazen 16 krat, s relativni cetnosti 0.08
+	Stupen 19 je obsazen 23 krat, s relativni cetnosti 0.115
+	Stupen 20 je obsazen 19 krat, s relativni cetnosti 0.095
+	Stupen 21 je obsazen 22 krat, s relativni cetnosti 0.11
+	Stupen 22 je obsazen 9 krat, s relativni cetnosti 0.045
+	Stupen 23 je obsazen 17 krat, s relativni cetnosti 0.085
+	Stupen 24 je obsazen 6 krat, s relativni cetnosti 0.03
+	Stupen 25 je obsazen 9 krat, s relativni cetnosti 0.045
+	Stupen 26 je obsazen 2 krat, s relativni cetnosti 0.01
+	Stupen 27 je obsazen 5 krat, s relativni cetnosti 0.025
+	Stupen 28 je obsazen 5 krat, s relativni cetnosti 0.025
+	Stupen 29 je obsazen 3 krat, s relativni cetnosti 0.015
+	Stupen 30 je obsazen 3 krat, s relativni cetnosti 0.015
+	Stupen 32 je obsazen 1 krat, s relativni cetnosti 0.005
+	Stupen 33 je obsazen 1 krat, s relativni cetnosti 0.005
+Closness centralita je:
+	Uzel 0 hodnota 0.5089058524173028
+	Uzel 1 hodnota 0.49875311720698257
+	Uzel 2 hodnota 0.47961630695443647
+	Uzel 3 hodnota 0.5012531328320802
+	Uzel 4 hodnota 0.5037783375314862
+	Uzel 5 hodnota 0.5050505050505051
+	Uzel 6 hodnota 0.4672897196261682
+	Uzel 7 hodnota 0.5221932114882507
+	Uzel 8 hodnota 0.5154639175257731
+	Uzel 9 hodnota 0.47961630695443647
+	Uzel 10 hodnota 0.5
+	Uzel 11 hodnota 0.5194805194805194
+	Uzel 12 hodnota 0.5141388174807198
+	Uzel 13 hodnota 0.5154639175257731
+	Uzel 14 hodnota 0.5012531328320802
+	Uzel 15 hodnota 0.5102040816326531
+	Uzel 16 hodnota 0.4807692307692308
+	Uzel 17 hodnota 0.477326968973747
+	Uzel 18 hodnota 0.5128205128205128
+	Uzel 19 hodnota 0.49504950495049505
+	Uzel 20 hodnota 0.46403712296983757
+	Uzel 21 hodnota 0.4878048780487805
+	Uzel 22 hodnota 0.5305039787798409
+	Uzel 23 hodnota 0.4889975550122249
+	Uzel 24 hodnota 0.4784688995215311
+	Uzel 25 hodnota 0.5128205128205128
+	Uzel 26 hodnota 0.5194805194805194
+	Uzel 27 hodnota 0.4975124378109453
+	Uzel 28 hodnota 0.5050505050505051
+	Uzel 29 hodnota 0.5167958656330749
+	Uzel 30 hodnota 0.5115089514066496
+	Uzel 31 hodnota 0.5063291139240507
+	Uzel 32 hodnota 0.4878048780487805
+	Uzel 33 hodnota 0.4728132387706856
+	Uzel 34 hodnota 0.5128205128205128
+	Uzel 35 hodnota 0.5089058524173028
+	Uzel 36 hodnota 0.5012531328320802
+	Uzel 37 hodnota 0.5291005291005291
+	Uzel 38 hodnota 0.49382716049382713
+	Uzel 39 hodnota 0.49382716049382713
+	Uzel 40 hodnota 0.49261083743842365
+	Uzel 41 hodnota 0.47961630695443647
+	Uzel 42 hodnota 0.5012531328320802
+	Uzel 43 hodnota 0.48661800486618007
+	Uzel 44 hodnota 0.5089058524173028
+	Uzel 45 hodnota 0.45454545454545453
+	Uzel 46 hodnota 0.5167958656330749
+	Uzel 47 hodnota 0.5012531328320802
+	Uzel 48 hodnota 0.4784688995215311
+	Uzel 49 hodnota 0.49627791563275436
+	Uzel 50 hodnota 0.5115089514066496
+	Uzel 51 hodnota 0.4914004914004914
+	Uzel 52 hodnota 0.5063291139240507
+	Uzel 53 hodnota 0.5319148936170213
+	Uzel 54 hodnota 0.5063291139240507
+	Uzel 55 hodnota 0.5076142131979695
+	Uzel 56 hodnota 0.5319148936170213
+	Uzel 57 hodnota 0.49875311720698257
+	Uzel 58 hodnota 0.48661800486618007
+	Uzel 59 hodnota 0.5319148936170213
+	Uzel 60 hodnota 0.5128205128205128
+	Uzel 61 hodnota 0.49627791563275436
+	Uzel 62 hodnota 0.45248868778280543
+	Uzel 63 hodnota 0.4854368932038835
+	Uzel 64 hodnota 0.4889975550122249
+	Uzel 65 hodnota 0.4854368932038835
+	Uzel 66 hodnota 0.5025125628140703
+	Uzel 67 hodnota 0.5154639175257731
+	Uzel 68 hodnota 0.5063291139240507
+	Uzel 69 hodnota 0.49019607843137253
+	Uzel 70 hodnota 0.5194805194805194
+	Uzel 71 hodnota 0.5012531328320802
+	Uzel 72 hodnota 0.5
+	Uzel 73 hodnota 0.4975124378109453
+	Uzel 74 hodnota 0.5063291139240507
+	Uzel 75 hodnota 0.47393364928909953
+	Uzel 76 hodnota 0.4662004662004662
+	Uzel 77 hodnota 0.5115089514066496
+	Uzel 78 hodnota 0.4750593824228028
+	Uzel 79 hodnota 0.5012531328320802
+	Uzel 80 hodnota 0.5277044854881267
+	Uzel 81 hodnota 0.5347593582887701
+	Uzel 82 hodnota 0.5390835579514824
+	Uzel 83 hodnota 0.5025125628140703
+	Uzel 84 hodnota 0.48661800486618007
+	Uzel 85 hodnota 0.5076142131979695
+	Uzel 86 hodnota 0.5263157894736842
+	Uzel 87 hodnota 0.5089058524173028
+	Uzel 88 hodnota 0.4878048780487805
+	Uzel 89 hodnota 0.5025125628140703
+	Uzel 90 hodnota 0.5167958656330749
+	Uzel 91 hodnota 0.5012531328320802
+	Uzel 92 hodnota 0.49627791563275436
+	Uzel 93 hodnota 0.5141388174807198
+	Uzel 94 hodnota 0.4662004662004662
+	Uzel 95 hodnota 0.5235602094240838
+	Uzel 96 hodnota 0.4889975550122249
+	Uzel 97 hodnota 0.4807692307692308
+	Uzel 98 hodnota 0.47058823529411764
+	Uzel 99 hodnota 0.477326968973747
+	Uzel 100 hodnota 0.47619047619047616
+	Uzel 101 hodnota 0.5063291139240507
+	Uzel 102 hodnota 0.4784688995215311
+	Uzel 103 hodnota 0.5277044854881267
+	Uzel 104 hodnota 0.49019607843137253
+	Uzel 105 hodnota 0.5167958656330749
+	Uzel 106 hodnota 0.49875311720698257
+	Uzel 107 hodnota 0.5194805194805194
+	Uzel 108 hodnota 0.5050505050505051
+	Uzel 109 hodnota 0.5025125628140703
+	Uzel 110 hodnota 0.5194805194805194
+	Uzel 111 hodnota 0.5050505050505051
+	Uzel 112 hodnota 0.5235602094240838
+	Uzel 113 hodnota 0.49019607843137253
+	Uzel 114 hodnota 0.49504950495049505
+	Uzel 115 hodnota 0.4975124378109453
+	Uzel 116 hodnota 0.4784688995215311
+	Uzel 117 hodnota 0.4728132387706856
+	Uzel 118 hodnota 0.5012531328320802
+	Uzel 119 hodnota 0.5063291139240507
+	Uzel 120 hodnota 0.4807692307692308
+	Uzel 121 hodnota 0.4830917874396135
+	Uzel 122 hodnota 0.5305039787798409
+	Uzel 123 hodnota 0.468384074941452
+	Uzel 124 hodnota 0.5
+	Uzel 125 hodnota 0.4694835680751174
+	Uzel 126 hodnota 0.4914004914004914
+	Uzel 127 hodnota 0.46296296296296297
+	Uzel 128 hodnota 0.5089058524173028
+	Uzel 129 hodnota 0.4662004662004662
+	Uzel 130 hodnota 0.49019607843137253
+	Uzel 131 hodnota 0.48426150121065376
+	Uzel 132 hodnota 0.4889975550122249
+	Uzel 133 hodnota 0.49382716049382713
+	Uzel 134 hodnota 0.4444444444444444
+	Uzel 135 hodnota 0.4914004914004914
+	Uzel 136 hodnota 0.5102040816326531
+	Uzel 137 hodnota 0.49382716049382713
+	Uzel 138 hodnota 0.5208333333333334
+	Uzel 139 hodnota 0.5194805194805194
+	Uzel 140 hodnota 0.5208333333333334
+	Uzel 141 hodnota 0.49261083743842365
+	Uzel 142 hodnota 0.47961630695443647
+	Uzel 143 hodnota 0.5
+	Uzel 144 hodnota 0.49504950495049505
+	Uzel 145 hodnota 0.5050505050505051
+	Uzel 146 hodnota 0.47961630695443647
+	Uzel 147 hodnota 0.49875311720698257
+	Uzel 148 hodnota 0.49382716049382713
+	Uzel 149 hodnota 0.46403712296983757
+	Uzel 150 hodnota 0.4608294930875576
+	Uzel 151 hodnota 0.4854368932038835
+	Uzel 152 hodnota 0.49504950495049505
+	Uzel 153 hodnota 0.4889975550122249
+	Uzel 154 hodnota 0.4975124378109453
+	Uzel 155 hodnota 0.5102040816326531
+	Uzel 156 hodnota 0.4819277108433735
+	Uzel 157 hodnota 0.5154639175257731
+	Uzel 158 hodnota 0.5347593582887701
+	Uzel 159 hodnota 0.47961630695443647
+	Uzel 160 hodnota 0.46296296296296297
+	Uzel 161 hodnota 0.5167958656330749
+	Uzel 162 hodnota 0.49261083743842365
+	Uzel 163 hodnota 0.5050505050505051
+	Uzel 164 hodnota 0.5012531328320802
+	Uzel 165 hodnota 0.5128205128205128
+	Uzel 166 hodnota 0.4878048780487805
+	Uzel 167 hodnota 0.5128205128205128
+	Uzel 168 hodnota 0.4975124378109453
+	Uzel 169 hodnota 0.4914004914004914
+	Uzel 170 hodnota 0.5141388174807198
+	Uzel 171 hodnota 0.5076142131979695
+	Uzel 172 hodnota 0.5115089514066496
+	Uzel 173 hodnota 0.5063291139240507
+	Uzel 174 hodnota 0.5167958656330749
+	Uzel 175 hodnota 0.5333333333333333
+	Uzel 176 hodnota 0.49875311720698257
+	Uzel 177 hodnota 0.47393364928909953
+	Uzel 178 hodnota 0.5208333333333334
+	Uzel 179 hodnota 0.5
+	Uzel 180 hodnota 0.5319148936170213
+	Uzel 181 hodnota 0.468384074941452
+	Uzel 182 hodnota 0.48426150121065376
+	Uzel 183 hodnota 0.47961630695443647
+	Uzel 184 hodnota 0.5277044854881267
+	Uzel 185 hodnota 0.49019607843137253
+	Uzel 186 hodnota 0.49382716049382713
+	Uzel 187 hodnota 0.4784688995215311
+	Uzel 188 hodnota 0.45662100456621
+	Uzel 189 hodnota 0.47058823529411764
+	Uzel 190 hodnota 0.5235602094240838
+	Uzel 191 hodnota 0.5063291139240507
+	Uzel 192 hodnota 0.4784688995215311
+	Uzel 193 hodnota 0.5102040816326531
+	Uzel 194 hodnota 0.5167958656330749
+	Uzel 195 hodnota 0.5050505050505051
+	Uzel 196 hodnota 0.5
+	Uzel 197 hodnota 0.5305039787798409
+	Uzel 198 hodnota 0.47961630695443647
+	Uzel 199 hodnota 0.437636761487965
+Shlukovaci koeficient je:
+	Uzel 0 hodnota 0.10526315789473684
+	Uzel 1 hodnota 0.1111111111111111
+	Uzel 2 hodnota 0.08088235294117647
+	Uzel 3 hodnota 0.07602339181286549
+	Uzel 4 hodnota 0.09523809523809523
+	Uzel 5 hodnota 0.08421052631578947
+	Uzel 6 hodnota 0.16666666666666666
+	Uzel 7 hodnota 0.11396011396011396
+	Uzel 8 hodnota 0.13438735177865613
+	Uzel 9 hodnota 0.11764705882352941
+	Uzel 10 hodnota 0.08947368421052632
+	Uzel 11 hodnota 0.07905138339920949
+	Uzel 12 hodnota 0.08695652173913043
+	Uzel 13 hodnota 0.1225296442687747
+	Uzel 14 hodnota 0.10476190476190476
+	Uzel 15 hodnota 0.07971014492753623
+	Uzel 16 hodnota 0.14166666666666666
+	Uzel 17 hodnota 0.10833333333333334
+	Uzel 18 hodnota 0.10507246376811594
+	Uzel 19 hodnota 0.10526315789473684
+	Uzel 20 hodnota 0.08974358974358974
+	Uzel 21 hodnota 0.11764705882352941
+	Uzel 22 hodnota 0.09195402298850575
+	Uzel 23 hodnota 0.17647058823529413
+	Uzel 24 hodnota 0.13333333333333333
+	Uzel 25 hodnota 0.09057971014492754
+	Uzel 26 hodnota 0.09
+	Uzel 27 hodnota 0.14736842105263157
+	Uzel 28 hodnota 0.07017543859649122
+	Uzel 29 hodnota 0.11333333333333333
+	Uzel 30 hodnota 0.1038961038961039
+	Uzel 31 hodnota 0.10822510822510822
+	Uzel 32 hodnota 0.09803921568627451
+	Uzel 33 hodnota 0.05714285714285714
+	Uzel 34 hodnota 0.06926406926406926
+	Uzel 35 hodnota 0.08300395256916997
+	Uzel 36 hodnota 0.0935672514619883
+	Uzel 37 hodnota 0.07142857142857142
+	Uzel 38 hodnota 0.10526315789473684
+	Uzel 39 hodnota 0.08771929824561403
+	Uzel 40 hodnota 0.08496732026143791
+	Uzel 41 hodnota 0.11428571428571428
+	Uzel 42 hodnota 0.11764705882352941
+	Uzel 43 hodnota 0.06432748538011696
+	Uzel 44 hodnota 0.07894736842105263
+	Uzel 45 hodnota 0.14545454545454545
+	Uzel 46 hodnota 0.08
+	Uzel 47 hodnota 0.12857142857142856
+	Uzel 48 hodnota 0.0915032679738562
+	Uzel 49 hodnota 0.0761904761904762
+	Uzel 50 hodnota 0.12857142857142856
+	Uzel 51 hodnota 0.075
+	Uzel 52 hodnota 0.11904761904761904
+	Uzel 53 hodnota 0.11375661375661375
+	Uzel 54 hodnota 0.11904761904761904
+	Uzel 55 hodnota 0.09047619047619047
+	Uzel 56 hodnota 0.08831908831908832
+	Uzel 57 hodnota 0.10822510822510822
+	Uzel 58 hodnota 0.11029411764705882
+	Uzel 59 hodnota 0.09852216748768473
+	Uzel 60 hodnota 0.12648221343873517
+	Uzel 61 hodnota 0.11052631578947368
+	Uzel 62 hodnota 0.15151515151515152
+	Uzel 63 hodnota 0.09166666666666666
+	Uzel 64 hodnota 0.08771929824561403
+	Uzel 65 hodnota 0.06593406593406594
+	Uzel 66 hodnota 0.10526315789473684
+	Uzel 67 hodnota 0.13043478260869565
+	Uzel 68 hodnota 0.06666666666666667
+	Uzel 69 hodnota 0.09523809523809523
+	Uzel 70 hodnota 0.09538461538461539
+	Uzel 71 hodnota 0.0935672514619883
+	Uzel 72 hodnota 0.08771929824561403
+	Uzel 73 hodnota 0.10526315789473684
+	Uzel 74 hodnota 0.09956709956709957
+	Uzel 75 hodnota 0.13186813186813187
+	Uzel 76 hodnota 0.07692307692307693
+	Uzel 77 hodnota 0.10276679841897234
+	Uzel 78 hodnota 0.08571428571428572
+	Uzel 79 hodnota 0.11904761904761904
+	Uzel 80 hodnota 0.08831908831908832
+	Uzel 81 hodnota 0.10804597701149425
+	Uzel 82 hodnota 0.10227272727272728
+	Uzel 83 hodnota 0.08695652173913043
+	Uzel 84 hodnota 0.14166666666666666
+	Uzel 85 hodnota 0.07368421052631578
+	Uzel 86 hodnota 0.08465608465608465
+	Uzel 87 hodnota 0.0761904761904762
+	Uzel 88 hodnota 0.11666666666666667
+	Uzel 89 hodnota 0.09523809523809523
+	Uzel 90 hodnota 0.1038961038961039
+	Uzel 91 hodnota 0.08421052631578947
+	Uzel 92 hodnota 0.15714285714285714
+	Uzel 93 hodnota 0.0735930735930736
+	Uzel 94 hodnota 0.14285714285714285
+	Uzel 95 hodnota 0.10666666666666667
+	Uzel 96 hodnota 0.1323529411764706
+	Uzel 97 hodnota 0.13333333333333333
+	Uzel 98 hodnota 0.0761904761904762
+	Uzel 99 hodnota 0.09523809523809523
+	Uzel 100 hodnota 0.125
+	Uzel 101 hodnota 0.07905138339920949
+	Uzel 102 hodnota 0.08088235294117647
+	Uzel 103 hodnota 0.13105413105413105
+	Uzel 104 hodnota 0.09558823529411764
+	Uzel 105 hodnota 0.08666666666666667
+	Uzel 106 hodnota 0.09941520467836257
+	Uzel 107 hodnota 0.09666666666666666
+	Uzel 108 hodnota 0.11578947368421053
+	Uzel 109 hodnota 0.09473684210526316
+	Uzel 110 hodnota 0.1067193675889328
+	Uzel 111 hodnota 0.12105263157894737
+	Uzel 112 hodnota 0.08547008547008547
+	Uzel 113 hodnota 0.11666666666666667
+	Uzel 114 hodnota 0.06432748538011696
+	Uzel 115 hodnota 0.09523809523809523
+	Uzel 116 hodnota 0.10833333333333334
+	Uzel 117 hodnota 0.09523809523809523
+	Uzel 118 hodnota 0.08771929824561403
+	Uzel 119 hodnota 0.09047619047619047
+	Uzel 120 hodnota 0.0718954248366013
+	Uzel 121 hodnota 0.14285714285714285
+	Uzel 122 hodnota 0.10804597701149425
+	Uzel 123 hodnota 0.12087912087912088
+	Uzel 124 hodnota 0.07602339181286549
+	Uzel 125 hodnota 0.08571428571428572
+	Uzel 126 hodnota 0.051470588235294115
+	Uzel 127 hodnota 0.045454545454545456
+	Uzel 128 hodnota 0.11428571428571428
+	Uzel 129 hodnota 0.12087912087912088
+	Uzel 130 hodnota 0.13450292397660818
+	Uzel 131 hodnota 0.06666666666666667
+	Uzel 132 hodnota 0.0718954248366013
+	Uzel 133 hodnota 0.0915032679738562
+	Uzel 134 hodnota 0.07272727272727272
+	Uzel 135 hodnota 0.0915032679738562
+	Uzel 136 hodnota 0.09523809523809523
+	Uzel 137 hodnota 0.1503267973856209
+	Uzel 138 hodnota 0.07666666666666666
+	Uzel 139 hodnota 0.10144927536231885
+	Uzel 140 hodnota 0.11692307692307692
+	Uzel 141 hodnota 0.1111111111111111
+	Uzel 142 hodnota 0.08823529411764706
+	Uzel 143 hodnota 0.1111111111111111
+	Uzel 144 hodnota 0.1
+	Uzel 145 hodnota 0.11052631578947368
+	Uzel 146 hodnota 0.10294117647058823
+	Uzel 147 hodnota 0.12418300653594772
+	Uzel 148 hodnota 0.0915032679738562
+	Uzel 149 hodnota 0.07692307692307693
+	Uzel 150 hodnota 0.1282051282051282
+	Uzel 151 hodnota 0.1323529411764706
+	Uzel 152 hodnota 0.07017543859649122
+	Uzel 153 hodnota 0.0935672514619883
+	Uzel 154 hodnota 0.07142857142857142
+	Uzel 155 hodnota 0.11578947368421053
+	Uzel 156 hodnota 0.10476190476190476
+	Uzel 157 hodnota 0.1067193675889328
+	Uzel 158 hodnota 0.0907258064516129
+	Uzel 159 hodnota 0.10833333333333334
+	Uzel 160 hodnota 0.06593406593406594
+	Uzel 161 hodnota 0.10507246376811594
+	Uzel 162 hodnota 0.12418300653594772
+	Uzel 163 hodnota 0.10476190476190476
+	Uzel 164 hodnota 0.1380952380952381
+	Uzel 165 hodnota 0.11857707509881422
+	Uzel 166 hodnota 0.11764705882352941
+	Uzel 167 hodnota 0.07114624505928854
+	Uzel 168 hodnota 0.08187134502923976
+	Uzel 169 hodnota 0.06842105263157895
+	Uzel 170 hodnota 0.07333333333333333
+	Uzel 171 hodnota 0.05238095238095238
+	Uzel 172 hodnota 0.09881422924901186
+	Uzel 173 hodnota 0.06315789473684211
+	Uzel 174 hodnota 0.08300395256916997
+	Uzel 175 hodnota 0.07936507936507936
+	Uzel 176 hodnota 0.1111111111111111
+	Uzel 177 hodnota 0.05714285714285714
+	Uzel 178 hodnota 0.08300395256916997
+	Uzel 179 hodnota 0.0784313725490196
+	Uzel 180 hodnota 0.10837438423645321
+	Uzel 181 hodnota 0.10989010989010989
+	Uzel 182 hodnota 0.08333333333333333
+	Uzel 183 hodnota 0.10476190476190476
+	Uzel 184 hodnota 0.0812807881773399
+	Uzel 185 hodnota 0.1437908496732026
+	Uzel 186 hodnota 0.09558823529411764
+	Uzel 187 hodnota 0.11666666666666667
+	Uzel 188 hodnota 0.13636363636363635
+	Uzel 189 hodnota 0.10476190476190476
+	Uzel 190 hodnota 0.12
+	Uzel 191 hodnota 0.0935672514619883
+	Uzel 192 hodnota 0.12380952380952381
+	Uzel 193 hodnota 0.12380952380952381
+	Uzel 194 hodnota 0.06493506493506493
+	Uzel 195 hodnota 0.07971014492753623
+	Uzel 196 hodnota 0.06842105263157895
+	Uzel 197 hodnota 0.1164021164021164
+	Uzel 198 hodnota 0.06666666666666667
+	Uzel 199 hodnota 0.07272727272727272
+Tranzitivita v grafu je 0.09979936181069265
 
 ==============================================================

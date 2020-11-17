@@ -10,13 +10,10 @@ from utils.graph.GraphAverage import graph_average
 from utils.graph.ClusterCoefficient import calculate_cluster_coefficient, run_calculate_cluster_coefficient
 from utils.graph.ClusterEffect import draw_cluster_effect
 from utils.graph.GenerateGraph import generate_random_graph
-from lab.LabRandomGraphModels import LabRandomGraphModels
-from utils.graph.GraphProperties import print_graph_properties
-from utils.graph.GraphProperties import inspect_graph
 from utils.graph.ConnectedComponents import connected_components
 from utils.graph.GraphProperties import make_graph_inspection
 from printer.GraphInspectionPrinter import print_graph_inspection, write_graph_inspection_to_file
-
+from labs.RandomGraphGenerate import run_lab_where_generating_graphs
 
 data = pd.read_csv("KarateClub.csv", ';', header=None)
 
@@ -169,51 +166,28 @@ matrix2 = matrix.matrix
 csv, suma  = run_calculate_cluster_coefficient(matrix2) #it is ok
 transitivity = calculcate_graph_transitivity(suma, matrix2)
 # draw_cluster_effect(matrix.matrix)
+
+
 print_lab6_result(csv, transitivity)
 
 
 def write_to_file(path, text, des = ''):
-
     final = f'{des} \n {text}'
     with open(path, 'w') as f:
         f.write(final)    
-
 
 write_to_file('cluster_coefficient.csv', csv)
 
 
 
-###############################################################
-###############################################################
-###############################################################
-print('==========GRAPH OUTPUTS===========')
 
-N = 200
-p1 = 0.00501
-p2 = 0.1
-p3 = 0.000501
 
-g1 = generate_random_graph(N, p1) #degree == 1
-g2 = generate_random_graph(N, p2) #degree > 1
-g3 = generate_random_graph(N, p3) #degree < 1
 
-write_graph_inspection_to_file('karate_club.txt', make_graph_inspection(matrix2), "KARATE CLUB")
-# karate_output = inspect_graph(matrix2, False) 
-# write_to_file('karate_club.txt', karate_output)
 
-# output1 = print_graph_properties(matrix2)
-# print(output1[1])
-# write_to_file('graph_equal_1.txt', output1, f'N={N} p={p1}\n========================\n')
-
-# output2 = inspect_graph(g2, False)
-# write_to_file('graph_equal_2.txt', output2, f'N={N} p={p2}\n========================\n')
-
-# output3 = inspect_graph(g3, False)
-# write_to_file('graph_equal_3.txt', output3, f'N={N} p={p3}\n========================\n')
-###############################################################
-###############################################################
-###############################################################
-
+################################
+"""Cv8"""
+# run_lab_where_generating_graphs()
+################################
 
 
 

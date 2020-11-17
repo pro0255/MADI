@@ -72,7 +72,6 @@ def create_string_for_graph_properties_for_connected_components(connected_compon
         output += f'\tKomponent s velikosti {k} je {v}, relativni cetnost {v/sum(connected_components[GRAPH_CONNECTED_COMPONENTS_PROPERTIES.COMPONENTS_COUNTER].values())}\n'
 
     
-
     com_props = connected_components["components_properties"]
 
     for index ,component_dic in enumerate(com_props):
