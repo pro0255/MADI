@@ -15,6 +15,8 @@ from utils.graph.GraphProperties import print_graph_properties
 from utils.graph.GraphProperties import inspect_graph
 from utils.graph.ConnectedComponents import connected_components
 from utils.graph.GraphProperties import make_graph_inspection
+from printer.GraphInspectionPrinter import print_graph_inspection, write_graph_inspection_to_file
+
 
 data = pd.read_csv("KarateClub.csv", ';', header=None)
 
@@ -195,10 +197,7 @@ g1 = generate_random_graph(N, p1) #degree == 1
 g2 = generate_random_graph(N, p2) #degree > 1
 g3 = generate_random_graph(N, p3) #degree < 1
 
-
-res = make_graph_inspection(matrix2)
-print(res)
-
+write_graph_inspection_to_file('karate_club.txt', make_graph_inspection(matrix2), "KARATE CLUB")
 # karate_output = inspect_graph(matrix2, False) 
 # write_to_file('karate_club.txt', karate_output)
 

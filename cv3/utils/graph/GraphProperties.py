@@ -13,7 +13,6 @@ from enum import Enum
 verbose = False
 DELIMITER = '=============================================================='
 
-
 class GRAPH_PROPERTIES(Enum):
     GRAPH_AVERAGE = 'graph_average' ##prumer graf
     AVERAGE_DISTANCE = 'average_distance' ##prumarna vzdalenost v grafu
@@ -23,18 +22,19 @@ class GRAPH_PROPERTIES(Enum):
     DEGREE_DISTRIBUTION = 'degree_distribution' ##distribuce stupnu v grafu (moznost histogramu)
     FLOYD_MATRIX = 'floyd_matrix' ##floyd matice - matice vzdalenosti
     ADJECENCY_MATRIX = 'adjecency_matrix' ##matice sousednosti
-    GRAPH_TRANSITIVITY = 'graph_transitivity' ## ??
-    CLOSSNES_CENTRALITY = 'clossnes_centrality' ## ??
-    CLUSTER_COEFFICIENT = 'cluster_coefficient'
+    GRAPH_TRANSITIVITY = 'graph_transitivity' ##tranzitivita grafu
+    CLOSSNES_CENTRALITY = 'clossnes_centrality' ## centralita uzlu
+    CLUSTER_COEFFICIENT = 'cluster_coefficient' ##shlukovaci koeficinet
 
 class GRAPH_CONNECTED_COMPONENTS_PROPERTIES(Enum):
-    NUMBER_OF_CONNECTED_COMPONENTS: 'number_of_connected_components' ##pocet komponent souvislosti
-    MAX_CONNECTED_COMPONENT: 'max_connected_component' ##velikost nejvetsi komponenty souvislosti
-    MIN_CONNECTED_COMPONENT: 'min_connected_component' ##velikost nejmensi komponenty souvislosti
+    NUMBER_OF_CONNECTED_COMPONENTS = 'number_of_connected_components' ##pocet komponent souvislosti
+    MAX_CONNECTED_COMPONENT = 'max_connected_component' ##velikost nejvetsi komponenty souvislosti
+    MIN_CONNECTED_COMPONENT = 'min_connected_component' ##velikost nejmensi komponenty souvislosti
     COMPONENTS = 'components' ##pole GRAPH_PROPERTIES pro kazdou nelezenou komponentu
     COMPONENTS_PROPERTIES = 'components_properties'
     COMPONENTS_SIZES = 'component_sizes'
     COMPONENTS_COUNTER = 'components_counter'
+    COMPONENTS_GRAPH_AVERAGE_OVER_ALL = 'graph_average_over_all'
 
 
 class GRAPH_INSPECTION(Enum):
@@ -51,6 +51,7 @@ def create_connected_components_dictionary_for_graph(matrix):
     result[GRAPH_CONNECTED_COMPONENTS_PROPERTIES.COMPONENTS_SIZES] = sizes
     result[GRAPH_CONNECTED_COMPONENTS_PROPERTIES.COMPONENTS_COUNTER] = c
     result["max_connected_component"] = max(sizes)
+    result["min_connected_component"] = min(sizes)
 
     sorted_components_indicies = [sorted(value) for value in components.values()]
     subgraphs = []
@@ -58,8 +59,16 @@ def create_connected_components_dictionary_for_graph(matrix):
         grid = np.ix_(subgraph_indicies, subgraph_indicies)
         subgraphs.append(matrix[grid])
 
+    component_dics = []
     for sub_matrix in subgraphs:
         component_dic = create_graph_properties_dictionary(sub_matrix)
+        component_dics.append(component_dic)
+
+    result["components_properties"] = component_dics
+
+    graph_average_list = [tmp[GRAPH_PROPERTIES.GRAPH_AVERAGE] for tmp in result["components_properties"]]   
+    result["graph_average_over_all"] = sum(graph_average_list)/len(graph_average_list)
+
     return result
 
 
@@ -100,6 +109,12 @@ def make_graph_inspection(matrix):
     dic[GRAPH_INSPECTION.WHOLE] = create_graph_properties_dictionary(matrix)
     dic[GRAPH_INSPECTION.CONNECTED_COMPONENTS] = create_connected_components_dictionary_for_graph(matrix)
     return dic
+
+
+###############################################################################################
+
+
+
 
 def print_graph_properties(matrix):
     PROPERTIES_DIC = create_graph_properties_dictionary(matrix)

@@ -1,143 +1,194 @@
- 
- Pocet komponent souvislosti je 1
-Komponenta ID 0 je velka 34
+KARATE CLUB 
 
-Ditrubuce
 
-Ditrubuce relativni cetnost
+ CELY GRAF 
+Prumer grafu je 5.0
+Prumerna vzdalenost v grafu je 2.408199643493761
+Maximalni stupen v grafu je 17
+Minimalni stupen v grafu je 1
+Prumerny stupen v grafu je 4.588235294117647
+Distribuce stupnu v grafu je:
+	Stupen 1 je obsazen 1 krat, s relativni cetnosti 0.029411764705882353
+	Stupen 2 je obsazen 11 krat, s relativni cetnosti 0.3235294117647059
+	Stupen 3 je obsazen 6 krat, s relativni cetnosti 0.17647058823529413
+	Stupen 4 je obsazen 6 krat, s relativni cetnosti 0.17647058823529413
+	Stupen 5 je obsazen 3 krat, s relativni cetnosti 0.08823529411764706
+	Stupen 6 je obsazen 2 krat, s relativni cetnosti 0.058823529411764705
+	Stupen 9 je obsazen 1 krat, s relativni cetnosti 0.029411764705882353
+	Stupen 10 je obsazen 1 krat, s relativni cetnosti 0.029411764705882353
+	Stupen 12 je obsazen 1 krat, s relativni cetnosti 0.029411764705882353
+	Stupen 16 je obsazen 1 krat, s relativni cetnosti 0.029411764705882353
+	Stupen 17 je obsazen 1 krat, s relativni cetnosti 0.029411764705882353
+Closness centralita je:
+	Uzel 0 hodnota 0.5862068965517241
+	Uzel 1 hodnota 0.5
+	Uzel 2 hodnota 0.576271186440678
+	Uzel 3 hodnota 0.4788732394366197
+	Uzel 4 hodnota 0.39080459770114945
+	Uzel 5 hodnota 0.3953488372093023
+	Uzel 6 hodnota 0.3953488372093023
+	Uzel 7 hodnota 0.4533333333333333
+	Uzel 8 hodnota 0.53125
+	Uzel 9 hodnota 0.4473684210526316
+	Uzel 10 hodnota 0.39080459770114945
+	Uzel 11 hodnota 0.37777777777777777
+	Uzel 12 hodnota 0.38202247191011235
+	Uzel 13 hodnota 0.53125
+	Uzel 14 hodnota 0.38202247191011235
+	Uzel 15 hodnota 0.38202247191011235
+	Uzel 16 hodnota 0.29310344827586204
+	Uzel 17 hodnota 0.38636363636363635
+	Uzel 18 hodnota 0.38202247191011235
+	Uzel 19 hodnota 0.5151515151515151
+	Uzel 20 hodnota 0.38202247191011235
+	Uzel 21 hodnota 0.38636363636363635
+	Uzel 22 hodnota 0.38202247191011235
+	Uzel 23 hodnota 0.40476190476190477
+	Uzel 24 hodnota 0.38636363636363635
+	Uzel 25 hodnota 0.38636363636363635
+	Uzel 26 hodnota 0.37362637362637363
+	Uzel 27 hodnota 0.4722222222222222
+	Uzel 28 hodnota 0.4657534246575342
+	Uzel 29 hodnota 0.3953488372093023
+	Uzel 30 hodnota 0.4722222222222222
+	Uzel 31 hodnota 0.5573770491803278
+	Uzel 32 hodnota 0.53125
+	Uzel 33 hodnota 0.5666666666666667
+Shlukovaci koeficient je:
+	Uzel 0 hodnota 0.15
+	Uzel 1 hodnota 0.3333333333333333
+	Uzel 2 hodnota 0.24444444444444444
+	Uzel 3 hodnota 0.6666666666666666
+	Uzel 4 hodnota 0.6666666666666666
+	Uzel 5 hodnota 0.5
+	Uzel 6 hodnota 0.5
+	Uzel 7 hodnota 1.0
+	Uzel 8 hodnota 0.5
+	Uzel 9 hodnota 0.0
+	Uzel 10 hodnota 0.6666666666666666
+	Uzel 11 hodnota 0
+	Uzel 12 hodnota 1.0
+	Uzel 13 hodnota 0.6
+	Uzel 14 hodnota 1.0
+	Uzel 15 hodnota 1.0
+	Uzel 16 hodnota 1.0
+	Uzel 17 hodnota 1.0
+	Uzel 18 hodnota 1.0
+	Uzel 19 hodnota 0.3333333333333333
+	Uzel 20 hodnota 1.0
+	Uzel 21 hodnota 1.0
+	Uzel 22 hodnota 1.0
+	Uzel 23 hodnota 0.4
+	Uzel 24 hodnota 0.3333333333333333
+	Uzel 25 hodnota 0.3333333333333333
+	Uzel 26 hodnota 1.0
+	Uzel 27 hodnota 0.16666666666666666
+	Uzel 28 hodnota 0.3333333333333333
+	Uzel 29 hodnota 0.6666666666666666
+	Uzel 30 hodnota 0.5
+	Uzel 31 hodnota 0.2
+	Uzel 32 hodnota 0.19696969696969696
+	Uzel 33 hodnota 0.11029411764705882
+Tranzitivita v grafu je 0.5706384782076823
 
-Velikost nejvetsi komponenty je 34
+==============================================================
+KOMPONENTY SOUVILOSTI 
+Pocet komponent souvislosti je 1
+Nejvetsi velikost v ramci komponent souvislosti je 34
+Nejmensi velikost v ramci komponent souvislosti je 34
+Prumer grafu pres jednoltive komponenty souvilosti je 5.0
+Rozlozeni komponent souvislosti je 
+	Komponent s velikosti 34 je 1, relativni cetnost 1.0
+==============================================================
+0
+==============================================================
+Prumer grafu je 5.0
+Prumerna vzdalenost v grafu je 2.408199643493761
+Maximalni stupen v grafu je 17
+Minimalni stupen v grafu je 1
+Prumerny stupen v grafu je 4.588235294117647
+Distribuce stupnu v grafu je:
+	Stupen 1 je obsazen 1 krat, s relativni cetnosti 0.029411764705882353
+	Stupen 2 je obsazen 11 krat, s relativni cetnosti 0.3235294117647059
+	Stupen 3 je obsazen 6 krat, s relativni cetnosti 0.17647058823529413
+	Stupen 4 je obsazen 6 krat, s relativni cetnosti 0.17647058823529413
+	Stupen 5 je obsazen 3 krat, s relativni cetnosti 0.08823529411764706
+	Stupen 6 je obsazen 2 krat, s relativni cetnosti 0.058823529411764705
+	Stupen 9 je obsazen 1 krat, s relativni cetnosti 0.029411764705882353
+	Stupen 10 je obsazen 1 krat, s relativni cetnosti 0.029411764705882353
+	Stupen 12 je obsazen 1 krat, s relativni cetnosti 0.029411764705882353
+	Stupen 16 je obsazen 1 krat, s relativni cetnosti 0.029411764705882353
+	Stupen 17 je obsazen 1 krat, s relativni cetnosti 0.029411764705882353
+Closness centralita je:
+	Uzel 0 hodnota 0.5862068965517241
+	Uzel 1 hodnota 0.5
+	Uzel 2 hodnota 0.576271186440678
+	Uzel 3 hodnota 0.4788732394366197
+	Uzel 4 hodnota 0.39080459770114945
+	Uzel 5 hodnota 0.3953488372093023
+	Uzel 6 hodnota 0.3953488372093023
+	Uzel 7 hodnota 0.4533333333333333
+	Uzel 8 hodnota 0.53125
+	Uzel 9 hodnota 0.4473684210526316
+	Uzel 10 hodnota 0.39080459770114945
+	Uzel 11 hodnota 0.37777777777777777
+	Uzel 12 hodnota 0.38202247191011235
+	Uzel 13 hodnota 0.53125
+	Uzel 14 hodnota 0.38202247191011235
+	Uzel 15 hodnota 0.38202247191011235
+	Uzel 16 hodnota 0.29310344827586204
+	Uzel 17 hodnota 0.38636363636363635
+	Uzel 18 hodnota 0.38202247191011235
+	Uzel 19 hodnota 0.5151515151515151
+	Uzel 20 hodnota 0.38202247191011235
+	Uzel 21 hodnota 0.38636363636363635
+	Uzel 22 hodnota 0.38202247191011235
+	Uzel 23 hodnota 0.40476190476190477
+	Uzel 24 hodnota 0.38636363636363635
+	Uzel 25 hodnota 0.38636363636363635
+	Uzel 26 hodnota 0.37362637362637363
+	Uzel 27 hodnota 0.4722222222222222
+	Uzel 28 hodnota 0.4657534246575342
+	Uzel 29 hodnota 0.3953488372093023
+	Uzel 30 hodnota 0.4722222222222222
+	Uzel 31 hodnota 0.5573770491803278
+	Uzel 32 hodnota 0.53125
+	Uzel 33 hodnota 0.5666666666666667
+Shlukovaci koeficient je:
+	Uzel 0 hodnota 0.15
+	Uzel 1 hodnota 0.3333333333333333
+	Uzel 2 hodnota 0.24444444444444444
+	Uzel 3 hodnota 0.6666666666666666
+	Uzel 4 hodnota 0.6666666666666666
+	Uzel 5 hodnota 0.5
+	Uzel 6 hodnota 0.5
+	Uzel 7 hodnota 1.0
+	Uzel 8 hodnota 0.5
+	Uzel 9 hodnota 0.0
+	Uzel 10 hodnota 0.6666666666666666
+	Uzel 11 hodnota 0
+	Uzel 12 hodnota 1.0
+	Uzel 13 hodnota 0.6
+	Uzel 14 hodnota 1.0
+	Uzel 15 hodnota 1.0
+	Uzel 16 hodnota 1.0
+	Uzel 17 hodnota 1.0
+	Uzel 18 hodnota 1.0
+	Uzel 19 hodnota 0.3333333333333333
+	Uzel 20 hodnota 1.0
+	Uzel 21 hodnota 1.0
+	Uzel 22 hodnota 1.0
+	Uzel 23 hodnota 0.4
+	Uzel 24 hodnota 0.3333333333333333
+	Uzel 25 hodnota 0.3333333333333333
+	Uzel 26 hodnota 1.0
+	Uzel 27 hodnota 0.16666666666666666
+	Uzel 28 hodnota 0.3333333333333333
+	Uzel 29 hodnota 0.6666666666666666
+	Uzel 30 hodnota 0.5
+	Uzel 31 hodnota 0.2
+	Uzel 32 hodnota 0.19696969696969696
+	Uzel 33 hodnota 0.11029411764705882
+Tranzitivita v grafu je 0.5706384782076823
 
-====================Komponenta ID 0 vlastnosti===================
-
-========================
-Degree Distribution
-========================
-ID 1 - Degree 16
-ID 2 - Degree 9
-ID 3 - Degree 10
-ID 4 - Degree 6
-ID 5 - Degree 3
-ID 6 - Degree 4
-ID 7 - Degree 4
-ID 8 - Degree 4
-ID 9 - Degree 5
-ID 10 - Degree 2
-ID 11 - Degree 3
-ID 12 - Degree 1
-ID 13 - Degree 2
-ID 14 - Degree 5
-ID 15 - Degree 2
-ID 16 - Degree 2
-ID 17 - Degree 2
-ID 18 - Degree 2
-ID 19 - Degree 2
-ID 20 - Degree 3
-ID 21 - Degree 2
-ID 22 - Degree 2
-ID 23 - Degree 2
-ID 24 - Degree 5
-ID 25 - Degree 3
-ID 26 - Degree 3
-ID 27 - Degree 2
-ID 28 - Degree 4
-ID 29 - Degree 3
-ID 30 - Degree 4
-ID 31 - Degree 4
-ID 32 - Degree 6
-ID 33 - Degree 12
-ID 34 - Degree 17
-Maximalni stupen - 17
-Minimalni stupen - 1
-Prumerny stupen - 4.588235294117647
-
-Relativni cetnost stupnu
-Degree 1 - 0.03%
-Degree 2 - 0.32%
-Degree 3 - 0.18%
-Degree 4 - 0.18%
-Degree 5 - 0.09%
-Degree 6 - 0.06%
-Degree 9 - 0.03%
-Degree 10 - 0.03%
-Degree 12 - 0.03%
-Degree 16 - 0.03%
-Degree 17 - 0.03%
-
-Prumerna vzdalenost - 2.408199643493761
-
-Prumer grafu - 5.0
-
-ID 1 - clossnes centraility 0.5862068965517241
-ID 2 - clossnes centraility 0.5
-ID 3 - clossnes centraility 0.576271186440678
-ID 4 - clossnes centraility 0.4788732394366197
-ID 5 - clossnes centraility 0.39080459770114945
-ID 6 - clossnes centraility 0.3953488372093023
-ID 7 - clossnes centraility 0.3953488372093023
-ID 8 - clossnes centraility 0.4533333333333333
-ID 9 - clossnes centraility 0.53125
-ID 10 - clossnes centraility 0.4473684210526316
-ID 11 - clossnes centraility 0.39080459770114945
-ID 12 - clossnes centraility 0.37777777777777777
-ID 13 - clossnes centraility 0.38202247191011235
-ID 14 - clossnes centraility 0.53125
-ID 15 - clossnes centraility 0.38202247191011235
-ID 16 - clossnes centraility 0.38202247191011235
-ID 17 - clossnes centraility 0.29310344827586204
-ID 18 - clossnes centraility 0.38636363636363635
-ID 19 - clossnes centraility 0.38202247191011235
-ID 20 - clossnes centraility 0.5151515151515151
-ID 21 - clossnes centraility 0.38202247191011235
-ID 22 - clossnes centraility 0.38636363636363635
-ID 23 - clossnes centraility 0.38202247191011235
-ID 24 - clossnes centraility 0.40476190476190477
-ID 25 - clossnes centraility 0.38636363636363635
-ID 26 - clossnes centraility 0.38636363636363635
-ID 27 - clossnes centraility 0.37362637362637363
-ID 28 - clossnes centraility 0.4722222222222222
-ID 29 - clossnes centraility 0.4657534246575342
-ID 30 - clossnes centraility 0.3953488372093023
-ID 31 - clossnes centraility 0.4722222222222222
-ID 32 - clossnes centraility 0.5573770491803278
-ID 33 - clossnes centraility 0.53125
-ID 34 - clossnes centraility 0.5666666666666667
-
-Cluster coefficient - 
-1;0.15
-2;0.3333333333333333
-3;0.24444444444444444
-4;0.6666666666666666
-5;0.6666666666666666
-6;0.5
-7;0.5
-8;1.0
-9;0.5
-10;0.0
-11;0.6666666666666666
-12;0
-13;1.0
-14;0.6
-15;1.0
-16;1.0
-17;1.0
-18;1.0
-19;1.0
-20;0.3333333333333333
-21;1.0
-22;1.0
-23;1.0
-24;0.4
-25;0.3333333333333333
-26;0.3333333333333333
-27;1.0
-28;0.16666666666666666
-29;0.3333333333333333
-30;0.6666666666666666
-31;0.5
-32;0.2
-33;0.19696969696969696
-34;0.11029411764705882
-Graph transitivity - 0.5706384782076823
-
-=========================================
+==============================================================
