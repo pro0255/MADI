@@ -15,6 +15,7 @@ from labs.RandomGraphGenerate import run_lab_where_generating_graphs
 from labs.KarateClub import matrix_list_histogram_for_karate_club
 from labs.KarateClubFloydAndGraphProps import karate_club_floyd_and_graph_props
 from utils.graph.Matrix import Vertex, AdjacencyList, AdjacencyMatrix
+from graph_api.GraphMaker import GraphMaker
 
 ################################
 """Csv with graph"""
@@ -24,12 +25,14 @@ data = pd.read_csv("KarateClub.csv", ';', header=None)
 ################################
 """Old labs"""
 karate_club_matrix = matrix_list_histogram_for_karate_club(data)
-karate_club_floyd_and_graph_props(karate_club_matrix.matrix)
+# karate_club_floyd_and_graph_props(karate_club_matrix.matrix)
 ################################
 
 ################################
 """Cv8"""
-# run_lab_where_generating_graphs()
+g1, g2, g3 = run_lab_where_generating_graphs()
+graph_maker = GraphMaker(g1[1])
+graph_maker.plot_components_distribution()
 ################################
 
 

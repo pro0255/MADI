@@ -243,7 +243,7 @@ Shlukovaci koeficient je:
 	Uzel 25 hodnota 0
 	Uzel 26 hodnota 0
 	Uzel 27 hodnota 0
-	Uzel 28 hodnota 0.0
+	Uzel 28 hodnota 0
 	Uzel 29 hodnota 0
 	Uzel 30 hodnota 0
 	Uzel 31 hodnota 0
@@ -279,7 +279,7 @@ Shlukovaci koeficient je:
 	Uzel 61 hodnota 0
 	Uzel 62 hodnota 0
 	Uzel 63 hodnota 0
-	Uzel 64 hodnota 0
+	Uzel 64 hodnota 0.0
 	Uzel 65 hodnota 0
 	Uzel 66 hodnota 0
 	Uzel 67 hodnota 0
@@ -445,32 +445,39 @@ Tranzitivita v grafu je 0.0
 ==============================================================
 1
 ==============================================================
-Prumer grafu je 0.0
-Prumerna vzdalenost v grafu je 0
-Maximalni stupen v grafu je 0
-Minimalni stupen v grafu je 0
-Prumerny stupen v grafu je 0.0
+Prumer grafu je 1.0
+Prumerna vzdalenost v grafu je 1.0
+Maximalni stupen v grafu je 1
+Minimalni stupen v grafu je 1
+Prumerny stupen v grafu je 1.0
 Distribuce stupnu v grafu je:
-	Stupen 0 je obsazen 1 krat, s relativni cetnosti 1.0
+	Stupen 1 je obsazen 2 krat, s relativni cetnosti 1.0
 Closness centralita je:
-	Uzel 0 hodnota 0
+	Uzel 0 hodnota 2.0
+	Uzel 1 hodnota 2.0
 Shlukovaci koeficient je:
 	Uzel 0 hodnota 0
+	Uzel 1 hodnota 0
 Tranzitivita v grafu je 0.0
 ==============================================================
 2
 ==============================================================
-Prumer grafu je 0.0
-Prumerna vzdalenost v grafu je 0
-Maximalni stupen v grafu je 0
-Minimalni stupen v grafu je 0
-Prumerny stupen v grafu je 0.0
+Prumer grafu je 2.0
+Prumerna vzdalenost v grafu je 1.3333333333333333
+Maximalni stupen v grafu je 2
+Minimalni stupen v grafu je 1
+Prumerny stupen v grafu je 1.3333333333333333
 Distribuce stupnu v grafu je:
-	Stupen 0 je obsazen 1 krat, s relativni cetnosti 1.0
+	Stupen 1 je obsazen 2 krat, s relativni cetnosti 0.6666666666666666
+	Stupen 2 je obsazen 1 krat, s relativni cetnosti 0.3333333333333333
 Closness centralita je:
-	Uzel 0 hodnota 0
+	Uzel 0 hodnota 1.0
+	Uzel 1 hodnota 1.5
+	Uzel 2 hodnota 1.0
 Shlukovaci koeficient je:
 	Uzel 0 hodnota 0
+	Uzel 1 hodnota 0.0
+	Uzel 2 hodnota 0
 Tranzitivita v grafu je 0.0
 ==============================================================
 3
@@ -760,17 +767,19 @@ Tranzitivita v grafu je 0.0
 ==============================================================
 22
 ==============================================================
-Prumer grafu je 0.0
-Prumerna vzdalenost v grafu je 0
-Maximalni stupen v grafu je 0
-Minimalni stupen v grafu je 0
-Prumerny stupen v grafu je 0.0
+Prumer grafu je 1.0
+Prumerna vzdalenost v grafu je 1.0
+Maximalni stupen v grafu je 1
+Minimalni stupen v grafu je 1
+Prumerny stupen v grafu je 1.0
 Distribuce stupnu v grafu je:
-	Stupen 0 je obsazen 1 krat, s relativni cetnosti 1.0
+	Stupen 1 je obsazen 2 krat, s relativni cetnosti 1.0
 Closness centralita je:
-	Uzel 0 hodnota 0
+	Uzel 0 hodnota 2.0
+	Uzel 1 hodnota 2.0
 Shlukovaci koeficient je:
 	Uzel 0 hodnota 0
+	Uzel 1 hodnota 0
 Tranzitivita v grafu je 0.0
 ==============================================================
 23
@@ -790,19 +799,17 @@ Tranzitivita v grafu je 0.0
 ==============================================================
 24
 ==============================================================
-Prumer grafu je 1.0
-Prumerna vzdalenost v grafu je 1.0
-Maximalni stupen v grafu je 1
-Minimalni stupen v grafu je 1
-Prumerny stupen v grafu je 1.0
+Prumer grafu je 0.0
+Prumerna vzdalenost v grafu je 0
+Maximalni stupen v grafu je 0
+Minimalni stupen v grafu je 0
+Prumerny stupen v grafu je 0.0
 Distribuce stupnu v grafu je:
-	Stupen 1 je obsazen 2 krat, s relativni cetnosti 1.0
+	Stupen 0 je obsazen 1 krat, s relativni cetnosti 1.0
 Closness centralita je:
-	Uzel 0 hodnota 2.0
-	Uzel 1 hodnota 2.0
+	Uzel 0 hodnota 0
 Shlukovaci koeficient je:
 	Uzel 0 hodnota 0
-	Uzel 1 hodnota 0
 Tranzitivita v grafu je 0.0
 ==============================================================
 25
@@ -822,19 +829,17 @@ Tranzitivita v grafu je 0.0
 ==============================================================
 26
 ==============================================================
-Prumer grafu je 1.0
-Prumerna vzdalenost v grafu je 1.0
-Maximalni stupen v grafu je 1
-Minimalni stupen v grafu je 1
-Prumerny stupen v grafu je 1.0
+Prumer grafu je 0.0
+Prumerna vzdalenost v grafu je 0
+Maximalni stupen v grafu je 0
+Minimalni stupen v grafu je 0
+Prumerny stupen v grafu je 0.0
 Distribuce stupnu v grafu je:
-	Stupen 1 je obsazen 2 krat, s relativni cetnosti 1.0
+	Stupen 0 je obsazen 1 krat, s relativni cetnosti 1.0
 Closness centralita je:
-	Uzel 0 hodnota 2.0
-	Uzel 1 hodnota 2.0
+	Uzel 0 hodnota 0
 Shlukovaci koeficient je:
 	Uzel 0 hodnota 0
-	Uzel 1 hodnota 0
 Tranzitivita v grafu je 0.0
 ==============================================================
 27
@@ -854,22 +859,17 @@ Tranzitivita v grafu je 0.0
 ==============================================================
 28
 ==============================================================
-Prumer grafu je 2.0
-Prumerna vzdalenost v grafu je 1.3333333333333333
-Maximalni stupen v grafu je 2
-Minimalni stupen v grafu je 1
-Prumerny stupen v grafu je 1.3333333333333333
+Prumer grafu je 0.0
+Prumerna vzdalenost v grafu je 0
+Maximalni stupen v grafu je 0
+Minimalni stupen v grafu je 0
+Prumerny stupen v grafu je 0.0
 Distribuce stupnu v grafu je:
-	Stupen 1 je obsazen 2 krat, s relativni cetnosti 0.6666666666666666
-	Stupen 2 je obsazen 1 krat, s relativni cetnosti 0.3333333333333333
+	Stupen 0 je obsazen 1 krat, s relativni cetnosti 1.0
 Closness centralita je:
-	Uzel 0 hodnota 1.5
-	Uzel 1 hodnota 1.0
-	Uzel 2 hodnota 1.0
+	Uzel 0 hodnota 0
 Shlukovaci koeficient je:
-	Uzel 0 hodnota 0.0
-	Uzel 1 hodnota 0
-	Uzel 2 hodnota 0
+	Uzel 0 hodnota 0
 Tranzitivita v grafu je 0.0
 ==============================================================
 29
@@ -919,19 +919,17 @@ Tranzitivita v grafu je 0.0
 ==============================================================
 32
 ==============================================================
-Prumer grafu je 1.0
-Prumerna vzdalenost v grafu je 1.0
-Maximalni stupen v grafu je 1
-Minimalni stupen v grafu je 1
-Prumerny stupen v grafu je 1.0
+Prumer grafu je 0.0
+Prumerna vzdalenost v grafu je 0
+Maximalni stupen v grafu je 0
+Minimalni stupen v grafu je 0
+Prumerny stupen v grafu je 0.0
 Distribuce stupnu v grafu je:
-	Stupen 1 je obsazen 2 krat, s relativni cetnosti 1.0
+	Stupen 0 je obsazen 1 krat, s relativni cetnosti 1.0
 Closness centralita je:
-	Uzel 0 hodnota 2.0
-	Uzel 1 hodnota 2.0
+	Uzel 0 hodnota 0
 Shlukovaci koeficient je:
 	Uzel 0 hodnota 0
-	Uzel 1 hodnota 0
 Tranzitivita v grafu je 0.0
 ==============================================================
 33
@@ -966,19 +964,17 @@ Tranzitivita v grafu je 0.0
 ==============================================================
 35
 ==============================================================
-Prumer grafu je 1.0
-Prumerna vzdalenost v grafu je 1.0
-Maximalni stupen v grafu je 1
-Minimalni stupen v grafu je 1
-Prumerny stupen v grafu je 1.0
+Prumer grafu je 0.0
+Prumerna vzdalenost v grafu je 0
+Maximalni stupen v grafu je 0
+Minimalni stupen v grafu je 0
+Prumerny stupen v grafu je 0.0
 Distribuce stupnu v grafu je:
-	Stupen 1 je obsazen 2 krat, s relativni cetnosti 1.0
+	Stupen 0 je obsazen 1 krat, s relativni cetnosti 1.0
 Closness centralita je:
-	Uzel 0 hodnota 2.0
-	Uzel 1 hodnota 2.0
+	Uzel 0 hodnota 0
 Shlukovaci koeficient je:
 	Uzel 0 hodnota 0
-	Uzel 1 hodnota 0
 Tranzitivita v grafu je 0.0
 ==============================================================
 36
@@ -1013,17 +1009,19 @@ Tranzitivita v grafu je 0.0
 ==============================================================
 38
 ==============================================================
-Prumer grafu je 0.0
-Prumerna vzdalenost v grafu je 0
-Maximalni stupen v grafu je 0
-Minimalni stupen v grafu je 0
-Prumerny stupen v grafu je 0.0
+Prumer grafu je 1.0
+Prumerna vzdalenost v grafu je 1.0
+Maximalni stupen v grafu je 1
+Minimalni stupen v grafu je 1
+Prumerny stupen v grafu je 1.0
 Distribuce stupnu v grafu je:
-	Stupen 0 je obsazen 1 krat, s relativni cetnosti 1.0
+	Stupen 1 je obsazen 2 krat, s relativni cetnosti 1.0
 Closness centralita je:
-	Uzel 0 hodnota 0
+	Uzel 0 hodnota 2.0
+	Uzel 1 hodnota 2.0
 Shlukovaci koeficient je:
 	Uzel 0 hodnota 0
+	Uzel 1 hodnota 0
 Tranzitivita v grafu je 0.0
 ==============================================================
 39
@@ -1283,6 +1281,21 @@ Tranzitivita v grafu je 0.0
 ==============================================================
 56
 ==============================================================
+Prumer grafu je 0.0
+Prumerna vzdalenost v grafu je 0
+Maximalni stupen v grafu je 0
+Minimalni stupen v grafu je 0
+Prumerny stupen v grafu je 0.0
+Distribuce stupnu v grafu je:
+	Stupen 0 je obsazen 1 krat, s relativni cetnosti 1.0
+Closness centralita je:
+	Uzel 0 hodnota 0
+Shlukovaci koeficient je:
+	Uzel 0 hodnota 0
+Tranzitivita v grafu je 0.0
+==============================================================
+57
+==============================================================
 Prumer grafu je 1.0
 Prumerna vzdalenost v grafu je 1.0
 Maximalni stupen v grafu je 1
@@ -1296,21 +1309,6 @@ Closness centralita je:
 Shlukovaci koeficient je:
 	Uzel 0 hodnota 0
 	Uzel 1 hodnota 0
-Tranzitivita v grafu je 0.0
-==============================================================
-57
-==============================================================
-Prumer grafu je 0.0
-Prumerna vzdalenost v grafu je 0
-Maximalni stupen v grafu je 0
-Minimalni stupen v grafu je 0
-Prumerny stupen v grafu je 0.0
-Distribuce stupnu v grafu je:
-	Stupen 0 je obsazen 1 krat, s relativni cetnosti 1.0
-Closness centralita je:
-	Uzel 0 hodnota 0
-Shlukovaci koeficient je:
-	Uzel 0 hodnota 0
 Tranzitivita v grafu je 0.0
 ==============================================================
 58
@@ -1435,17 +1433,19 @@ Tranzitivita v grafu je 0.0
 ==============================================================
 66
 ==============================================================
-Prumer grafu je 0.0
-Prumerna vzdalenost v grafu je 0
-Maximalni stupen v grafu je 0
-Minimalni stupen v grafu je 0
-Prumerny stupen v grafu je 0.0
+Prumer grafu je 1.0
+Prumerna vzdalenost v grafu je 1.0
+Maximalni stupen v grafu je 1
+Minimalni stupen v grafu je 1
+Prumerny stupen v grafu je 1.0
 Distribuce stupnu v grafu je:
-	Stupen 0 je obsazen 1 krat, s relativni cetnosti 1.0
+	Stupen 1 je obsazen 2 krat, s relativni cetnosti 1.0
 Closness centralita je:
-	Uzel 0 hodnota 0
+	Uzel 0 hodnota 2.0
+	Uzel 1 hodnota 2.0
 Shlukovaci koeficient je:
 	Uzel 0 hodnota 0
+	Uzel 1 hodnota 0
 Tranzitivita v grafu je 0.0
 ==============================================================
 67
@@ -1540,17 +1540,19 @@ Tranzitivita v grafu je 0.0
 ==============================================================
 73
 ==============================================================
-Prumer grafu je 0.0
-Prumerna vzdalenost v grafu je 0
-Maximalni stupen v grafu je 0
-Minimalni stupen v grafu je 0
-Prumerny stupen v grafu je 0.0
+Prumer grafu je 1.0
+Prumerna vzdalenost v grafu je 1.0
+Maximalni stupen v grafu je 1
+Minimalni stupen v grafu je 1
+Prumerny stupen v grafu je 1.0
 Distribuce stupnu v grafu je:
-	Stupen 0 je obsazen 1 krat, s relativni cetnosti 1.0
+	Stupen 1 je obsazen 2 krat, s relativni cetnosti 1.0
 Closness centralita je:
-	Uzel 0 hodnota 0
+	Uzel 0 hodnota 2.0
+	Uzel 1 hodnota 2.0
 Shlukovaci koeficient je:
 	Uzel 0 hodnota 0
+	Uzel 1 hodnota 0
 Tranzitivita v grafu je 0.0
 ==============================================================
 74
@@ -1690,17 +1692,19 @@ Tranzitivita v grafu je 0.0
 ==============================================================
 83
 ==============================================================
-Prumer grafu je 0.0
-Prumerna vzdalenost v grafu je 0
-Maximalni stupen v grafu je 0
-Minimalni stupen v grafu je 0
-Prumerny stupen v grafu je 0.0
+Prumer grafu je 1.0
+Prumerna vzdalenost v grafu je 1.0
+Maximalni stupen v grafu je 1
+Minimalni stupen v grafu je 1
+Prumerny stupen v grafu je 1.0
 Distribuce stupnu v grafu je:
-	Stupen 0 je obsazen 1 krat, s relativni cetnosti 1.0
+	Stupen 1 je obsazen 2 krat, s relativni cetnosti 1.0
 Closness centralita je:
-	Uzel 0 hodnota 0
+	Uzel 0 hodnota 2.0
+	Uzel 1 hodnota 2.0
 Shlukovaci koeficient je:
 	Uzel 0 hodnota 0
+	Uzel 1 hodnota 0
 Tranzitivita v grafu je 0.0
 ==============================================================
 84
@@ -1780,36 +1784,32 @@ Tranzitivita v grafu je 0.0
 ==============================================================
 89
 ==============================================================
-Prumer grafu je 1.0
-Prumerna vzdalenost v grafu je 1.0
-Maximalni stupen v grafu je 1
-Minimalni stupen v grafu je 1
-Prumerny stupen v grafu je 1.0
+Prumer grafu je 0.0
+Prumerna vzdalenost v grafu je 0
+Maximalni stupen v grafu je 0
+Minimalni stupen v grafu je 0
+Prumerny stupen v grafu je 0.0
 Distribuce stupnu v grafu je:
-	Stupen 1 je obsazen 2 krat, s relativni cetnosti 1.0
+	Stupen 0 je obsazen 1 krat, s relativni cetnosti 1.0
 Closness centralita je:
-	Uzel 0 hodnota 2.0
-	Uzel 1 hodnota 2.0
+	Uzel 0 hodnota 0
 Shlukovaci koeficient je:
 	Uzel 0 hodnota 0
-	Uzel 1 hodnota 0
 Tranzitivita v grafu je 0.0
 ==============================================================
 90
 ==============================================================
-Prumer grafu je 1.0
-Prumerna vzdalenost v grafu je 1.0
-Maximalni stupen v grafu je 1
-Minimalni stupen v grafu je 1
-Prumerny stupen v grafu je 1.0
+Prumer grafu je 0.0
+Prumerna vzdalenost v grafu je 0
+Maximalni stupen v grafu je 0
+Minimalni stupen v grafu je 0
+Prumerny stupen v grafu je 0.0
 Distribuce stupnu v grafu je:
-	Stupen 1 je obsazen 2 krat, s relativni cetnosti 1.0
+	Stupen 0 je obsazen 1 krat, s relativni cetnosti 1.0
 Closness centralita je:
-	Uzel 0 hodnota 2.0
-	Uzel 1 hodnota 2.0
+	Uzel 0 hodnota 0
 Shlukovaci koeficient je:
 	Uzel 0 hodnota 0
-	Uzel 1 hodnota 0
 Tranzitivita v grafu je 0.0
 ==============================================================
 91
