@@ -1,5 +1,7 @@
 
 from utils.graph.GraphProperties import GRAPH_PROPERTIES, GRAPH_CONNECTED_COMPONENTS_PROPERTIES, GRAPH_INSPECTION
+from graph_api.GraphMaker import GRAPH_OUTPUTS
+import os
 
 DELIMITER = '=============================================================='
 
@@ -95,7 +97,10 @@ def print_graph_inspection(graph_inspection):
     print(create_graph_inspections_string(graph_inspection))
 
 
-def write_graph_inspection_to_file(path, graph_inspection, des):
+def write_graph_inspection_to_file(name, directory, graph_inspection, des):
+    path = f'{GRAPH_OUTPUTS}//{directory}'
+    if not os.path.exists(path):
+        os.makedirs(path)
     final = f'{des} \n\n\n {create_graph_inspections_string(graph_inspection)}'
-    with open(path, 'w') as f:
+    with open(f'{path}//{name}', 'w') as f:
         f.write(final)    

@@ -16,6 +16,8 @@ from labs.KarateClub import matrix_list_histogram_for_karate_club
 from labs.KarateClubFloydAndGraphProps import karate_club_floyd_and_graph_props
 from utils.graph.Matrix import Vertex, AdjacencyList, AdjacencyMatrix
 from graph_api.GraphMaker import GraphMaker
+from graph_api.GraphMakerRun import run_graph_maker
+
 
 ################################
 """Csv with graph"""
@@ -31,8 +33,9 @@ karate_club_matrix = matrix_list_histogram_for_karate_club(data)
 ################################
 """Cv8"""
 g1, g2, g3 = run_lab_where_generating_graphs()
-graph_maker = GraphMaker(g1[1])
-graph_maker.plot_components_distribution()
+run_graph_maker(g1[1], 'g1')
+run_graph_maker(g2[1], 'g2')
+run_graph_maker(g3[1], 'g3')
 ################################
 
 
