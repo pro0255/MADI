@@ -1,8 +1,11 @@
 import pandas as pd
-from constants.CONSTANTS import COLUMNS_IN_ROW
+from constants.CONSTANTS import COLUMNS_IN_ROW, MATRIX_OUTPUT
 import math
 import numpy as np
 from itertools import product
+
+
+
 
 
 class GmailParser():
@@ -100,7 +103,7 @@ class GmailParser():
         self.create_emails_set(raw_data)
         self.create_matrix_from_set(raw_data, self.emails)
         output = pd.DataFrame(self.matrix, columns=self.emails, index=self.emails).to_string()
-        with open("matrix.txt", "w") as file1: 
+        with open(MATRIX_OUTPUT, "w") as file1: 
             file1.writelines(output) 
         return (self.emails, self.matrix)
     
