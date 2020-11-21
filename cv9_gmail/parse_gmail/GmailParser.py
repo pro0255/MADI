@@ -16,7 +16,7 @@ class GmailParser:
             path_to_file, delimiter=";", encoding="unicode_escape", header=None
         )
         raw_gmail_data.columns = names
-        self.build_matrix(raw_gmail_data)
+        return self.build_matrix(raw_gmail_data)
 
     def parse_email_item(self, item):
         lIndex = item.find("<")
@@ -45,19 +45,6 @@ class GmailParser:
             else [cc.strip() for cc in cc_string.split(",")]
         )
         return result
-
-    # delete
-    def parse_from_or_to_mail(self, from_or_to_string):
-        lIndex = from_or_to_string.find("<")
-        rIndex = from_or_to_string.find(">")
-
-        if lIndex == -1:
-            name = None
-            mail = from_or_to_string.strip()
-        else:
-            name = from_or_to_string[0:lIndex].strip()
-            mail = from_or_to_string[lIndex + 1 : rIndex]
-        return (mail, name)
 
     def parse_row(self, row):
         return (
