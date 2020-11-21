@@ -28,14 +28,18 @@ data = pd.read_csv("KarateClub.csv", ';', header=None)
 """Old labs"""
 karate_club_matrix = matrix_list_histogram_for_karate_club(data)
 # karate_club_floyd_and_graph_props(karate_club_matrix.matrix)
+karate_club_inspection = make_graph_inspection(karate_club_matrix.matrix)
+name = "karate_club"
+write_graph_inspection_to_file(f'{name}.txt', name, karate_club_inspection, "Karate club\n")
+run_graph_maker(karate_club_inspection, name)
 ################################
 
 ################################
 """Cv8"""
-g1, g2, g3 = run_lab_where_generating_graphs()
-run_graph_maker(g1[1], 'g1')
-run_graph_maker(g2[1], 'g2')
-run_graph_maker(g3[1], 'g3')
+# g1, g2, g3 = run_lab_where_generating_graphs()
+# run_graph_maker(g1[1], 'g1')
+# run_graph_maker(g2[1], 'g2')
+# run_graph_maker(g3[1], 'g3')
 ################################
 
 
