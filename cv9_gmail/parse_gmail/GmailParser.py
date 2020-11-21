@@ -54,8 +54,11 @@ class GmailParser:
         )
 
     def create_emails_set(self, raw_data):
-        for index, row in list(raw_data.iterrows())[0:2]:
-            self.process_row_with_add_to_emails(*self.parse_row(row))
+        for index, row in list(raw_data.iterrows()):
+            try:
+                self.process_row_with_add_to_emails(*self.parse_row(row))
+            except:
+                continue
         self.emails = list(set(self.emails))  # unique
 
     def process_row_with_add_to_emails(self, from_mail, to_mail, cc_mails):
@@ -70,8 +73,11 @@ class GmailParser:
         lE = len(emails_set)
         self.matrix = np.zeros(shape=(lE, lE))
         self.emails_dic = {email: index for index, email in enumerate(emails_set)}
-        for index, row in list(raw_data.iterrows())[0:2]:
-            self.process_row_with_add_to_matrix(*self.parse_row(row), self.emails_dic)
+        for index, row in list(raw_data.iterrows()):
+            try:
+                self.process_row_with_add_to_matrix(*self.parse_row(row), self.emails_dic)
+            except:
+                continue
 
     def process_row_with_add_to_matrix(
         self, from_mails, to_mails, cc_mails, emails_dic_email_index
