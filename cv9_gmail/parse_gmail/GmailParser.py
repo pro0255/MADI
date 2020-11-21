@@ -15,6 +15,31 @@ class GmailParser():
         raw_gmail_data.columns = names
         self.build_matrix(raw_gmail_data)
 
+    def parse_email_item(self, item):
+        lIndex = item.find('<')
+        rIndex = item.find('>')
+
+        if lIndex == -1:
+            name = None
+            mail = item.strip()
+        else:
+            name = item[0:lIndex].strip()
+            mail = item[lIndex+1:rIndex]    
+        return (mail, name)
+
+    def parse_from(self, from_email):
+        parsed = [self.parse_email_item(e.strip()) for e in from_email.split(',')]
+        return parsed
+
+    def parse_to(self, to_emails):
+        parsed = [self.parse_email_item(e.strip()) for e in to_emails.split(',')]
+        return parsed
+
+    def parse_cc(self, cc_string):
+        result = None if pd.isnull(cc_string) else [cc.strip() for cc in cc_string.split(',')]
+        return result
+
+    #delete
     def parse_from_or_to_mail(self, from_or_to_string):
         lIndex = from_or_to_string.find('<')
         rIndex = from_or_to_string.find('>')
@@ -27,9 +52,6 @@ class GmailParser():
             mail = from_or_to_string[lIndex+1:rIndex]    
         return (mail, name)
 
-    def parse_cc(self, cc_string):
-        result = None if pd.isnull(cc_string) else [cc.strip() for cc in cc_string.split(',')]
-        return result
 
     def parse_row(self, row):
         return (self.parse_from_or_to_mail(row['from']),self.parse_from_or_to_mail(row['to']), self.parse_cc(row['cc']))
