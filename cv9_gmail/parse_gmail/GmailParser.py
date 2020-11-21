@@ -8,6 +8,7 @@ from itertools import product
 class GmailParser:
     def __init__(self):
         self.emails = []
+        self.emails_dic = {}
         self.matrix = None
 
     def parse(self, path_to_file, names=COLUMNS_IN_ROW):
@@ -81,9 +82,9 @@ class GmailParser:
     def create_matrix_from_set(self, raw_data, emails_set):
         lE = len(emails_set)
         self.matrix = np.zeros(shape=(lE, lE))
-        dic_email_index = {email: index for index, email in enumerate(emails_set)}
+        self.emails_dic = {email: index for index, email in enumerate(emails_set)}
         for index, row in list(raw_data.iterrows())[0:2]:
-            self.process_row_with_add_to_matrix(*self.parse_row(row), dic_email_index)
+            self.process_row_with_add_to_matrix(*self.parse_row(row), self.emails_dic)
 
     def process_row_with_add_to_matrix(
         self, from_mails, to_mails, cc_mails, emails_dic_email_index
@@ -113,4 +114,4 @@ class GmailParser:
         ).to_string()
         with open(MATRIX_OUTPUT, "w") as file1:
             file1.writelines(output)
-        return (self.emails, self.matrix)
+        return (self.emails, self.matrix, self.emails_dic)
