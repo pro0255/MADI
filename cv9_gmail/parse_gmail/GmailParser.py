@@ -54,19 +54,21 @@ class GmailParser():
 
 
     def parse_row(self, row):
-        return (self.parse_from_or_to_mail(row['from']),self.parse_from_or_to_mail(row['to']), self.parse_cc(row['cc']))
+        return (self.parse_from(row['from']), self.parse_to(row['to']), self.parse_cc(row['cc']))
 
     def create_emails_set(self, raw_data):
         for index, row in list(raw_data.iterrows())[0:2]:
             self.process_row_with_add_to_emails(*self.parse_row(row))
-
-    def process_row_with_add_to_emails(self, from_mail, to_mail, cc_mails):
-        self.emails.append(from_mail[0])
-        self.emails.append(to_mail[0])
-        if cc_mails is not None:
-            self.emails += cc_mails
         self.emails = list(set(self.emails)) #unique
 
+    def process_row_with_add_to_emails(self, from_mail, to_mail, cc_mails):
+        from_emails, from_names = zip(*from_mail)
+        to_emails, to_names = zip(*to_mail)
+        self.emails += from_emails
+        self.emails += to_emails
+        if cc_mails is not None:
+            self.emails += cc_mails
+        
     def create_matrix_from_set(self, raw_data, emails_set):
         lE = len(emails_set)
         self.matrix = np.zeros(shape=(lE, lE))
@@ -74,8 +76,14 @@ class GmailParser():
         for index, row in list(raw_data.iterrows())[0:2]:
             self.process_row_with_add_to_matrix(*self.parse_row(row), dic_email_index)
         
-    def process_row_with_add_to_matrix(self, from_mail, to_mail, cc_mails, emails_dic_email_index):
-        current_emails = [from_mail[0], to_mail[0]]
+    def process_row_with_add_to_matrix(self, from_mails, to_mails, cc_mails, emails_dic_email_index):
+        current_emails = []
+        from_emails, from_names = zip(*from_mails)
+        to_emails, to_names = zip(*to_mails)
+
+        current_emails += from_emails
+        current_emails += to_emails
+
         if cc_mails is not None:
             current_emails += cc_mails
         prod = list(product(current_emails,current_emails))
