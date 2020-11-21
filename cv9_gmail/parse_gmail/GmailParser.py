@@ -4,7 +4,8 @@ import math
 import numpy as np
 from itertools import product
 
-
+#unicode_escape
+#utf-8
 class GmailParser:
     def __init__(self):
         self.emails = []
@@ -13,7 +14,7 @@ class GmailParser:
 
     def parse(self, path_to_file, names=COLUMNS_IN_ROW):
         raw_gmail_data = pd.read_csv(
-            path_to_file, delimiter=";", encoding="unicode_escape", header=None
+            path_to_file, delimiter=";", encoding="utf-8", header=None
         )
         raw_gmail_data.columns = names
         return self.build_matrix(raw_gmail_data)
@@ -42,7 +43,7 @@ class GmailParser:
         result = (
             None
             if pd.isnull(cc_string)
-            else [cc.strip() for cc in cc_string.split(",")]
+            else [self.parse_email_item(cc.strip()) for cc in cc_string.split(",")]
         )
         return result
 
@@ -67,7 +68,8 @@ class GmailParser:
         self.emails += from_emails
         self.emails += to_emails
         if cc_mails is not None:
-            self.emails += cc_mails
+            cc_emails, cc_names = zip(*cc_mails)
+            self.emails += cc_emails
 
     def create_matrix_from_set(self, raw_data, emails_set):
         lE = len(emails_set)
@@ -90,7 +92,9 @@ class GmailParser:
         current_emails += to_emails
 
         if cc_mails is not None:
-            current_emails += cc_mails
+            cc_emails, cc_names = zip(*cc_mails)
+            current_emails += cc_emails
+
         prod = list(product(current_emails, current_emails))
         result = list(filter(lambda a: a[0] != a[1], prod))
 
@@ -105,6 +109,6 @@ class GmailParser:
         output = pd.DataFrame(
             self.matrix, columns=self.emails, index=self.emails
         ).to_string()
-        with open(MATRIX_OUTPUT, "w") as file1:
+        with open(MATRIX_OUTPUT, "w", encoding="utf-8") as file1:
             file1.writelines(output)
         return (self.emails, self.matrix, self.emails_dic)
