@@ -201,7 +201,6 @@ means_and_variances  = list(zip(means, variances))
 k_means_data = data.drop(['variety'], axis=1) 
 for index, value in k_means_data.items():
      k_means_data.loc[:, index] = value.str.replace(',', '.').astype(float)
-ind2cluster, centroids = k_means(k_means_data, 3)
-draw2d(ind2cluster, centroids, (2,3))
+draw2d(*k_means(k_means_data, 3), (2,3))
 
 

@@ -31,8 +31,11 @@ def k_means(data, k):
     number_of_features = dataset.shape[1]  
 
     ind2Cluster = defaultdict(list) #represents current clusters for specified index of centroid his data, it is used for calculation of new centroids. 
+    centroid2Cluster = {}
+
     while True:
         ind2Cluster.clear()
+        centroid2Cluster = {tuple(c):list() for c in centroids}
         for instance in dataset:
             instance2Centroid = []
             for centroid in centroids:
@@ -40,11 +43,12 @@ def k_means(data, k):
 
             closest_centroid_index = np.argmin(instance2Centroid)
             ind2Cluster[closest_centroid_index].append(instance)
-            
+            centroid2Cluster[tuple(centroids[closest_centroid_index])].append(instance)
+
         new_centroids = create_new_centroids(k, ind2Cluster, number_of_features)
         if not did_moved(centroids, new_centroids):
             print('did not moved')
             break
         centroids = new_centroids
-        
-    return (ind2Cluster, centroids)
+
+    return (ind2Cluster, centroids, centroid2Cluster)
