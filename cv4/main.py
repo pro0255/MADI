@@ -11,6 +11,8 @@ from vizualization.draw2d import draw2d
 
 
 data = pd.read_csv('iris.csv', ';')
+data_mall =  pd.read_csv('mall_customers.csv', ',')
+
 
 def calculate_mean_attribute(data, i, p=True):
     attribute_name = data.columns[i]
@@ -201,6 +203,17 @@ means_and_variances  = list(zip(means, variances))
 k_means_data = data.drop(['variety'], axis=1) 
 for index, value in k_means_data.items():
      k_means_data.loc[:, index] = value.str.replace(',', '.').astype(float)
-draw2d(*k_means(k_means_data, 3), (2,3))
+
+iris_attr = (2,3)
+iris_col = k_means_data.columns
+iris_labels = (iris_col[iris_attr[0]],iris_col[iris_attr[1]])  
+draw2d(*k_means(k_means_data, 3), (2,3), iris_labels)
+
+
+k_means_data_mall = data_mall.drop(['CustomerID', 'Gender'], axis=1)
+data_mall_attr = (1,2)
+mall_col = k_means_data_mall.columns
+mall_labels = (mall_col[data_mall_attr[0]], mall_col[data_mall_attr[1]])
+draw2d(*k_means(k_means_data_mall, 4), data_mall_attr, mall_labels)
 
 
