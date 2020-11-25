@@ -5,10 +5,13 @@ import matplotlib.pyplot as plt
 import scipy.stats as stats
 import math
 from collections import Counter
+from utils.k_means import k_means
+from vizualization.draw2d import draw2d
 
 
 
 data = pd.read_csv('iris.csv', ';')
+
 def calculate_mean_attribute(data, i, p=True):
     attribute_name = data.columns[i]
     casted_column = data.iloc[:, i]
@@ -189,7 +192,16 @@ means_and_variances  = list(zip(means, variances))
 #draw real distribution to histograms
 
 
-draw_distribution(means_and_variances, data_without_class)
-draw_cdf(means_and_variances, data_without_class)
-plt.show()
+# draw_distribution(means_and_variances, data_without_class)
+# draw_cdf(means_and_variances, data_without_class)
+# plt.show()
+
+
+
+k_means_data = data.drop(['variety'], axis=1) 
+for index, value in k_means_data.items():
+     k_means_data.loc[:, index] = value.str.replace(',', '.').astype(float)
+ind2cluster, centroids = k_means(k_means_data, 3)
+draw2d(ind2cluster, centroids, (2,3))
+
 
