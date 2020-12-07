@@ -52,4 +52,4 @@ class NaiveBayers():
             prediction_result.append(self.predict_instance(instance))
 
         labeled_prediction = self.construct_label_prediction(prediction_result)
-        return np.array(prediction_result)
+        return labeled_prediction, np.array(prediction_result) 
