@@ -7,7 +7,8 @@ import math
 from collections import Counter
 from utils.k_means import k_means
 from vizualization.draw2d import draw2d
-
+from utils.naive_bayers import naive_bayers
+from utils.train_test_split import train_test_split
 
 
 data = pd.read_csv('iris.csv', ';')
@@ -200,20 +201,29 @@ means_and_variances  = list(zip(means, variances))
 
 
 
-k_means_data = data.drop(['variety'], axis=1) 
-for index, value in k_means_data.items():
-     k_means_data.loc[:, index] = value.str.replace(',', '.').astype(float)
-
-iris_attr = (2,3)
-iris_col = k_means_data.columns
-iris_labels = (iris_col[iris_attr[0]],iris_col[iris_attr[1]])  
-draw2d(*k_means(k_means_data, 3), (2,3), iris_labels)
+###CVIKO K MEANS
 
 
-k_means_data_mall = data_mall.drop(['CustomerID', 'Gender'], axis=1)
-data_mall_attr = (1,2)
-mall_col = k_means_data_mall.columns
-mall_labels = (mall_col[data_mall_attr[0]], mall_col[data_mall_attr[1]])
-draw2d(*k_means(k_means_data_mall, 4), data_mall_attr, mall_labels)
+# k_means_data = data.drop(['variety'], axis=1) 
+# for index, value in k_means_data.items():
+#      k_means_data.loc[:, index] = value.str.replace(',', '.').astype(float)
+
+# iris_attr = (2,3)
+# iris_col = k_means_data.columns
+# iris_labels = (iris_col[iris_attr[0]],iris_col[iris_attr[1]])  
+# draw2d(*k_means(k_means_data, 3), (0,1), iris_labels)
+
+# k_means_data_mall = data_mall.drop(['CustomerID', 'Gender'], axis=1)
+# data_mall_attr = (1,2)
+# mall_col = k_means_data_mall.columns
+# mall_labels = (mall_col[data_mall_attr[0]], mall_col[data_mall_attr[1]])
+# draw2d(*k_means(k_means_data_mall, 4), data_mall_attr, mall_labels)
 
 
+
+weather_data = pd.read_csv('weather.csv', ';')
+X = weather_data.drop('Play', axis=1)
+y = weather_data['Play']
+X_train, y_train, X_test, y_test = train_test_split(X, y, 0.3)
+print(X_train.head())
+print(y_train.head())
