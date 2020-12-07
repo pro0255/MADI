@@ -12,8 +12,8 @@ def train_test_split(X, y, float_per):
 
     n = len(X)
 
-    shuffled_X = X.sample(frac=1, replace=True, random_state=seed) 
-    shuffled_y = y.sample(frac=1, replace=True, random_state=seed)
+    shuffled_X = X.sample(frac=1, random_state=seed) 
+    shuffled_y = y.sample(frac=1, random_state=seed)
 
     split_size = int(n * float_per)
 

@@ -7,7 +7,7 @@ import math
 from collections import Counter
 from utils.k_means import k_means
 from vizualization.draw2d import draw2d
-from utils.naive_bayers import naive_bayers
+from utils.naive_bayers import NaiveBayers
 from utils.train_test_split import train_test_split
 
 
@@ -220,10 +220,12 @@ means_and_variances  = list(zip(means, variances))
 # draw2d(*k_means(k_means_data_mall, 4), data_mall_attr, mall_labels)
 
 
+nb = NaiveBayers()
 
 weather_data = pd.read_csv('weather.csv', ';')
 X = weather_data.drop('Play', axis=1)
 y = weather_data['Play']
 X_train, y_train, X_test, y_test = train_test_split(X, y, 0.3)
-print(X_train.head())
-print(y_train.head())
+
+nb.fit(X_train, y_train)
+nb.predict(X_test)
