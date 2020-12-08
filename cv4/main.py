@@ -11,6 +11,8 @@ from utils.naive_bayers import NaiveBayers
 from utils.train_test_split import train_test_split
 from utils.accuracy import accuracy_score
 from sets import get_bank_set, get_weather_set
+from utils.fold_validation import fold_validation
+
 
 
 data = pd.read_csv('iris.csv', ';')
@@ -234,12 +236,6 @@ labels, _ = nb.predict(X_test)
 accuracy = accuracy_score(labels, y_test.values)
 print(accuracy)
 
+fold_validation(nb, X, y, 5)
 
-# bank = pd.read_csv('bank-additional-full.csv', ';')
-# bank_categorical_X = bank[['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact', 'month', 'day_of_week', 'poutcome']]
-# bank_categorical_y = bank['y']
-
-# X_train, y_train, X_test, y_test = train_test_split(bank_categorical_X, y, 0.2)
-
-# print(bank_categorical_y.head())
 
