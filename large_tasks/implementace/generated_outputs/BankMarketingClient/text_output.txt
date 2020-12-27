@@ -2,17 +2,17 @@ Data set with:
 	Size = 8711
 	age
 		mean = 40.589369762369415
-		variance = 69383.60838459655
+		variance = 129.87305425783245
 	education
 		mean = 4.0955114223395706
-		variance = 16.462258656500218
+		variance = 2.789408161705325
 	housing
 		mean = 0.4958098955343818
-		variance = 0.0625087775629729
+		variance = 0.24998244302454975
 	loan
 		mean = 0.14361152565721502
-		variance = 0.07760966041589341
+		variance = 0.12298725535562667
 
 	Attributes which were numeric or binary: ['age', 'education', 'housing', 'loan']
 	average instance = [40.58936976  4.09551142  0.4958099   0.14361153]
-	global variance = 70511.9084528055
+	global variance = 133.03543211792024

@@ -1,0 +1,35 @@
+Data set with:
+	Size = 8711
+	age
+		mean = 40.589369762369415
+		variance = 129.87305425783217
+	education
+		mean = 4.0955114223395706
+		variance = 2.7894081617053157
+	housing
+		mean = 0.4958098955343818
+		variance = 0.24998244302455136
+	loan
+		mean = 0.14361152565721502
+		variance = 0.12298725535562667
+	emp.var.rate
+		mean = -0.05879921937779818
+		variance = 2.666185631940411
+	cons.price.idx
+		mean = 93.67338996670877
+		variance = 0.33110563842075125
+	cons.conf.idx
+		mean = -38.13486396510159
+		variance = 21.967170452737058
+	euribor3m
+		mean = 3.5001719664791646
+		variance = 3.366916242267711
+	nr.employed
+		mean = 5143.693709103432
+		variance = 6072.268267162927
+
+	Attributes which were numeric or binary: ['age', 'education', 'housing', 'loan', 'emp.var.rate', 'cons.price.idx', 'cons.conf.idx', 'euribor3m', 'nr.employed']
+	average instance = [ 4.05893698e+01  4.09551142e+00  4.95809896e-01  1.43611526e-01
+ -5.87992194e-02  9.36733900e+01 -3.81348640e+01  3.50017197e+00
+  5.14369371e+03]
+	global variance = 6233.6350772465075

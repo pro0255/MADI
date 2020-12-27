@@ -1,7 +1,6 @@
 from collections import Counter
 import matplotlib.pyplot as plt
 from utils.graph_props import run_plot_props
-plt.figure(figsize=(10,8))
 
 def absolute(keys, values):
     plt.bar(keys, values, ec="black", color="g")
@@ -17,6 +16,7 @@ def relative(keys, values):
 
 
 def analyse_categorial(data_set, name):
+    plt.figure(figsize=(10,8))
     feature = data_set.loc[:, name]
     c = Counter(feature)
     values = list(c.values())

@@ -1,0 +1,15 @@
+Data set with:
+	Size = 200
+	Age
+		mean = 38.85
+		variance = 194.1575000000001
+	AnnualIncome
+		mean = 60.56
+		variance = 686.3864000000005
+	SpendingScore
+		mean = 50.2
+		variance = 663.5199999999994
+
+	Attributes which were numeric or binary: ['Age', 'AnnualIncome', 'SpendingScore']
+	average instance = [38.85 60.56 50.2 ]
+	global variance = 1544.0639

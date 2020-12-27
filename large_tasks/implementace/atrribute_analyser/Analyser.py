@@ -1,6 +1,7 @@
 import os
 import CONSTANTS
 from utils.analyse_numeric import attribute_variance, attribute_mean, global_mean, global_variance, draw_distribution, draw_cdf
+import matplotlib.pyplot as plt
 
 
 class Analyser():
@@ -29,13 +30,15 @@ class Analyser():
                 variance = attribute_variance(feature)
                 columns_text += f"\t{c}\n\t\tmean = {mean}\n\t\tvariance = {variance}\n"
                 f1,ax1 = draw_distribution(feature, mean, variance, c)
+                plt.close()
                 f2,ax2 = draw_cdf(feature, mean, variance, c)
+                plt.close()
                 f1.savefig(f'{self.create_path(directory)}//{c}_pdf.png')
                 f2.savefig(f'{self.create_path(directory)}//{c}_cdf.png')
                 ok_attributes.append(c)
             except Exception as e:
                 pass
-                print(f'cannot calculate mean')
+                print(f'cannot calculate mean and variance for {c}')
                 print(e)
 
         subdS = dS.loc[:, ok_attributes]

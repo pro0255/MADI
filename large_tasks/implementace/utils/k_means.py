@@ -35,7 +35,6 @@ def k_means(data, k):
 
     while True:
         counter += 1
-        print(counter)
         ind2Cluster.clear()
         centroid2Cluster = {tuple(c):[] for c in centroids}
         for instance in dataset:
