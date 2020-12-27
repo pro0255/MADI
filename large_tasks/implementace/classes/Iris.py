@@ -2,7 +2,6 @@ from load.load import load_iris_dataset
 
 class Iris:
     def __init__(self):
-        print('constructing iris')
         self.preprocessed = None
 
     def load(self):

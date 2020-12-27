@@ -5,8 +5,6 @@ from utils.analyse_numeric import analyse_numeric
 from classes.Iris import Iris
 from gui.App import Application
 
-
-
 #TODO: 
 # - make analysis for every attribtute
 # - preprocessing data
