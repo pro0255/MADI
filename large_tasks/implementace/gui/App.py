@@ -4,7 +4,7 @@ from gui.GUI_CONSTANTS import GLOBAL_HEIGHT, GLOBAL_WIDTH, INIT_DATASET, GLOBAL_
 from gui.datasets import datasets
 from utils.k_means import k_means
 from vizualization.draw2d import draw2d
-from utils.sse import total_sse
+from utils.sse import total_sse, sse
 from gui.Console import ConsoleUi
 import matplotlib.pyplot as plt
 
@@ -173,8 +173,18 @@ class Application:
 
 
             result = k_means(dS, k)
-            current_sse = total_sse(result[2])
-            self.console.display(f'Iteration {i} -> {current_sse}')
+
+            total_sse = 0
+            index = 0 
+            for centroid, cluster in result[2].items():
+                index += 1
+                error = sse(centroid, cluster)
+                self.console.display(f'\tCluster {index} -> sse {error}')
+                total_sse += error
+
+            current_sse = total_sse
+
+            self.console.display(f'Iteration {i} -> total sse {current_sse}')
             if best is None:
                 best = (current_sse, result)
             else:
