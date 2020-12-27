@@ -15,11 +15,21 @@ class Checkbar(Frame):
         Frame.__init__(self, parent)
         self.vars = []
         self.checkbuttons = []
+        self.picks = picks
+        self.parent = parent
+        self.side = side
+        self.anchor = anchor
+        self.draw()
 
-        for pick in picks:
-            var = IntVar(parent)
+    def draw(self):
+        for c in self.checkbuttons:
+            c.pack_forget()
+        self.checkbuttons = []
+        self.vars = [] 
+        for pick in self.picks:
+            var = IntVar(self.parent)
             chk = Checkbutton(self, text=pick, variable=var, command=self.disable_rest)
-            chk.pack(side=side, anchor=anchor, expand=YES)
+            chk.pack(side=self.side, anchor=self.anchor, expand=YES)
             self.checkbuttons.append(chk)
             self.vars.append(var)
 
@@ -102,8 +112,6 @@ class Application:
               length = GLOBAL_WIDTH, mode = 'determinate')
         self.progress_bar.pack() 
 
-
-
     def checkbox_action(self):
         if hasattr(self, 'x') and hasattr(self, 'y') and hasattr(self, 'show_visualization') and hasattr(self, 'vis_button'): 
             if self.show_visualization.get() == 1:
@@ -142,6 +150,13 @@ class Application:
 
     def select_dS_action(self, value):
         self.selected_dS = datasets[value]
+        if hasattr(self, 'x') and hasattr(self, 'y'):
+            features = self.selected_dS.get_preprocessed_features()
+            self.x.picks = features
+            self.y.picks = features
+            self.x.draw()
+            self.y.draw()
+
 
     def run_action(self):
         k = self.kSlider.get()
@@ -168,7 +183,6 @@ class Application:
             else:
                 if current_sse < best[0]:
                     best = (current_sse, result)
-    
         self.console.display(f'\nFinished.. lowest sse is {best[0]}\n')
 
         self.vis_button.config(state="active")

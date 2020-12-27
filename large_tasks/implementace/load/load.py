@@ -23,6 +23,11 @@ def load_iris_dataset():
     #      iris.loc[:, index] = value.str.replace(',', '.').astype(float)
     return iris
 
+def load_mall_customers_dataset():
+    name_of_file = 'mall_customers.csv'
+    mc = pd.read_csv(f'data_sets\\mall_customers\\{name_of_file}',  delimiter=',') 
+    data_set_info(mc)
+    return mc
 
 
 

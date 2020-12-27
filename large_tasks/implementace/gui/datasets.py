@@ -1,8 +1,8 @@
 from classes.Iris import Iris
+from classes.MallCustomers import MallCustomers
 
 
 datasets = {
     "iris": Iris(),
-    "iris1": Iris(),
-    "JSIJD": Iris(),
+    "mall_customers": MallCustomers()
 }
