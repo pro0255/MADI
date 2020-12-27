@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd" version="1.3">
+  <meta lastmodifieddate="2020-12-25">
+    <creator>NodosChile</creator>
+    <description>A GEXF file written in R with "rgexf"</description>
+    <keywords>GEXF, NodosChile, R, rgexf, Gephi</keywords>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="GeorgeClooney" label="GeorgeClooney">
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-64.0488243371576" y="69.0868619121987" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="MarkWahlberg" label="MarkWahlberg">
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-25.5462926994355" y="-22.6553200661864" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="CatherineZetaJones" label="CatherineZetaJones">
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-28.9256530800906" y="-100" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="JuliaRoberts" label="JuliaRoberts">
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="90.226801539073" y="-9.60461907762436" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="EdwardNorton" label="EdwardNorton">
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="100" y="-36.4400998682394" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="MattDamon" label="MattDamon">
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="9.77266288048224" y="100" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="BradPitt" label="BradPitt">
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-100" y="-78.1876612738967" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="JenniferLopez" label="JenniferLopez">
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-26.1915500729661" y="41.2204566298" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="RichardGere" label="RichardGere">
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-79.81368236028" y="-24.0952491529809" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="SusanSarandon" label="SusanSarandon">
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-11.9449474081477" y="-61.0442966816481" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id=" " label=" ">
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="38.6493925759898" y="-88.5173838607191" z="0"/>
+        <viz:size value="10"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="GeorgeClooney" target="MarkWahlberg" weight="1"/>
+      <edge id="1" source="GeorgeClooney" target="CatherineZetaJones" weight="2"/>
+      <edge id="2" source="GeorgeClooney" target="JuliaRoberts" weight="2"/>
+      <edge id="3" source="GeorgeClooney" target="MattDamon" weight="3"/>
+      <edge id="4" source="GeorgeClooney" target="BradPitt" weight="3"/>
+      <edge id="5" source="MarkWahlberg" target="EdwardNorton" weight="1"/>
+      <edge id="6" source="MarkWahlberg" target="MattDamon" weight="1"/>
+      <edge id="7" source="CatherineZetaJones" target="JuliaRoberts" weight="2"/>
+      <edge id="8" source="CatherineZetaJones" target="MattDamon" weight="1"/>
+      <edge id="9" source="CatherineZetaJones" target="BradPitt" weight="1"/>
+      <edge id="10" source="JuliaRoberts" target="MattDamon" weight="3"/>
+      <edge id="11" source="JuliaRoberts" target="BradPitt" weight="3"/>
+      <edge id="12" source="JuliaRoberts" target="RichardGere" weight="1"/>
+      <edge id="13" source="JuliaRoberts" target="SusanSarandon" weight="1"/>
+      <edge id="14" source="EdwardNorton" target="BradPitt" weight="1"/>
+      <edge id="15" source="MattDamon" target="BradPitt" weight="3"/>
+      <edge id="16" source="BradPitt" target="SusanSarandon" weight="1"/>
+      <edge id="17" source="RichardGere" target="SusanSarandon" weight="1"/>
+    </edges>
+  </graph>
+</gexf>
+

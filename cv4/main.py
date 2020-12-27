@@ -75,7 +75,7 @@ def calculate_global_variance(data):
     for index in range(n):
         row_vector = data.iloc[index, :]
         casted = [float(x.replace(',','.')) for x in row_vector]
-        distance = eucladian_distance(casted, average_instance)
+        distance = eucladian_distance(  casted, average_instance)
         suma += pow(distance, 2)
 
     total_var = suma/n
@@ -205,9 +205,7 @@ means_and_variances  = list(zip(means, variances))
 
 
 
-###CVIKO K MEANS
-
-
+###### SHLUKOVANI K MEANS
 # k_means_data = data.drop(['variety'], axis=1) 
 # for index, value in k_means_data.items():
 #      k_means_data.loc[:, index] = value.str.replace(',', '.').astype(float)
@@ -224,9 +222,11 @@ means_and_variances  = list(zip(means, variances))
 # draw2d(*k_means(k_means_data_mall, 4), data_mall_attr, mall_labels)
 
 
+
+######## KLASIFIKATORY
 nb = NaiveBayers()
-# X, y = get_weather_set()
-X, y = get_bank_set()
+X, y = get_weather_set()
+# X, y = get_bank_set()
 
 
 X_train, y_train, X_test, y_test = train_test_split(X, y, 0.2)

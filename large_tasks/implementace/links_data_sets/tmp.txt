@@ -1,0 +1,6 @@
+https://www.kaggle.com/arjunbhasin2013/ccdata -Credit Card Dataset for Clustering
+
+https://www.kaggle.com/henriqueyamahata/bank-marketing -Bank Marketing Kaggle
+https://archive.ics.uci.edu/ml/datasets/Bank+Marketing -Bank Marketing UCI
+
+
