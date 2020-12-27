@@ -4,6 +4,7 @@ from utils.analyse_categorical import analyse_categorial
 from utils.analyse_numeric import analyse_numeric
 from classes.Iris import Iris
 from gui.App import Application
+from classes.BankMarketing import BankMarketing
 
 #TODO: 
 # - make analysis for every attribtute
@@ -25,8 +26,13 @@ numeric_attributes = ['age', 'duration', 'campaign', 'pdays', 'previous', 'emp.v
 # start_analysis_on_categorical_attributes(dS, categorial_attributes, analyse_categorial)
 
 
-app = Application()
-app.start(False)
+bm = BankMarketing()
+bm.preprocess()
+
+
+
+# app = Application()
+# app.start(False)
 
 
 
