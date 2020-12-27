@@ -162,11 +162,8 @@ class Application:
         k = self.kSlider.get()
         self.selected_dS.load()
         dS = self.selected_dS.preprocess()
-
         number_of_times = self.kMeansSlider.get()
-
         self.console.display(f'Starting processing')
-
         best = None
         for i in range(number_of_times):
             

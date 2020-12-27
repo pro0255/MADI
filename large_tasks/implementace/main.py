@@ -4,7 +4,7 @@ from utils.analyse_categorical import analyse_categorial
 from utils.analyse_numeric import analyse_numeric
 from classes.Iris import Iris
 from gui.App import Application
-from classes.BankMarketing import BankMarketing
+from classes.BankMarketing import BankMarketingClient
 from utils.k_means import k_means
 
 #TODO: 
@@ -27,13 +27,13 @@ numeric_attributes = ['age', 'duration', 'campaign', 'pdays', 'previous', 'emp.v
 # start_analysis_on_categorical_attributes(dS, categorial_attributes, analyse_categorial)
 
 
-# bm = BankMarketing()
-# bm.preprocess()
+bm = BankMarketingClient()
+bm.preprocess()
 # k_means(bm.preprocessed, 3)
 
 
-app = Application()
-app.start(False)
+# app = Application()
+# app.start(False)
 
 
 

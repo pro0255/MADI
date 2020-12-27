@@ -75,7 +75,7 @@ def calculate_global_variance(data):
     for index in range(n):
         row_vector = data.iloc[index, :]
         casted = [float(x.replace(',','.')) for x in row_vector]
-        distance = eucladian_distance(  casted, average_instance)
+        distance = eucladian_distance(casted, average_instance)
         suma += pow(distance, 2)
 
     total_var = suma/n
