@@ -27,7 +27,7 @@ numeric_attributes = ['age', 'duration', 'campaign', 'pdays', 'previous', 'emp.v
 # start_analysis_on_categorical_attributes(dS, categorial_attributes, analyse_categorial)
 
 
-bm = BankMarketingClient()
+bm = Iris()
 bm.preprocess()
 # k_means(bm.preprocessed, 3)
 

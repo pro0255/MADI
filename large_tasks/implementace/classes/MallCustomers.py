@@ -1,4 +1,5 @@
 from load.load import load_mall_customers_dataset
+from atrribute_analyser.Analyser import Analyser
 
 class MallCustomers:
     def __init__(self):
@@ -21,4 +22,6 @@ class MallCustomers:
             dS_copy = self.raw.copy()
             dS_copy = dS_copy.drop(['CustomerID', 'Gender'], axis=1)
             self.preprocessed = dS_copy
+            analyser = Analyser()
+            analyser.analyse_preprocessed_dataset(self.preprocessed, type(self).__name__)
         return self.preprocessed

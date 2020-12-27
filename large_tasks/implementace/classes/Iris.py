@@ -1,4 +1,5 @@
 from load.load import load_iris_dataset
+from atrribute_analyser.Analyser import Analyser
 
 class Iris:
     def __init__(self):
@@ -25,4 +26,6 @@ class Iris:
             for index, value in dS_copy.items():
                 dS_copy.loc[:, index] = value.str.replace(',', '.').astype(float)
             self.preprocessed = dS_copy
+            analyser = Analyser()
+            analyser.analyse_preprocessed_dataset(self.preprocessed, type(self).__name__)
         return self.preprocessed

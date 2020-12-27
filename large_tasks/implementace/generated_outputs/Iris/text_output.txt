@@ -1,0 +1,18 @@
+Data set with:
+	Size = 150
+	sepal_length
+		mean = 5.843333333333334
+		variance = 0.6811222222222221
+	sepal_width
+		mean = 3.0573333333333337
+		variance = 0.18871288888888882
+	petal_length
+		mean = 3.7580000000000005
+		variance = 3.0955026666666696
+	petal_width
+		mean = 1.1993333333333336
+		variance = 0.5771328888888886
+
+	Attributes which were numeric or binary: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width']
+	average instance = [5.84333333 3.05733333 3.758      1.19933333]
+	global variance = 4.542470666666664
