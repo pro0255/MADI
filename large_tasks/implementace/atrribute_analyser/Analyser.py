@@ -30,11 +30,11 @@ class Analyser():
                 variance = attribute_variance(feature)
                 columns_text += f"\t{c}\n\t\tmean = {mean}\n\t\tvariance = {variance}\n"
                 f1,ax1 = draw_distribution(feature, mean, variance, c)
-                plt.close()
                 f2,ax2 = draw_cdf(feature, mean, variance, c)
-                plt.close()
                 f1.savefig(f'{self.create_path(directory)}//{c}_pdf.png')
+                plt.close()
                 f2.savefig(f'{self.create_path(directory)}//{c}_cdf.png')
+                plt.close()
                 ok_attributes.append(c)
             except Exception as e:
                 pass

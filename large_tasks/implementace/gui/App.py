@@ -180,7 +180,7 @@ class Application:
             else:
                 if current_sse < best[0]:
                     best = (current_sse, result)
-        self.console.display(f'\nFinished.. lowest sse is {best[0]}\n')
+        self.console.display(f'\nFinished dataset..{type(self.selected_dS).__name__}.. lowest sse is {best[0]}\n')
 
         self.vis_button.config(state="active")
         self.best = best

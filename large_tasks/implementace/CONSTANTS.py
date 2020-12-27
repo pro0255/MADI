@@ -1,1 +1,2 @@
 GLOBAL_PATH_TO_ANALYSIS = 'generated_outputs'
+MAKE_ATTRIBUTE_ANALYSIS = False

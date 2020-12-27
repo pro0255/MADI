@@ -2,6 +2,7 @@ from load.load import load_bank_dataset
 import numpy as np
 import pandas as pd
 from atrribute_analyser.Analyser import Analyser
+from CONSTANTS import MAKE_ATTRIBUTE_ANALYSIS
 
 numeric_attributes = ['age', 'duration', 'campaign', 'pdays', 'previous', 'emp.var.rate', 'cons.price.idx', 'cons.conf.idx', 'euribor3m', 'nr.employed']
 
@@ -85,6 +86,7 @@ class BankMarketing:
         unique_marital = dS['marital'].unique()
         dS['marital'] = list(map(self.encode_nominal_data_deps(unique_marital), dS['marital'].values))
 
+
         dS['housing'] = list(map(self.encode_to_binary, dS['housing'].values))
         dS['loan'] = list(map(self.encode_to_binary, dS['loan'].values))
         return dS
@@ -137,8 +139,9 @@ class BankMarketingClient(BankMarketing):
             dS_copy = self.raw.copy()
             # dS_copy = dS_copy.drop(categorial_attributes, axis=1)
             self.preprocessed = self.preprocess_specific_to_client_attributes(self.resize(dS_copy))
-            analyser = Analyser()
-            analyser.analyse_preprocessed_dataset(self.preprocessed, type(self).__name__)
+            if MAKE_ATTRIBUTE_ANALYSIS:
+                analyser = Analyser()
+                analyser.analyse_preprocessed_dataset(self.preprocessed, type(self).__name__)
         return self.preprocessed
 
 
@@ -151,6 +154,7 @@ class BankMarketingClientWithSocialEconomic(BankMarketing):
             dS_copy = self.raw.copy()
             # dS_copy = dS_copy.drop(categorial_attributes, axis=1)
             self.preprocessed = self.preprocess_client_social_economic(self.resize(dS_copy))
-            analyser = Analyser()
-            analyser.analyse_preprocessed_dataset(self.preprocessed, type(self).__name__)
+            if MAKE_ATTRIBUTE_ANALYSIS:
+                analyser = Analyser()
+                analyser.analyse_preprocessed_dataset(self.preprocessed, type(self).__name__)
         return self.preprocessed
