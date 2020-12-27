@@ -25,9 +25,8 @@ def k_means(data, k):
     """Starts k-means algorithm with specified hyperparametr k. And data which will be clustered.
     """
     init_centroids = init_k_means(data, k)
-
     centroids = init_centroids.to_numpy()
-    dataset = data.to_numpy() 
+    dataset = data.to_numpy()
     number_of_features = dataset.shape[1]  
 
     ind2Cluster = defaultdict(list) #represents current clusters for specified index of centroid his data, it is used for calculation of new centroids. 
@@ -47,7 +46,7 @@ def k_means(data, k):
 
         new_centroids = create_new_centroids(k, ind2Cluster, number_of_features)
         if not did_moved(centroids, new_centroids):
-            print('did not moved')
+            # print('did not moved')
             break
         centroids = new_centroids
 

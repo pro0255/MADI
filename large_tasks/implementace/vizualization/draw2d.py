@@ -32,6 +32,3 @@ def draw2d(ind2Cluster, centroids, centroid2Cluster, index_attributes, descripti
         ax.scatter(pickedX[index], pickedY[index], c=color, s=20)
         ax.scatter(cX[index], cY[index], c=color, s=100, marker="D", edgecolors="black", linewidth=2)
 
-    
-
-    plt.show()

@@ -16,8 +16,8 @@ from gui.App import Application
 categorial_attributes = ['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact', 'month', 'day_of_week', 'poutcome', 'y']
 numeric_attributes = ['age', 'duration', 'campaign', 'pdays', 'previous', 'emp.var.rate', 'cons.price.idx', 'cons.conf.idx', 'euribor3m', 'nr.employed']
 
-def start_analysis_on_categorical_attributes(data_set, method):
-    [method(data_set, c_name) for c_name in data_set.columns]
+# def start_analysis_on_categorical_attributes(data_set, method):
+#     [method(data_set, c_name) for c_name in data_set.columns]
 
 # iris = Iris()
 # iris.load()
@@ -29,6 +29,7 @@ def start_analysis_on_categorical_attributes(data_set, method):
 
 app = Application()
 app.start(False)
+
 
 
 
