@@ -28,13 +28,16 @@ def k_means(data, k):
     centroids = init_centroids.to_numpy()
     dataset = data.to_numpy()
     number_of_features = dataset.shape[1]  
+    counter = 0
 
     ind2Cluster = defaultdict(list) #represents current clusters for specified index of centroid his data, it is used for calculation of new centroids. 
     centroid2Cluster = {}
 
     while True:
+        counter += 1
+        print(counter)
         ind2Cluster.clear()
-        centroid2Cluster = {tuple(c):list() for c in centroids}
+        centroid2Cluster = {tuple(c):[] for c in centroids}
         for instance in dataset:
             instance2Centroid = []
             for centroid in centroids:
